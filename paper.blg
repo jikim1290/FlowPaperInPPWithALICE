@@ -1,0 +1,76 @@
+This is BibTeX, Version 0.99d (TeX Live 2020)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: paper.aux
+The style file: utphys.bst
+Database file #1: paper.bib
+You're missing a field name---line 944 of file paper.bib
+ :  
+ :  %Bdsk-Url-1 = {http://dx.doi.org/10.1088/1748-0221/8/10/P10016}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 960 of file paper.bib
+ :  
+ :  %Bdsk-Url-1 = {http://dx.doi.org/10.1103/PhysRevLett.86.402}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 1058 of file paper.bib
+ :  
+ :  %Bdsk-Url-1 = {http://dx.doi.org/10.1088/1748-0221/3/08/S08002}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 1318 of file paper.bib
+ :       
+ :       %url           = "http://cds.cern.ch/record/2160174",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 1496 of file paper.bib
+ : @article{Loizides:2016tew
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1575 of file paper.bib
+ : @article{Aaboud:2019mcw
+ :                        ,
+I'm skipping whatever remains of this entry
+Warning--empty author in ALICE-PUBLIC-2016-002
+You've used 77 entries,
+            2395 wiz_defined-function locations,
+            1207 strings with 20956 characters,
+and the built_in function-call counts, 16550 in all, are:
+= -- 1371
+> -- 724
+< -- 0
++ -- 269
+- -- 192
+* -- 2545
+:= -- 2197
+add.period$ -- 101
+call.type$ -- 77
+change.case$ -- 80
+chr.to.int$ -- 0
+cite$ -- 78
+duplicate$ -- 791
+empty$ -- 1841
+format.name$ -- 192
+if$ -- 3973
+int.to.chr$ -- 0
+int.to.str$ -- 77
+missing$ -- 305
+newline$ -- 274
+num.names$ -- 76
+pop$ -- 283
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 127
+stack$ -- 0
+substring$ -- 0
+swap$ -- 151
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 76
+width$ -- 79
+write$ -- 669
+(There were 6 error messages)
