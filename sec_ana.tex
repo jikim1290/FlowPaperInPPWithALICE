@@ -2,6 +2,7 @@
 
 \section{Experimental setup}
 \label{sec:experiment}
+\label{sec:experiment}
 
 The analysis is carried out with data samples of pp collisions at $\sqrt{s} = 13$~TeV collected from 2016 to 2018 during the LHC Run 2 period. The full description of the ALICE detector and its performance in the LHC Run 2 can be found in~\cite{Aamodt:2008zz,Abelev:2014ffa}. The present analysis utilizes the V0~\cite{Abbas:2013taa}, the Inner Tracking System (ITS)~\cite{aliceITS}, and the Time Projection Chamber (TPC)~\cite{aliceTPC} detectors.
 
@@ -14,39 +15,68 @@ Charged-particle tracks are reconstructed by the ITS and TPC, which are operated
 
 The charged particle selection criteria are optimized to make the efficiency uniform over the full TPC volume to mitigate the effect of small regions where some of the ITS layers are inactive. The selection consists of two track classes. Those belonging to the first class are required to have at least one hit in the SPD. Tracks from the second class do not have any SPD associated hit and their initial point is instead constrained to the primary vertex~\cite{Adam:2015ewa}.
 
-
 \section{Analysis procedure}
 \label{sec:ana}
-
-The two-particle correlation function is measured as a function of the relative pseudorapidity ($\Delta\eta$) and the azimuthal angle difference ($\Delta\varphi$) between the trigger and the associated particles,
+\subsection{Two-particle angular correlations}
+Two-particle angular correlations are measured as a function of the relative azimuthal angle ($\Delta\varphi$) and the relative pseudorapidity ($\Delta\eta$) between a trigger and associated particle,
 \begin{eqnarray}
 \frac{1}{N_{\rm{trig}}} \frac{ \rm{d}\it{}^{2} N_{\rm{pair}} }{ \rm{d} \Delta\eta \rm{d}\Delta\varphi} = B(0, 0)\frac{S(\Delta\eta, \Delta\varphi)}{B(\Delta\eta, \Delta\varphi)}  \Big\lvert_{\pttrig,\,\ptassoc}\quad , 
 \label{eq:corrfunction}
 \end{eqnarray}
-where $\pttrig$ and $\ptassoc$ ($\pttrig>\ptassoc$) are the transverse momenta of the trigger and associated particles, respectively, $N_\mathrm{trig}$ is the number of trigger particles, and $N_\mathrm{pair}$ is the number of trigger-associated particle pairs. The average number of pairs in the same event and in mixed events are denoted as $S(\Delta\eta, \Delta\varphi)$ and $B(\Delta\eta, \Delta\varphi)$, respectively. Normalization of $B(\Delta\eta, \Delta\varphi)$ is done with its value at $\Delta\eta$ and $\Delta\varphi = 0$, represented as $B (0,0)$. Acceptance effects are corrected by dividing $S(\Delta\eta, \Delta\varphi)$ with $B(\Delta\eta, \Delta\varphi)/B (0,0)$. The right-hand side of Eq.~(1) is corrected for the track reconstruction efficiency, which is mainly relevant for the associated particles, as a function of $\pt$ and pseudorapidity. Primary vertices of events to be mixed are required to be within the same, 2 cm wide, $z_{\rm{vtx}}$ interval~\cite{KOPYLOV1974472:evtmixing,Adam:2016tsv} for each multiplicity class. The final per-trigger yield is constructed by averaging correlation functions over these primary vertex bins.
+where the trigger and associated particles are defined from different transverse momenta ($p_\mathrm{T}$) ranges. $N_{trig}$ and $N_{pair}$ are the number of trigger particles and trigger-associated particle pairs respectively. $S(\Delta\eta, \Delta\varphi)$ corresponds to the average number of pairs in the same event and $B(\Delta\eta, \Delta\varphi)$ to the number of pairs in mixed events. $B (0,0)$ represents the normalization of $B(\Delta\eta, \Delta\varphi)$, and by dividing $S(\Delta\eta, \Delta\varphi)$ with $B(\Delta\eta, \Delta\varphi)/B (0,0)$ the acceptance effects are corrected for. The track reconstruction efficiency is corrected for on the right-hand side of Eq.~\ref{eq:corrfunction}. This analysis is done for multiple centrality classes ($0-0.1\%$, $1-5\%$, $5-20\%$ and $20-60\%$), and for each multiplicity class, the pairs in mixed events are required to have primary vertices within the same 2 cm wide $z_{vtx}$ interval~\cite{KOPYLOV1974472:evtmixing,Adam:2016tsv}. As a last step, the correlation functions are averaged over the vertex bins which results in the final per-trigger yield.
 
-Ridge yields at large $\Delta\eta$ are extracted for various multiplicity classes and $\pt$ intervals. The large $\Delta\eta$ range is selected as $1.6<|\Delta\eta|<1.8$, which is the range where the tracking quality -- efficiency and precision -- is the best. The ridge yield is only reported for $\pt>$~1~GeV/$c$. Below 1~GeV/$c$, the jet-like contribution to the correlation function extends into the region where the ridge yield is measured, 1.6~$<|\Delta\eta|<$~1.8. In this region, the $\Delta\varphi$ distribution, or the so-called per-trigger yield, is expressed as
+%Explain ridge yields
+
+From the final per-trigger yield, ridge yields are extracted for different multiplicity classes and $\pt$ intervals at large $\Delta\eta$. The selection of the large $\Delta\eta$ range is based on where the tracking quality -- efficiency and precision -- is the best, which is at $1.6<|\Delta\eta|<1.8$. The reported $\pt$ cut is at $\pt>$~1~GeV/$c$ since at lower $\pt$, the jet-like contribution extends into the $\Delta\eta$ range that is measured. In this region, the per-trigger yield, $\Delta\varphi$, is expressed as
 \begin{eqnarray}
 \frac{1}{N_{\rm{trig}}} \frac{ \rm{d}\it{}N_{\rm{pair}} }{ \rm{d}\Delta\varphi } = \int_{1.6<|\Delta \eta|<1.8} \left( \frac{1}{\it{N}_{\rm{trig}}} \frac{ \rm{d}\it{}^{2} N_{\rm{pair}} }{ \rm{d}\Delta\eta d\Delta\varphi} \right) \dfrac{1}{\delta_{\Delta\eta}} \rm{d}\Delta \eta - C_{\rm{ZYAM}}\quad ,
 \end{eqnarray}
-where $\delta_{\Delta\eta}=$~0.4 is the normalization factor to get the per-trigger yield per unit of pseudorapidity. 
+where $\delta_{\Delta\eta}=$~0.4 is the normalization factor to get the per-trigger yield per unit of pseudorapidity. The Zero-Yield-At-Minimum (ZYAM) procedure~\cite{Ajitanand:2005jj} is the method used to subtract the baseline of the correlation. 
 
-The baseline of the correlation is subtracted by means of the Zero-Yield-At-Minimum (ZYAM) procedure~\cite{Ajitanand:2005jj}. The minimum yield $(C_{\rm{ZYAM}})$ at $\Delta\varphi=\Delta\varphi_{\rm{min}}$ in the $\Delta\varphi$ projection (note that the value of $\Delta\varphi_{\rm{min}}$ can be different in data and in models) is obtained from a fit function, which fits the data with a Fourier series up to the third harmonic. By construction, the yield at $\Delta\varphi_{\rm{min}}$ is zero after subtracting $C_{\rm{ZYAM}}$ from the $\Delta\varphi$ projection. The ridge yield ($Y^{\rm{ridge}}$) is obtained by integrating the near-side peak of the $\Delta\varphi$ projection over $|\Delta\varphi|<|\Delta\varphi_{\rm{min}}|$ after the ZYAM procedure,
+
+\subsection{Extraction of flow via the Low-Multiplicity Template Fit Method}
+Due to the strong jet fragmentation bias in small systems it has been difficult to fully understand the flow extraction methods in these systems, hence the low-multiplicity template fit have been used in order to remove the remaining non-flow contributions. %This method makes two assumptions; that $f_{\rm{LM}}(\Delta\varphi)$ only includes non-flow contributions, mainly from back-to-back jets correlations, and at the same time it does not include any flow modulations. 
+It is assumed that there is no ridge in low-multiplicity events (60--100\%), i.e. that the away-side peak in these events, is mostly caused by jet fragmentations. Hence, by removing the measured correlation function in these events from measured correlation functions in high multiplicity events, no non-flow contributions are left in the correlation. This method is referred to as the low-multiplicity template fit, and is defined as
 \begin{eqnarray}
-Y^{\rm{ridge}} = \int_{|\Delta \varphi| < |\Delta\varphi_{\rm{min}}| } \frac{1}{\it{N}_{\rm{trig}}} \frac{ \rm{d}\it{}N_{\rm{pair}} }{ \rm{d}\Delta\varphi }  \rm{d} \Delta\varphi .
+f_{\rm{sig}}(\Delta\varphi) = G(1 + 2v_{2,2}\cos(2\Delta\varphi) + 2v_{3,3}\cos(3\Delta\varphi)) + Ff_{\rm{LM}}(\Delta\varphi)
+\end{eqnarray}
+where the $F$ parameter corresponds to the relative away-side jet-like contribution from the low-multiplicity ($60-100\%$) to the different high multiplicity classes. The $F$ parameter that is obtained from this fit is then used to scale the two-dimensional low-multiplicity correlation function templates before subtraction from the signal yield. 
+After the removal, it is now possible to extract the flow modulations $v_{2,2}$ and $v_{3,3}$, again using the template fit defined as,
+\begin{eqnarray}
+\chi^{2} = \sum \dfrac{ ( f_{\mathrm{sig}}(\Delta\varphi) - ( G(1 + 2v_{2,2}\cos(2\Delta\varphi) + 2v_{3,3}\cos(3\Delta\varphi)) + Ff_{\mathrm{LM}}(\Delta\varphi) )^{2} }{ \sigma_{ f_{\mathrm{sig}}(\Delta\varphi)}^{2} +  (F\sigma_{ f_{\mathrm{LM}}(\Delta\varphi) ) })^{2} }
 \end{eqnarray}
 
-The ridge yield is further studied in events having a hard jet or a high-$\pt$ leading particle in the mid-rapidity region. This event scale is set by requiring a minimum $\pt$ of the leading track ($\ptlead$) or the reconstructed jet ($\ptjet$) at midrapidity. The leading track is selected within $|\eta|<0.9$ and the full azimuthal angle. Jets are reconstructed with charged particles only (track-based jets) with the anti-$k_{\rm{T}}$ algorithm~\cite{Cacciari:2008gp,Cacciari:2011ma} and the resolution parameter $R=$~0.4. The recombination scheme used in this article is the $\pt$ scheme. Jets are selected in $|\eta_\mathrm{jet}|<0.4$ and in the full azimuthal angle. The $\pt$ of jets $\ptjet$ is corrected for the underlying event density that is measured using the $k_{\rm{T}}$ algorithm with $R=$~0.2~\cite{Acharya:2018eat}. 
+\begin{figure}[!t]
+	\centering
+	\includegraphics[width=0.8 \textwidth]{figures/Fig1_FlowExt.pdf} 
+	\caption{The template fit results with the biased LM templates. The black markers shows the signal for the $0-0.1\%$ centrality class together with its fit shown as a blue band. The red squares correspond to the low multiplicity signal scaled with $F$. The orange and green curves correspond to the extracted $v_2$ and $v_3$ signals, respectively.}
+	\label{fig:flowext}
+\end{figure}
 
-To quantify the variation of the near-side jet-like peak with event-scale selections with a minimum $p_\mathrm{T,\,LP}$ or $\ptjet$, the near-side jet-like peak yield is extracted from the near-side $\Delta\eta$ correlations. The near-side is defined as $|\Delta\varphi|<$~1.28, where the correlation function is projected on the $\Delta\eta$ axis. The projection range, 1.28, is chosen to fully cover $\Delta\varphi_{\rm{min}}$. The near-side $\Delta\eta$ correlations are then constructed as
+Figure~\ref{fig:flowext} shows the template fit results for pp collisions at 13 TeV and the $0-0.1\%$ centrality class events. The trigger particles are in the $p_\mathrm{T}$ range of $1<p_{\mathrm{T,trig}}<2$ GeV/c and the associated particles in $1<p_{\mathrm{T,trig}}<4$ GeV/c. The signal is shown together with its fit, and the ratio of the two giving a result around unity proves that the signal is successfully fitted. The scaled low-multiplicity yield that is subtracted from the signal is shown in red squares, and the extracted $v_2$ and $v_3$ as orange and green respectively. 
+It is clear that after the removal, the away-side jet-fragmentation was successfully subtracted from the signal and that it was possible to extract $v_2$ and $v_3$. 
+
+\begin{figure}[!th]
+	\centering
+	\includegraphics[width=0.8 \textwidth]{figures/Fig5_Plot_v2Mult.pdf} 
+	\caption{$Y^{\rm{near}}$ and $Y^{\rm{away}}$ as a function of V0M multiplicity classes with both ALICE and PYTHIA data. The ratio includes the combined statistical and systematic errors in quadrature.}
+	\label{fig:Ymult}
+\end{figure}
+
+The near-side jet-like yields are extracted from the near-side $\Delta\eta$ correlations, with the near-side $\Delta\eta$ correlations being defined at $|\Delta\varphi|<$~1.3 projected on the $\Delta\eta$ axis. The value 1.3 is chosen as the projection range in order to fully cover $\Delta\varphi_{\rm{min}}$. However, the away-side jet-like yield is measured indirectly as $Y^{\rm{away}} = Y^{\rm{away, LM}} \times F$, where $F$ is again the relative contribution of the away-side jet fragmentation yield between low- and high-multiplicity events. The $Y^{\rm{Away, LM}}$ is then directly measured by integrating the short-range $\Delta\varphi$ ($0<\Delta\varphi<\pi$) correlations with the assumption that there is no ridge in LM.
 \begin{eqnarray}
-\frac{1}{N_{\rm{trig}}} \frac{ \rm{d}\it{}N_{\rm{pair}} }{ \rm{d}\Delta\eta } = \int_{|\Delta \varphi|<1.28} \left( \frac{1}{\it{N}_{\rm{trig}}} \frac{ \rm{d}\it{}^{2} N_{\rm{pair}} }{ \rm{d}\Delta\eta d\Delta\varphi} \right) \dfrac{1}{\delta_{\Delta\varphi}} \rm{d} \Delta \varphi - \it{D}_{\rm{ZYAM}} \quad,
+Y^{\rm{frag}} = \int_{|\Delta \eta|<1.3} \left( \frac{1}{\it{N}_{\rm{trig}}} \frac{ \rm{d}\it{}N_{\rm{pair}} }{ \rm{d}\Delta\eta } \right) \rm{d} \Delta\eta \quad.
 \end{eqnarray}
-where $\delta_{\Delta\varphi}=$~2.56 is the normalization factor to get per-trigger yield per unit of azimuthal angle.
-The minimum yield $(D_{\rm{ZYAM}})$ of the $\Delta\eta$ correlations is found within $|\Delta\eta|<$~1.6 and used for the subtraction from  the $\Delta\eta$ correlations, which results in zero-yield at the minimum. The near-side jet-like peak yield ($Y^{\mathrm{near}}$) is measured by integrating the $\Delta\eta$ correlations over $|\Delta\eta|<$~1.6,
-\begin{eqnarray}
-Y^{\rm{near}} = \int_{|\Delta \eta|<1.6} \left( \frac{1}{\it{N}_{\rm{trig}}} \frac{ \rm{d}\it{}N_{\rm{pair}} }{ \rm{d}\Delta\eta } \right) \rm{d} \Delta\eta
-\end{eqnarray}
+
+Figure~\ref{fig:Ymult} presents $Y^{\rm{near}}$ and $Y^{\rm{away}}$, for both ALICE and PYTHIA 8 Tune 4C generated data as a function of multiplicity in pp collisions at 13 TeV. The transverse momentum range for trigger particles is $1<p_\mathrm{T,trig}<2$ GeV/c and for associated particles $1<p_\mathrm{T,assoc}<4$ GeV/c. ALICE data points are shown as circle and square markers, whereas PYTHIA is shown as lines. The near-side yields are shown in black and the away-side yields in blue. The jet fragmentations are not reproduced by PYTHIA in either near- or away-side, and as a consequence, the $F$ parameter nicely estimates the relative away-side contribution from low-multiplicity events to high multiplicity events.
+
+\subsection{Event scale selections}
+As a continuation of the two particle correlations analysis with the template fit method, different event scale selections are investigated. By selecting events that includes a hard jet or a high-$\pt$ leading particle within the mid-rapidity region, it is possible to study the ridge yield further. This event scale is set by requiring a minimum $\pt$ of the leading track ($\ptlead$), i.e. track with the highest momentum in an event, or the reconstructed jet ($\ptjet$) at midrapidity. The leading particle track requires to be within $|\eta|<0.9$ and $0<\phi<2\pi$, and the jets are reconstructed with the anti-$k_{\rm{T}}$ algorithm~\cite{Cacciari:2008gp,Cacciari:2011ma}, with $R=$~0.4, for only charged particles. In this analysis the $\pt$ scheme is used as the recombination scheme. Just as the leading particle tracks, the jets are selected in the full azimuthal angle ($0<\phi<2\pi$) but in an $\eta$-range of $|\eta_\mathrm{jet}|<0.4$. The $\pt$ of jets $\ptjet$ is corrected for the underlying event density that is measured using the $k_{\rm{T}}$ algorithm with $R=$~0.2~\cite{Acharya:2018eat}.
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Systematic uncertainties of the measured yields}
 \label{sec:uncertainties}
@@ -88,3 +118,7 @@ The source of systematic uncertainty is associated to the choice of the width of
 The uncertainty for $Y^{\rm{near}}$ is about 0.5--1.7\%. The uncertainty from the efficiency correction for charged particles is estimated by comparing correlation functions of true particles with correlation functions of reconstructed tracks with the efficiency correction in simulation. The estimated uncertainties are 2.5\% and 3.1\% for $Y^{\rm{ridge}}$ and $Y^{\rm{near}}$, respectively. 
 
 In the limited $\eta$-acceptance of ALICE, the ridge structure is not flat in $\Delta\eta$ suggesting that jet-like correlations (non-flow) could contribute, implying that they would impact the ridge-yield extraction. We stress that the models used for comparisons also contain such a non-flow effect, but differences in jet-like correlations between data and MC models could influence the interpretation. To account for the related uncertainty, the variation of the yield with $\Delta\eta$ between 1.5 and 1.8, which should be an upper limit of the residual jet-like contamination, is used as a systematic uncertainty of the ridge yield. The estimated upper limit of the uncertainty is $-$25.9\% for the 1.0~$<\pt<$~1.5~GeV/$c$ range,  $-$18.8\% for the 1.5~$<\pt<$~2.0 GeV/$c$ range,  $-$18.9\% for the 1.0~$<\pt<$~2.0~GeV/$c$ range, and negligible for $\pt>$~2.0~GeV/$c$. This uncertainty is considered only for the measured ridge yields.
+
+
+
+
