@@ -4,16 +4,17 @@
 \label{sec:experiment}
 \label{sec:experiment}
 
-The analysis is carried out with data samples of pp collisions at $\sqrt{s} = 13$~TeV collected from 2016 to 2018 during the LHC Run 2 period. The full description of the ALICE detector and its performance in the LHC Run 2 can be found in~\cite{Aamodt:2008zz,Abelev:2014ffa}. The present analysis utilizes the V0~\cite{Abbas:2013taa}, the Inner Tracking System (ITS)~\cite{aliceITS}, and the Time Projection Chamber (TPC)~\cite{aliceTPC} detectors.
+The analysis is performed with data samples in pp collisions at $\sqrt{s} = 13$~TeV collected from 2016 to 2018 during the LHC Run 2 period. A full description of the ALICE detector and performance in the LHC Run 2 can be found in Refs~\cite{Aamodt:2008zz,Abelev:2014ffa}. The analysis utilizes the V0~\cite{Abbas:2013taa}, the Inner Tracking System (ITS)~\cite{aliceITS}, and the Time Projection Chamber (TPC)~\cite{aliceTPC}. 
 
 The V0 detector consists of two stations placed on both sides of the interaction point, V0A and V0C, each made of 32 plastic scintillator tiles, covering the full azimuthal angle within the pseudorapidity intervals $2.8 < \eta < 5.1$ and $-3.7 < \eta < -1.7$, respectively. The V0 is used to provide a minimum bias (MB) and a high-multiplicity (HM) trigger. The minimum bias trigger is obtained by a time coincidence of V0A and V0C signals. The charged particle multiplicity selection is done on the sum of the V0A and V0C signals, which is denoted as V0M. The high-multiplicity trigger requires that the V0M signal exceeds 5 times the mean value measured in minimum bias collisions, selecting the 0.1\% of MB events that have the largest V0 multiplicity. The analyzed data samples of minimum bias and high-multiplicity pp events at $\sqrt{s}=$~13 TeV correspond to integrated luminosities of 19 nb$^{-1}$ and 11 pb$^{-1}$, respectively~\cite{ALICE-PUBLIC-2016-002}.
 
-The primary vertex position is reconstructed from the measured signals in the Silicon Pixel Detector (SPD), which forms the innermost two layers of the ITS. Reconstructed primary vertices of selected events are required to be located within 8~cm from the center of the detector along the beam direction. The probability of pileup events is about 0.6\% in MB events. Pileup events can be resolved and are rejected if the longitudinal displacement of their primary vertices is larger than 0.8 cm.
+The V0 detector consists of two stations placed on either side of the interaction points V0A and V0C, each made of 32 plastic scintillator tiles, each one within the pseudovelocity intervals $2.8 < \eta < 5.1$ and $-3.7 < \eta < -1.7$, respectively, and both of them covering the full azimuthal angle. The V0 is used to provide a minimum bias (MB) and a high multiplicity (HM) triggers. The data sample with the minimum bias trigger is acquired by checking the time coincidence of the V0A and V0C signals. Charged particle multiplicity selection is performed based on the sum of the V0A and V0C signals, denoted as V0M. The high multiplicity trigger is designed to collect events when the V0M signal exceeds 5 times the average value of the V0M measured in the minimum bias events that ensures the top 0.1\% of the minimum bias events. Analyzed data samples of minimum bias and high multiplicity pp events at $\sqrt{s}=$~13 TeV correspond to integrated luminosities of 19 nb$^{-1}$ and 11 pb$^{-1}$, respectively~\cite{ALICE-PUBLIC-2016-002}. 
 
-Charged-particle tracks are reconstructed by the ITS and TPC, which are operated in a uniform solenoidal magnetic field of 0.5~T along the beam direction. The ITS is a silicon tracker with six layers of silicon sensors where the SPD~\cite{Santoro2009:ALICESPD} comprises the two innermost layers, the next two layers called the Silicon Drift Detector (SDD), and the outermost layers named the Silicon Strip Detector (SSD). The ITS and TPC, covering the full azimuthal range, have acceptances up to $|\eta| < 1.4$ and 0.9, respectively, for detection of charged particles emitted within 8 cm from the primary vertex position ($z_\mathrm{vtx}$) along the beam direction. The tracking of charged particles is done with the combined information of the ITS and TPC that enables the reconstruction of tracks down to 0.15~GeV/$c$, where the efficiency is about 65\%. The efficiency reaches 80\% for intermediate $\pt$, 1 to 5~GeV/$c$. The $\pt$ resolution is around 1\% for primary tracks with $\pt<$~1~GeV/$c$, and linearly increases up to 6\% at $\pt \sim$ 40~GeV/$c$~\cite{Contin_2012:ITSPTRES}.
-%https://arxiv.org/pdf/1910.14400.pdf %https://arxiv.org/abs/1402.4476
+The primary vertex positions are reconstructed from signals measured by the Silicon Pixel Detector (SPD) that consists of the innermost two layers of the ITS. The reconstructed primary vertices of selected events should be located within 8-cm of the nominal interaction point along the beam direction. The probability of pileup event is estimated to be about 0.6\% for minimum-bias events. Pileup events are determined and rejected if the longitudinal displacement of the secondary vertex is greater than 0.8 cm. 
 
-The charged particle selection criteria are optimized to make the efficiency uniform over the full TPC volume to mitigate the effect of small regions where some of the ITS layers are inactive. The selection consists of two track classes. Those belonging to the first class are required to have at least one hit in the SPD. Tracks from the second class do not have any SPD associated hit and their initial point is instead constrained to the primary vertex~\cite{Adam:2015ewa}.
+Charged-particle tracks are reconstructed using the combined information of the ITS and TPC in a uniform magnetic field of 0.5 T along the beam direction by the solenoid. The ITS is a silicon tracker with six layers of silicon sensors, the SPD~\cite{Santoro2009:ALICESPD} consists of the two innermost layers, the next two layers are the SDD (Silicon Drift Detector) and the outermost layers are the SSD (Silicon Strip Detector). The ITS and TPC covering the entire azimuth range up to $|\eta|<1.4$ and 0.9, respectively, for the detection of charged particles emitted within 8 cm from the nominal vertex position $z_\mathrm{vtx}=0$ along the beam direction. Charged particle tracking is performed with the ITS and TPC capable of reconstructing tracks down to 0.15 GeV/$c$, with an efficiency of about 65\%. The efficiency reaches 80\% for intermediate $\pt$, 1--5~GeV/$c$. The resolution of $\pt$ is about 1\% for primary charged tracks with $\pt<$~1~GeV/$c$, linearly increasing to 6\% at $\pt\sim$ 40~ GeV/$c$~\cite{Contin_2012:ITSPTRES}. 
+
+The charged particle selection criteria are optimized to ensure a uniform efficiency over the entire TPC volume to mitigate the effects of small areas where some ITS layers are inactive. The selection consists of two classes of tracks. Those in first class must have at least one hit in SPD. The tracks of the second class do not have any hits related to the SPD and their initial points are rather constrained to the primary vertex~\cite{Adam:2015ewa}. 
 
 \section{Analysis procedure}
 \label{sec:ana}
@@ -23,55 +24,88 @@ Two-particle angular correlations are measured as a function of the relative azi
 \frac{1}{N_{\rm{trig}}} \frac{ \rm{d}\it{}^{2} N_{\rm{pair}} }{ \rm{d} \Delta\eta \rm{d}\Delta\varphi} = B(0, 0)\frac{S(\Delta\eta, \Delta\varphi)}{B(\Delta\eta, \Delta\varphi)}  \Big\lvert_{\pttrig,\,\ptassoc}\quad , 
 \label{eq:corrfunction}
 \end{eqnarray}
-where the trigger and associated particles are defined from different transverse momenta ($p_\mathrm{T}$) ranges. $N_{trig}$ and $N_{pair}$ are the number of trigger particles and trigger-associated particle pairs respectively. $S(\Delta\eta, \Delta\varphi)$ corresponds to the average number of pairs in the same event and $B(\Delta\eta, \Delta\varphi)$ to the number of pairs in mixed events. $B (0,0)$ represents the normalization of $B(\Delta\eta, \Delta\varphi)$, and by dividing $S(\Delta\eta, \Delta\varphi)$ with $B(\Delta\eta, \Delta\varphi)/B (0,0)$ the acceptance effects are corrected for. The track reconstruction efficiency is corrected for on the right-hand side of Eq.~\ref{eq:corrfunction}. This analysis is done for multiple centrality classes ($0-0.1\%$, $1-5\%$, $5-20\%$ and $20-60\%$), and for each multiplicity class, the pairs in mixed events are required to have primary vertices within the same 2 cm wide $z_{vtx}$ interval~\cite{KOPYLOV1974472:evtmixing,Adam:2016tsv}. As a last step, the correlation functions are averaged over the vertex bins which results in the final per-trigger yield.
-
-%Explain ridge yields
-
-From the final per-trigger yield, ridge yields are extracted for different multiplicity classes and $\pt$ intervals at large $\Delta\eta$. The selection of the large $\Delta\eta$ range is based on where the tracking quality -- efficiency and precision -- is the best, which is at $1.6<|\Delta\eta|<1.8$. The reported $\pt$ cut is at $\pt>$~1~GeV/$c$ since at lower $\pt$, the jet-like contribution extends into the $\Delta\eta$ range that is measured. In this region, the per-trigger yield, $\Delta\varphi$, is expressed as
+where the trigger and associated particles are defined for different transverse momentum ranges, $1<p_\mathrm{T,trig}<2$ GeV/c and $1<p_\mathrm{T,assoc}<4$ GeV/c. $N_{trig}$ and $N_{pair}$ are the number of trigger particles and trigger-associated particle pairs respectively. $S(\Delta\eta, \Delta\varphi)$ corresponds to the average number of pairs in the same event and $B(\Delta\eta, \Delta\varphi)$ to the number of pairs in mixed events. $B (0,0)$ represents the normalization of $B(\Delta\eta, \Delta\varphi)$, and by dividing $S(\Delta\eta, \Delta\varphi)$ with $B(\Delta\eta, \Delta\varphi)/B (0,0)$ the acceptance effects are corrected for. The track reconstruction efficiency is corrected for on the right-hand side of Eq.~\ref{eq:corrfunction} as a function of $p_\mathrm{T}$ and $\eta$. The correlation functions are averaged over the vertex bins which results in the final per-trigger yield. This analysis is done for various multiplicity percentiles ($0-0.1\%$, $1-5\%$, $5-20\%$, $20-60\%$, and $60-100\%$), and for each multiplicity percentile, the pairs in mixed events are required to have primary vertices within the same 2 cm wide $z_{vtx}$ interval~\cite{KOPYLOV1974472:evtmixing,Adam:2016tsv}. 
+The per-trigger yield are extracted for various multiplicity percentiles and $\pt$ intervals at large $\Delta\eta$, which is at $1.6<|\Delta\eta|<1.8$ to remove the near-side non-flow contributions. The reported minimum of $\pt$  is at $\pt$~1~GeV/$c$ since at lower $\pt$, the jet-like contribution extends into the large $\Delta\eta$ range that is measured. In this region, the per-trigger yield as a function of $\Delta\varphi$, is expressed as
 \begin{eqnarray}
-\frac{1}{N_{\rm{trig}}} \frac{ \rm{d}\it{}N_{\rm{pair}} }{ \rm{d}\Delta\varphi } = \int_{1.6<|\Delta \eta|<1.8} \left( \frac{1}{\it{N}_{\rm{trig}}} \frac{ \rm{d}\it{}^{2} N_{\rm{pair}} }{ \rm{d}\Delta\eta d\Delta\varphi} \right) \dfrac{1}{\delta_{\Delta\eta}} \rm{d}\Delta \eta - C_{\rm{ZYAM}}\quad ,
+f(\Delta\varphi) = \frac{1}{N_{\rm{trig}}} \frac{ \rm{d}\it{}N_{\rm{pair}} }{ \rm{d}\Delta\varphi } = \int_{1.6<|\Delta \eta|<1.8} \left( \frac{1}{\it{N}_{\rm{trig}}} \frac{ \rm{d}\it{}^{2} N_{\rm{pair}} }{ \rm{d}\Delta\eta d\Delta\varphi} \right) \dfrac{1}{\delta_{\Delta\eta}} \rm{d}\Delta \eta \quad ,
+\label{eq:pertrigger}
 \end{eqnarray}
-where $\delta_{\Delta\eta}=$~0.4 is the normalization factor to get the per-trigger yield per unit of pseudorapidity. The Zero-Yield-At-Minimum (ZYAM) procedure~\cite{Ajitanand:2005jj} is the method used to subtract the baseline of the correlation. 
+where $\delta_{\Delta\eta}=$~0.4 is the normalization factor, the whole integrated ranges, to get the per-trigger yield per unit of pseudorapidity. 
+%The Zero-Yield-At-Minimum (ZYAM) procedure~\cite{Ajitanand:2005jj} is the method used to subtract the baseline of the correlation. 
 
 
-\subsection{Extraction of flow via the Low-Multiplicity Template Fit Method}
-Due to the strong jet fragmentation bias in small systems it has been difficult to fully understand the flow extraction methods in these systems, hence the low-multiplicity template fit have been used in order to remove the remaining non-flow contributions. %This method makes two assumptions; that $f_{\rm{LM}}(\Delta\varphi)$ only includes non-flow contributions, mainly from back-to-back jets correlations, and at the same time it does not include any flow modulations. 
-It is assumed that there is no ridge in low-multiplicity events (60--100\%), i.e. that the away-side peak in these events, is mostly caused by jet fragmentations. Hence, by removing the measured correlation function in these events from measured correlation functions in high multiplicity events, no non-flow contributions are left in the correlation. This method is referred to as the low-multiplicity template fit, and is defined as
+\subsection{Extraction of flow coefficients from the Low-Multiplicity Template Fit Method}
+
+Due to the strong jet fragmentation bias in small systems it has been a difficult task to extract flow in these small systems because of the remaining non-flow in the away-side region in Eq~\ref{eq:pertrigger}. As discussed in Refs.\cite{ATLAS:2015hzw,ATLAS:2016yzd}, the high-multiplicity (HM) correlation function in a HM percentile can be expressed as 
 \begin{eqnarray}
-f_{\rm{sig}}(\Delta\varphi) = G(1 + 2v_{2,2}\cos(2\Delta\varphi) + 2v_{3,3}\cos(3\Delta\varphi)) + Ff_{\rm{LM}}(\Delta\varphi)
+f_{\rm{HM}}(\Delta\varphi) = G(1 + 2v_{2,2}\cos(2\Delta\varphi) + 2v_{3,3}\cos(3\Delta\varphi)) + Ff_{\rm{LM}}(\Delta\varphi)
 \end{eqnarray}
-where the $F$ parameter corresponds to the relative away-side jet-like contribution from the low-multiplicity ($60-100\%$) to the different high multiplicity classes. The $F$ parameter that is obtained from this fit is then used to scale the two-dimensional low-multiplicity correlation function templates before subtraction from the signal yield. 
-After the removal, it is now possible to extract the flow modulations $v_{2,2}$ and $v_{3,3}$, again using the template fit defined as,
-\begin{eqnarray}
-\chi^{2} = \sum \dfrac{ ( f_{\mathrm{sig}}(\Delta\varphi) - ( G(1 + 2v_{2,2}\cos(2\Delta\varphi) + 2v_{3,3}\cos(3\Delta\varphi)) + Ff_{\mathrm{LM}}(\Delta\varphi) )^{2} }{ \sigma_{ f_{\mathrm{sig}}(\Delta\varphi)}^{2} +  (F\sigma_{ f_{\mathrm{LM}}(\Delta\varphi) ) })^{2} }
-\end{eqnarray}
+where $f_{\rm{LM}}(\Delta\varphi)$ is the LM correlation function, G the normalization factor for the Fourier component up to the third harmonic, and the scale factor $F$ corresponds to the relative away-side jet-like contribution with respect to the low-multiplicity (LM) ($60-100\%$). This method requires that $f_{\rm{LM}}$ doesn't contain a ridge or flow in the near-side and the away-side region originates only from jet fragmentations and the jets are not modified in HM events. 
 
-\begin{figure}[!t]
+\begin{figure}[h!]
 	\centering
-	\includegraphics[width=0.8 \textwidth]{figures/Fig1_FlowExt.pdf} 
-	\caption{The template fit results with the biased LM templates. The black markers shows the signal for the $0-0.1\%$ centrality class together with its fit shown as a blue band. The red squares correspond to the low multiplicity signal scaled with $F$. The orange and green curves correspond to the extracted $v_2$ and $v_3$ signals, respectively.}
+	\includegraphics[width=0.6 \textwidth]{figures/Fig1_FlowExt.pdf} 
+	\caption{The template fit results with the biased LM-templates. The black markers shows the signal for the $0-0.1\%$ multiplicity percentile together with its fit shown as a blue band. The red squares correspond to the LM signal. The orange and green curves correspond to the extracted $v_2$ and $v_3$ signals, respectively.}
 	\label{fig:flowext}
 \end{figure}
 
-Figure~\ref{fig:flowext} shows the template fit results for pp collisions at 13 TeV and the $0-0.1\%$ centrality class events. The trigger particles are in the $p_\mathrm{T}$ range of $1<p_{\mathrm{T,trig}}<2$ GeV/c and the associated particles in $1<p_{\mathrm{T,trig}}<4$ GeV/c. The signal is shown together with its fit, and the ratio of the two giving a result around unity proves that the signal is successfully fitted. The scaled low-multiplicity yield that is subtracted from the signal is shown in red squares, and the extracted $v_2$ and $v_3$ as orange and green respectively. 
-It is clear that after the removal, the away-side jet-fragmentation was successfully subtracted from the signal and that it was possible to extract $v_2$ and $v_3$. 
+Finally, $v_{n}$ are extracted, based on the observed factorization of $v_{n,n}$ to single harmonics~\cite{ATLAS:2015hzw,ATLAS:2016yzd}, using the following equation as:
+\begin{eqnarray}
+v_{n}(p_{\rm{T,trig}}) = v_{n,n}(p_{\rm{T,trig}}, p_{\rm{T,assoc}}) / \sqrt{ v_{n,n}(p_{\rm{T,assoc}},p_{\rm{T,assoc}})}
+\end{eqnarray}
+$v_{n,n}(p_{\rm{T,assoc}},p_{\rm{T,assoc}})$ is measured in 1~$<p_{\rm{T,trig(assoc)}}<$~4~GeV/$c$ interval as the $p_{\rm{T,assoc}}$ range is fixed with 1~$<p_{\rm{T,assoc}}<$~4~GeV/$c$.
+
+Figure~\ref{fig:flowext} shows the LM-template fit results for $0-0.1\%$ multiplicity percentile pp collisions at $\sqrt{s}$ = 13 TeV. The LM yield,  $f_{\rm{LM}}(\Delta\varphi)$, is shown in red squares, and the extracted $v_{2}$ and $v_{3}$ as orange and green respectively. The resulting scale factor $F$ in different multiplicity percentiles and systems are summarized in Tabs.~\ref{tab:Fpp,tab:FpPb}. They are larger for pp higher multiplicity percentiles and closer to unity for p-Pb lower multiplicity percentiles. In the previous results in \cite{ALICE:2012eyl, ALICE:2013snk}, $F$ was assumed to be 1. The total fit is shown as a blue band and the signal to the fit is shown in the bottom panel. 
+%let's add chiq value of the fit
+\begin{table}
+\centering
+\begin{tabular}{|c|cccc|c}
+%
+\hline
+ V0M& 0--0.1\% & 1--5\% & 5--20\% & 20--60\% \\ 
+ \hline
+ $F$ & 1.504$\pm$0.017 & 1.414$\pm$0.030 & 1.360$\pm$0.019 & 1.208$\pm$0.015 \\  
+ \hline
+ \end{tabular}
+\label{tab:Fpp}
+\caption{The scale factor $F$ for various multiplicity percentiles in pp collisions.}
+\end{table}
+
+\begin{table}
+\centering
+ \begin{tabular}{|c|cccccc|c}
+ \hline
+ V0A& 0--5\% & 5--10\% & 10--20\% & 0--20\% & 20--40\% & 40--60\% \\ 
+ \hline
+ $F$& 1.135$\pm$0.026 & 1.140$\pm$0.026 & 1.152$\pm$0.021 & 1.145$\pm$0.017 &1.092$\pm$0.015 & 1.083$\pm$0.015 \\  
+ \hline
+\end{tabular}
+\label{tab:FpPb}
+\caption{The scale factor $F$ for various multiplicity percentiles in p--Pb collisions.}
+\end{table}
 
 \begin{figure}[!th]
 	\centering
-	\includegraphics[width=0.8 \textwidth]{figures/Fig5_Plot_v2Mult.pdf} 
-	\caption{$Y^{\rm{near}}$ and $Y^{\rm{away}}$ as a function of V0M multiplicity classes with both ALICE and PYTHIA data. The ratio includes the combined statistical and systematic errors in quadrature.}
+	\includegraphics[width=0.6 \textwidth]{figures/Fig5_Plot_v2Mult.pdf} 
+	\caption{The $Y^{\rm{frag}}$ for the near- and away-side as a function of multiplicity percentiles with both ALICE and PYTHIA data. The ratio includes the combined statistical and systematic errors in quadrature.}
 	\label{fig:Ymult}
 \end{figure}
 
-The near-side jet-like yields are extracted from the near-side $\Delta\eta$ correlations, with the near-side $\Delta\eta$ correlations being defined at $|\Delta\varphi|<$~1.3 projected on the $\Delta\eta$ axis. The value 1.3 is chosen as the projection range in order to fully cover $\Delta\varphi_{\rm{min}}$. However, the away-side jet-like yield is measured indirectly as $Y^{\rm{away}} = Y^{\rm{away, LM}} \times F$, where $F$ is again the relative contribution of the away-side jet fragmentation yield between low- and high-multiplicity events. The $Y^{\rm{Away, LM}}$ is then directly measured by integrating the short-range $\Delta\varphi$ ($0<\Delta\varphi<\pi$) correlations with the assumption that there is no ridge in LM.
 \begin{eqnarray}
-Y^{\rm{frag}} = \int_{|\Delta \eta|<1.3} \left( \frac{1}{\it{N}_{\rm{trig}}} \frac{ \rm{d}\it{}N_{\rm{pair}} }{ \rm{d}\Delta\eta } \right) \rm{d} \Delta\eta \quad.
+Y^{near}_{\rm{frag}} = \int_{|\Delta \eta|<1.3} \left( \frac{1}{\it{N}_{\rm{trig}}} \frac{ \rm{d}\it{}N_{\rm{pair}} }{ \rm{d}\Delta\eta } \right) \rm{d} \Delta\eta \quad.
+\label{eq:Ynear}
 \end{eqnarray}
+  
+The near-side jet-like yields are extracted from the near-side $\Delta\eta$ correlations, defined at $|\Delta\varphi|<$~1.3 projected on the $\Delta\eta$ axis as Eq.~\ref{eq:Ynear}. The value 1.3 is chosen as the projection range in order to fully cover $\Delta\varphi$ in Eq.~\ref{eq:pertrigger}.
+The correlations in the same jet mainly contributed to $(\Delta\eta, \Delta\varphi) \sim (0,0)$ due to similar out-going direction of particles inside the jet along the jet-axis. The jet fragmentation yield is defined by integrating the $\Delta\eta$ correlation over $|\Delta\eta|<$~1.3 after applying the Zero-Yield-At-Minimum (ZYAM) procedure~\cite{Ajitanand:2005jj}. The ZYAM procedure is applied by finding the minimum value of $\Delta\eta$ correlations within $|\Delta\eta|<$1.3, which results in pointing the minimum position to be $|\Delta\varphi|=$~1.3.
 
-Figure~\ref{fig:Ymult} presents $Y^{\rm{near}}$ and $Y^{\rm{away}}$, for both ALICE and PYTHIA 8 Tune 4C generated data as a function of multiplicity in pp collisions at 13 TeV. The transverse momentum range for trigger particles is $1<p_\mathrm{T,trig}<2$ GeV/c and for associated particles $1<p_\mathrm{T,assoc}<4$ GeV/c. ALICE data points are shown as circle and square markers, whereas PYTHIA is shown as lines. The near-side yields are shown in black and the away-side yields in blue. The jet fragmentations are not reproduced by PYTHIA in either near- or away-side, and as a consequence, the $F$ parameter nicely estimates the relative away-side contribution from low-multiplicity events to high multiplicity events.
+The away-side jet-like yield in data is measured from the LM-template fit method as $Y^{\rm{away, HM}}_{frag} = Y^{\rm{away, LM}}_{frag} \times F$, where $F$ is again the relative contribution of the away-side jet fragmentation yield between low- and high-multiplicity events. The $Y^{\rm{away, LM}}_{frag}$ is then directly measured by integrating the away-side $\Delta\varphi$ correlation function. Since the method is not necessary for PYTHIA, where there is no flow contributions, $Y^{\rm{away}}$ is measured directly from the $\Delta\varphi$ correlation functions.
 
-\subsection{Event scale selections}
-As a continuation of the two particle correlations analysis with the template fit method, different event scale selections are investigated. By selecting events that includes a hard jet or a high-$\pt$ leading particle within the mid-rapidity region, it is possible to study the ridge yield further. This event scale is set by requiring a minimum $\pt$ of the leading track ($\ptlead$), i.e. track with the highest momentum in an event, or the reconstructed jet ($\ptjet$) at midrapidity. The leading particle track requires to be within $|\eta|<0.9$ and $0<\phi<2\pi$, and the jets are reconstructed with the anti-$k_{\rm{T}}$ algorithm~\cite{Cacciari:2008gp,Cacciari:2011ma}, with $R=$~0.4, for only charged particles. In this analysis the $\pt$ scheme is used as the recombination scheme. Just as the leading particle tracks, the jets are selected in the full azimuthal angle ($0<\phi<2\pi$) but in an $\eta$-range of $|\eta_\mathrm{jet}|<0.4$. The $\pt$ of jets $\ptjet$ is corrected for the underlying event density that is measured using the $k_{\rm{T}}$ algorithm with $R=$~0.2~\cite{Acharya:2018eat}.
+Figure~\ref{fig:Ymult} presents the $Y^{near}_{\rm{frag}}$ and $Y^{away}_{\rm{frag}}$, for both ALICE data and PYTHIA 8 Tune 4C as a function of multiplicity percentile in pp collisions at $\sqrt{s}=13$ TeV. The transverse momentum range for trigger particles is $1<p_\mathrm{T,trig}<2$ GeV/c and for associated particles $1<p_\mathrm{T,assoc}<4$ GeV/c. ALICE data points are shown as circle and square markers, whereas PYTHIA is shown as lines. The near-side yields are shown in black and the away-side yields in blue.
+The near- to away-side ratio for ALICE and PYTHIA data is shown in the bottom panel. While PYTHIA overestimates ALICE data for both $Y^{near}_{\rm{frag}}$ and $Y^{away}_{\rm{frag}}$, the ratio in PYTHIA is consistent with the ALICE data in the multiplicity percentiles studied. This ratio can be explained by the pair acceptance effect caused by the limited ALICE $\eta$ acceptance~\cite{PHENIX:2006gto}, which implies that the enhanced jet yields in away-side in HM events with respect to LM events are well quantified by the LM-template method.
+
+\subsection{Event scale dependence}
+As a continuation of the extraction of the flow coefficients with the LM-template fit method, different event scale selections are investigated. By selecting events that includes a hard jet or a high-$\pt$ leading particle within the mid-rapidity region, it is possible to study the impact parameter dependence of flow coefficients in pp collisions~\cite{Sjostrand:1986ep,Frankfurt:2010ea} further. This event scale is set by requiring a minimum $\pt$ of the leading track ($\ptlead$) or the reconstructed jet ($\ptjet$) at midrapidity. The leading particle track requires to be within $|\eta|<0.9$ and $0<\phi<2\pi$, and the jets are reconstructed with the anti-$k_{\rm{T}}$ algorithm~\cite{Cacciari:2008gp,Cacciari:2011ma}, with $R=$~0.4 for only charged particles. In this analysis the $\pt$ scheme is used as the recombination scheme. As the leading particle tracks, the jets are selected in the full azimuthal angle ($0<\phi<2\pi$) but in an $\eta$-range of $|\eta_\mathrm{jet}|<0.4$. The $\pt$ of jets $\ptjet$ is corrected for the underlying event density that is measured using the $k_{\rm{T}}$ algorithm with $R=$~0.2~\cite{Acharya:2018eat}.
 
 
 
