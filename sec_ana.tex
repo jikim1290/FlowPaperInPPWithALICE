@@ -8,8 +8,6 @@ The analysis is performed with data samples in pp collisions at $\sqrt{s} = 13$~
 
 The V0 detector consists of two stations placed on both sides of the interaction point, V0A and V0C, each made of 32 plastic scintillator tiles, covering the full azimuthal angle within the pseudorapidity intervals $2.8 < \eta < 5.1$ and $-3.7 < \eta < -1.7$, respectively. The V0 is used to provide a minimum bias (MB) and a high-multiplicity (HM) trigger. The minimum bias trigger is obtained by a time coincidence of V0A and V0C signals. The charged particle multiplicity selection is done on the sum of the V0A and V0C signals, which is denoted as V0M. The high-multiplicity trigger requires that the V0M signal exceeds 5 times the mean value measured in minimum bias collisions, selecting the 0.1\% of MB events that have the largest V0 multiplicity. The analyzed data samples of minimum bias and high-multiplicity pp events at $\sqrt{s}=$~13 TeV correspond to integrated luminosities of 19 nb$^{-1}$ and 11 pb$^{-1}$, respectively~\cite{ALICE-PUBLIC-2016-002}.
 
-The V0 detector consists of two stations placed on either side of the interaction points V0A and V0C, each made of 32 plastic scintillator tiles, each one within the pseudovelocity intervals $2.8 < \eta < 5.1$ and $-3.7 < \eta < -1.7$, respectively, and both of them covering the full azimuthal angle. The V0 is used to provide a minimum bias (MB) and a high multiplicity (HM) triggers. The data sample with the minimum bias trigger is acquired by checking the time coincidence of the V0A and V0C signals. Charged particle multiplicity selection is performed based on the sum of the V0A and V0C signals, denoted as V0M. The high multiplicity trigger is designed to collect events when the V0M signal exceeds 5 times the average value of the V0M measured in the minimum bias events that ensures the top 0.1\% of the minimum bias events. Analyzed data samples of minimum bias and high multiplicity pp events at $\sqrt{s}=$~13 TeV correspond to integrated luminosities of 19 nb$^{-1}$ and 11 pb$^{-1}$, respectively~\cite{ALICE-PUBLIC-2016-002}. 
-
 The primary vertex positions are reconstructed from signals measured by the Silicon Pixel Detector (SPD) that consists of the innermost two layers of the ITS. The reconstructed primary vertices of selected events should be located within 8-cm of the nominal interaction point along the beam direction. The probability of pileup event is estimated to be about 0.6\% for minimum-bias events. Pileup events are determined and rejected if the longitudinal displacement of the secondary vertex is greater than 0.8 cm. 
 
 Charged-particle tracks are reconstructed using the combined information of the ITS and TPC in a uniform magnetic field of 0.5 T along the beam direction by the solenoid. The ITS is a silicon tracker with six layers of silicon sensors, the SPD~\cite{Santoro2009:ALICESPD} consists of the two innermost layers, the next two layers are the SDD (Silicon Drift Detector) and the outermost layers are the SSD (Silicon Strip Detector). The ITS and TPC covering the entire azimuth range up to $|\eta|<1.4$ and 0.9, respectively, for the detection of charged particles emitted within 8 cm from the nominal vertex position $z_\mathrm{vtx}=0$ along the beam direction. Charged particle tracking is performed with the ITS and TPC capable of reconstructing tracks down to 0.15 GeV/$c$, with an efficiency of about 65\%. The efficiency reaches 80\% for intermediate $\pt$, 1--5~GeV/$c$. The resolution of $\pt$ is about 1\% for primary charged tracks with $\pt<$~1~GeV/$c$, linearly increasing to 6\% at $\pt\sim$ 40~ GeV/$c$~\cite{Contin_2012:ITSPTRES}. 
@@ -55,36 +53,36 @@ v_{n}(p_{\rm{T,trig}}) = v_{n,n}(p_{\rm{T,trig}}, p_{\rm{T,assoc}}) / \sqrt{ v_{
 \end{eqnarray}
 $v_{n,n}(p_{\rm{T,assoc}},p_{\rm{T,assoc}})$ is measured in 1~$<p_{\rm{T,trig(assoc)}}<$~4~GeV/$c$ interval as the $p_{\rm{T,assoc}}$ range is fixed with 1~$<p_{\rm{T,assoc}}<$~4~GeV/$c$.
 
-Figure~\ref{fig:flowext} shows the LM-template fit results for $0-0.1\%$ multiplicity percentile pp collisions at $\sqrt{s}$ = 13 TeV. The LM yield,  $f_{\rm{LM}}(\Delta\varphi)$, is shown in red squares, and the extracted $v_{2}$ and $v_{3}$ as orange and green respectively. The resulting scale factor $F$ in different multiplicity percentiles and systems are summarized in Tabs.~\ref{tab:Fpp,tab:FpPb}. They are larger for pp higher multiplicity percentiles and closer to unity for p-Pb lower multiplicity percentiles. In the previous results in \cite{ALICE:2012eyl, ALICE:2013snk}, $F$ was assumed to be 1. The total fit is shown as a blue band and the signal to the fit is shown in the bottom panel. 
+Figure~\ref{fig:flowext} shows the LM-template fit results for $0-0.1\%$ multiplicity percentile pp collisions at $\sqrt{s}$ = 13 TeV. The LM yield,  $Y_{\rm{LM}}(\Delta\varphi)$, is shown in red squares, and the extracted $v_{2}$ and $v_{3}$ as orange and green respectively. The resulting scale factor $F$ in different multiplicity percentiles and systems are summarized in Tabs.~\ref{tab:Fpp} and \ref{tab:Fpb}. They are larger for pp higher multiplicity percentiles and closer to unity for p-Pb lower multiplicity percentiles. In the previous results in \cite{ALICE:2012eyl, ALICE:2013snk}, $F$ was assumed to be 1. The total fit is shown as a blue band and the signal to the fit is shown in the bottom panel. 
 %let's add chiq value of the fit
-\begin{table}
+\begin{table}[h!]
+\caption{The scale factor $F$ for various multiplicity percentiles in pp collisions.}
 \centering
 \begin{tabular}{|c|cccc|c}
-%
 \hline
  V0M& 0--0.1\% & 1--5\% & 5--20\% & 20--60\% \\ 
  \hline
  $F$ & 1.504$\pm$0.017 & 1.414$\pm$0.030 & 1.360$\pm$0.019 & 1.208$\pm$0.015 \\  
  \hline
  \end{tabular}
-\label{tab:Fpp}
-\caption{The scale factor $F$ for various multiplicity percentiles in pp collisions.}
+ \label{tab:Fpp}
+ 
 \end{table}
 
-\begin{table}
+\begin{table}[h!]
+\caption{The scale factor $F$ for various multiplicity percentiles in p--Pb collisions.}
 \centering
- \begin{tabular}{|c|cccccc|c}
+\begin{tabular}{|c|cccccc|c}
  \hline
  V0A& 0--5\% & 5--10\% & 10--20\% & 0--20\% & 20--40\% & 40--60\% \\ 
  \hline
  $F$& 1.135$\pm$0.026 & 1.140$\pm$0.026 & 1.152$\pm$0.021 & 1.145$\pm$0.017 &1.092$\pm$0.015 & 1.083$\pm$0.015 \\  
  \hline
 \end{tabular}
-\label{tab:FpPb}
-\caption{The scale factor $F$ for various multiplicity percentiles in p--Pb collisions.}
+\label{tab:Fpb}
 \end{table}
 
-\begin{figure}[!th]
+\begin{figure}[h!]
 	\centering
 	\includegraphics[width=0.6 \textwidth]{figures/Fig5_Plot_v2Mult.pdf} 
 	\caption{The $Y^{\rm{frag}}$ for the near- and away-side as a function of multiplicity percentiles with both ALICE and PYTHIA data. The ratio includes the combined statistical and systematic errors in quadrature.}
