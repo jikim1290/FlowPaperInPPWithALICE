@@ -7,7 +7,7 @@ The analysis is performed with data samples in pp collisions at $\sqrt{s} = 13$~
 
 The V0 detector consists of two stations on both sides of the interaction point, V0A and V0C, each made of 32 plastic scintillator tiles, covering the full azimuthal angle within the pseudorapidity intervals $2.8 < \eta < 5.1$ and $-3.7 < \eta < -1.7$, respectively. The V0 provides a minimum-bias (MB) trigger in both pp and p--Pb collisions and an additional high-multiplicity (HM) trigger in pp collisions. The minimum bias trigger is obtained by a time coincidence of V0A and V0C signals. The charged particle multiplicity is determined based on the sum of the V0A and V0C signals, which is denoted as V0M. The high-multiplicity trigger requires that the V0M signal exceeds 5 times the mean value measured in MB collisions, selecting the 0.1\% of MB events that have the largest V0M multiplicity. The analyzed data samples of MB and high-multiplicity pp events at $\sqrt{s}=$~13 TeV correspond to integrated luminosities ($\mathcal{L}_\mathrm{int}$) of 19 nb$^{-1}$ and 11 pb$^{-1}$, respectively~\cite{ALICE-PUBLIC-2016-002}. In p--Pb collisions at $\sqrt{s_\mathrm{NN}} = 5.02$ TeV, the number of events corresponding to $\mathcal{L}_\mathrm{int} = 3$ nb$^{-1}$ is used for the analysis. 
 
-The primary vertex positions are reconstructed from signals measured by the Silicon Pixel Detector (SPD)~\cite{Santoro2009:ALICESPD}, consisting of the two innermost layers of the ITS. The reconstructed primary vertices are required to be within 8 cm of the nominal interaction point along the beam direction. The probability of pileup events is estimated to be about 0.6\% for MB and high multiplicity events in pp collisions. Pileup events are determined and rejected if the longitudinal displacement of the secondary vertex is greater than 0.8 cm in pp collisions. The pileup probability is estimated to be negligible in p--Pb collisions. 
+The primary vertex positions are reconstructed from signals measured by the Silicon Pixel Detector (SPD)~\cite{Santoro2009:ALICESPD}, consisting of the two innermost layers of the ITS. The reconstructed primary vertices are required to be within 8 cm of the nominal interaction point along the beam direction. Pileup events are determined and rejected if the longitudinal displacement of the secondary vertex is greater than 0.8 cm in pp collisions. The probability of pileup events is estimated to be about 0.6\% for MB and high multiplicity events in pp collisions.  The pileup probability is estimated to be negligible in p--Pb collisions. 
 
 Charged-particle tracks are reconstructed using the combined information of the ITS and TPC in a uniform magnetic field of 0.5 T along the beam direction by the solenoid. The ITS is a silicon tracker with six layers of silicon sensors, the SPD consists of the two innermost layers, the next two layers are the SDD (Silicon Drift Detector) and the outermost layers are the SSD (Silicon Strip Detector). The ITS and TPC are covering the entire azimuth range up to $|\eta|<1.4$ and 0.9, respectively, for the detection of charged particles emitted within 8 cm from the nominal vertex position $z_\mathrm{vtx}=0$ along the beam direction. Charged particle tracking is performed with the ITS and TPC capable of reconstructing tracks down to transverse momentum ($\pt$) of 0.15 GeV/$c$ with an efficiency of about 65\% and the efficiency reaches 80\% for intermediate $\pt$, 1--5~GeV/$c$. The $\pt$ resolution is about 1\% (1\%) for primary charged particles with $\pt<$~1~GeV/$c$, linearly increasing to 6\% (10\%) at $\pt\sim$ 50~GeV/$c$ in pp (p--Pb) collisions~\cite{ALICE:2018vuu}. 
 
@@ -22,20 +22,16 @@ Two-particle angular correlations are measured as functions of the relative azim
 \label{eq:corrfunction}
 \end{eqnarray}
 where the transverse momentum range for associated particles ($p_\mathrm{T,assoc}$) is $1<p_\mathrm{T,assoc}<4$~GeV/$c$ for different transverse momentum ranges of trigger particles ($p_\mathrm{T,trig}$).
-The lower limit of $p_\mathrm{T,assoc}$ is chosen in order to avoid jet-like contributions. 
-This is investigated in the large $\Delta\eta$ range that is used in this analysis ($1.6<|\Delta\eta|<1.8$), and the result is that when using a lower limit than 1 GeV/$c$, the jet-like contributions extend into the large $\Delta\eta$ range.
-
-%where the trigger and associated particles are defined for different transverse momentum ranges, $1<p_\mathrm{T,trig}<2$ GeV/$c$ and $1<p_\mathrm{T,assoc}<4$ GeV/$c$.
 The $N_\mathrm{trig}$ and $N_\mathrm{pair}$ are the numbers of trigger particles and trigger-associated particle pairs, respectively. $S(\Delta\eta, \Delta\varphi)$ corresponds to the average number of pairs in the same event and $B(\Delta\eta, \Delta\varphi)$ to the number of pairs in mixed events. 
 $B (0,0)$ represents the normalization of $B(\Delta\eta, \Delta\varphi)$, and by dividing $S(\Delta\eta, \Delta\varphi)$ with $B(\Delta\eta, \Delta\varphi)/B (0,0)$ the acceptance effects are corrected for. The track reconstruction efficiency is corrected for on the right-hand side of Eq.~\ref{eq:corrfunction} as functions of $p_\mathrm{T}$ and $\eta$. 
 In the previous study~\cite{ALICE:2021nir}, the tracking efficiency was calculated with a detector simulation with the PYTHIA 8 event generator and the GEANT3 transport code~\cite{Brun:1994aa}. The tracking efficiency is determined by re-weighting the primary particle composition based on a data driven method~\cite{ALICE:2018hza,ALICE:2018vuu}. Therefore, this method improves the jet-yield extraction and has no impact on the flow extraction.
-For each multiplicity percentile, the pairs in mixed events are required to have primary vertices within the same 2 cm wide $z_{vtx}$ interval and the correlation functions are averaged over the vertex bins which results in the final per-trigger yield~\cite{KOPYLOV1974472:evtmixing,Adam:2016tsv}.
+For each multiplicity percentile, the pairs in mixed events are required to have primary vertices within the same 2 cm wide $z_{vtx}$ interval and the correlation functions are averaged over the vertex bins which results in the final per-trigger yield~\cite{KOPYLOV1974472:evtmixing,Adam:2016tsv}. The lower limit of $p_\mathrm{T,trig}$ and $p_\mathrm{T,assoc}$ is chosen in order to avoid jet-like contributions which extend into the large $\Delta\eta$ range in lower $p_\mathrm{T}$ particles. 
 
 \begin{figure}[h!]
-		\includegraphics[width=0.5 \textwidth]{figures/CorrForAN_C_0_0_0_11} 
-		\includegraphics[width=0.5 \textwidth]{figures/CorrForAN_C_0_0_4_11} 
-  		\includegraphics[width=0.5 \textwidth]{figures/corr_1_0_2_pPb}
-		\includegraphics[width=0.5 \textwidth]{figures/corr_1_6_2_pPb}
+		\includegraphics[width=0.5 \textwidth]{figures/Fig1_ppHigh.pdf} 
+		\includegraphics[width=0.5 \textwidth]{figures/Fig1_ppLow.pdf} 
+  		\includegraphics[width=0.5 \textwidth]{figures/Fig1_pPbHigh.pdf}
+		\includegraphics[width=0.5 \textwidth]{figures/Fig1_pPbLow.pdf}
 \caption{Two-particle correlation functions as functions of $\Delta\eta$ and $\Delta\varphi$ for HM(0--0.1\%, left) and LM(60--100\%, right) events in $\sqrt{s}=13$ TeV pp (top) and $\sqrt{s_{\mathrm{NN}}}=5.02$ TeV p--Pb (bottom) collisions. The $z$-axis. The intervals of $\pttrig$ and $\ptassoc$ are 1~$<\it{p}_{\rm{T}}<$~2~GeV/$c$ in all cases.}
 \label{fig:doubleridge}
 \end{figure}
@@ -48,32 +44,30 @@ The per-trigger yield is extracted for various multiplicity percentiles and $\pt
 Y(\Delta\varphi) = \frac{1}{N_{\rm{trig}}} \frac{ \rm{d}\it{}N_{\rm{pair}} }{ \rm{d}\Delta\varphi } = \int_{1.6<|\Delta \eta|<1.8} \left( \frac{1}{\it{N}_{\rm{trig}}} \frac{ \rm{d}\it{}^{2} N_{\rm{pair}} }{ \rm{d}\Delta\eta \rm{d}\Delta\varphi} \right) \dfrac{1}{\delta_{\Delta\eta}} \rm{d}\Delta \eta \quad ,
 \label{eq:pertrigger}
 \end{eqnarray}
-where $\delta_{\Delta\eta}=$~0.4 is the normalization factor for the whole integrated ranges to scale the per-trigger yield per unit of pseudorapidity. 
+where the factor $\delta_{\Delta\eta}=$~0.4 is used as a normalization to obtain the per trigger yield per unit of pseudorapidity.
 %The Zero-Yield-At-Minimum (ZYAM) procedure~\cite{Ajitanand:2005jj} is the method used to subtract the baseline of the correlation. 
 
 
 \subsection{Extraction of flow coefficients from the low-multiplicity template fit method}
 
-It is difficult to extract the flow coefficients in small systems because of the remaining strong jet fragmentation bias in the away-side region ($\Delta\varphi \sim \pi$) in Eq.~\ref{eq:pertrigger}. As discussed in Refs.\cite{ATLAS:2015hzw,ATLAS:2016yzd}, the correlation function in a high multiplicity percentile can be expressed as 
+As discussed in Refs.\cite{ATLAS:2015hzw,ATLAS:2016yzd}, the correlation function in a high multiplicity percentile is fitted with 
 \begin{eqnarray}
+\label{eq:narray}
 Y_{\rm{HM}}(\Delta\varphi) = G~(1 + 2v_{2,2}\cos(2\Delta\varphi) + 2v_{3,3}\cos(3\Delta\varphi)) + F~Y_{\rm{LM}}(\Delta\varphi) \quad,
 \end{eqnarray}
-where $Y_{\rm{LM}}(\Delta\varphi)$ is the low-multiplicity template, G is the normalization factor for the Fourier component up to the third harmonic, and the scale factor $F$ corresponds to the relative away-side jet-like contribution with respect to the LM (the 60--100\%) template. This method requires $Y_{\rm{LM}}$ not to contain a peak in the near side and assumes that the away-side region originates from jet fragmentations and that the jets are not modified in HM events. The fit determines the scale factor $F$, pedestal $G$, and $v_{n,n}$. This method does not rely on the zero yield at minimum (ZYAM) hypothesis~\cite{Ajitanand:2005jj} to subtract an assumed flat combinatorial component from the LM template as done previously in Refs.~\cite{ATLAS:2012cix,ATLAS:2014qaj}. The assumption that the shape of the away-side jet shape in HM events is not modified compared to the LM template is further tested by the ATLAS Collaboration in Ref.~\cite{ATLAS:2018ngv} and its effect was found to be relatively small. In case of our kinematic ranges, since any hints of near-side peak is not found in our LM-template, any correlated modulation in away-side should be negligible. However, this method can be used to extract flow modulations for EPOS LHC and PYTHIA8 String Shoving models which have relatively large ridge signals in LM events. This is further discussed in Sec.~\ref{sec:results}.
+where $Y_{\rm{LM}}(\Delta\varphi)$ is the low-multiplicity template, G is the normalization factor for the Fourier component up to the third harmonic, and the scale factor $F$ corresponds to the relative away-side jet-like contribution with respect to the LM (the 60--100\%) template corresponding to the 60--100\% percentile. 
+The fit determines the scale factor $F$, pedestal $G$, and $v_{n,n}$. This method does not rely on the zero yield at minimum (ZYAM) hypothesis~\cite{Ajitanand:2005jj} to subtract an assumed flat combinatorial component from the LM template as done previously in Refs.~\cite{ATLAS:2012cix,ATLAS:2014qaj}. 
+This method assumes that $Y_{\rm{LM}}$ does not  contain a peak in the near side originating from jet fragmentation and that the jet shape remains unchanged in HM events compared to LM events.
+The first assumption is well-verified using the selected LM template, while the second assumption regarding the modification of jet shapes is tested using the near-side $\Delta\eta$ distributions. Additionally, the ATLAS Collaboration's study of high-multiplicity pp and p-Pb collisions in Ref.~\cite{ATLAS:2018ngv} provides further support for this assumption, as there is no evidence of jet quenching in these collisions~\cite{Adam:2014qja,Khachatryan:2016odn,Adam:2016jfp,Adam:2016dau,Acharya:2017okq}.
 
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=0.6 \textwidth]{figures/Fig1_FlowExt.pdf} 
-	\caption{The template fit results with the biased LM-templates. The black markers shows the signal for the $0-0.1\%$ multiplicity percentile together with its fit shown as a blue band. The red squares correspond to the LM signal. The orange and green curves correspond to the extracted $v_2$ and $v_3$ signals, respectively. The $\chi^{2}$ divided by the number of degree of freedom is 0.894}
+	\caption{The template fit results with the LM-templates. The black markers shows the signal for the $0-0.1\%$ multiplicity percentile together with its fit shown as a blue band. The red squares correspond to the LM signal. The orange and green curves correspond to the extracted $v_2$ and $v_3$ signals, respectively. The $\chi^{2}$ divided by the number of degree of freedom is 0.894}
 	\label{fig:flowext}
 \end{figure}
 
-Finally, $v_{n}$ are extracted, based on the observed factorization of $v_{n,n}$ to single harmonics~\cite{ATLAS:2015hzw,ATLAS:2016yzd}, using the following equation\quad,
-\begin{eqnarray}
-v_{n}(p_{\rm{T,trig}}) = v_{n,n}(p_{\rm{T,trig}}, p_{\rm{T,assoc}}) / \sqrt{ v_{n,n}(p_{\rm{T,assoc}},p_{\rm{T,assoc}})}
-\end{eqnarray}
-, where $v_{n,n}(p_{\rm{T,assoc}}$ and $p_{\rm{T,assoc}})$ are measured in 1~$<p_{\rm{T,trig}}<$~4~GeV/$c$ interval as the $p_{\rm{T,assoc}}$ range is fixed with 1~$<p_{\rm{T,assoc}}<$~4~GeV/$c$.
-
-Figure~\ref{fig:flowext} shows the LM-template fit results for 0--0.1\% multiplicity percentile pp collisions at $\sqrt{s}$ = 13 TeV. The LM yield,  $Y_{\rm{LM}}(\Delta\varphi)$, is shown in red squares, and the extracted $v_{2}$ and $v_{3}$ as orange and green respectively. The resulting scale factor $F$ in different multiplicity percentiles and systems are summarized in Tabs.~\ref{tab:Fpp} and \ref{tab:Fpb}. They are larger for pp higher multiplicity percentiles and closer to unity for p--Pb lower multiplicity percentiles. In the previous results in Refs.~\cite{ALICE:2012eyl,ALICE:2013snk}, $F$ was assumed to be 1. The total fit is shown as a blue band and the signal-to-fit ratio is shown in the bottom panel. 
+Figure~\ref{fig:flowext} shows the LM-template fit results for 0--0.1\% multiplicity percentile pp collisions at $\sqrt{s}$ = 13 TeV. The LM yield,  $Y_{\rm{LM}}(\Delta\varphi)$, is shown in red squares, and the extracted $v_{2}$ and $v_{3}$ as orange and green respectively. The results on the scale factor F in different multiplicity percentiles and systems are summarized in Tabs.~\ref{tab:Fpp} and \ref{tab:Fpb}. They are larger for pp higher multiplicity percentiles and closer to unity for p--Pb lower multiplicity percentiles. In the previous results in Refs.~\cite{ALICE:2012eyl,ALICE:2013snk} from 2012 and 2013, $F$ was assumed to be 1. The fit to the signal is shown as a blue band and the signal-to-fit ratio is shown in the bottom panel. 
 %let's add chiq value of the fit
 \begin{table}[h!]
 \caption{The scale factor $F$ for various multiplicity percentiles in pp collisions.}
@@ -109,30 +103,36 @@ Figure~\ref{fig:flowext} shows the LM-template fit results for 0--0.1\% multipli
 	\label{fig:Ymult}
 \end{figure}
 
-The near-side jet-like yields are extracted from the near-side $\Delta\eta$ correlations, defined in $|\Delta\varphi|<$~1.3 projected on the $\Delta\eta$ axis as the following
+The near-side jet-like yields are extracted from the near-side $\Delta\eta$ correlations, defined in $|\Delta\varphi|<$~1.3 as the following
 \begin{eqnarray}
 Y^{near}_{\rm{frag}} = \int_{|\Delta \eta|<1.3} \left( \frac{1}{\it{N}_{\rm{trig}}} \frac{ \rm{d}\it{}N_{\rm{pair}} }{ \rm{d}\Delta\eta } \right) \rm{d} \Delta\eta \quad.
 \label{eq:Ynear}
 \end{eqnarray}
-The value 1.3 is chosen for the projection range in order to fully cover $\Delta\varphi$ in Eq.~\ref{eq:pertrigger}. The correlations in the same jet mainly contribute to $(\Delta\eta, \Delta\varphi) \sim (0,0)$ due to the similar out-going direction of particles inside the jet along the jet-axis. The jet fragmentation yield is defined by integrating the $\Delta\eta$ correlation over $|\Delta\eta|<1.3$ after applying the ZYAM procedure~\cite{Ajitanand:2005jj}. The ZYAM procedure is applied by finding the minimum value of $\Delta\eta$ correlations within $|\Delta\eta|<1.3$, which results in pointing the minimum position to be $|\Delta\varphi|=1.3$.
+%The range of $\Delta\varphi$ is chosen to be 1.3 in order for the projection range to fully cover the near-side peak in $\Delta\varphi$. 
+The correlations in the same jet mainly contribute to $(\Delta\eta, \Delta\varphi) \sim (0,0)$ due to the similar out-going direction of particles inside the jet along the jet-axis. As can be seen in Eq.~\ref{eq:Ynear}, the yield of the jet fragmentation is calculated by integrating the $\Delta\eta$ correlation over $|\Delta\eta|<1.3$ after applying the ZYAM procedure~\cite{Ajitanand:2005jj}. The ZYAM procedure is applied by finding the minimum value of $\Delta\eta$ correlations within $|\Delta\eta|<1.3$, which results in pointing the minimum position to be $|\Delta\varphi|=1.3$.
 
-The away-side jet-like yield in data is measured from the LM-template fit method as $Y^{\rm{away, HM}}_{\mathrm{frag}} = Y^{\rm{away, LM}}_{\mathrm{frag}} \times F$, where $F$ is again the relative contribution of the away-side jet fragmentation yield between low- and high-multiplicity events. The $Y^{\rm{away, LM}}_{\mathrm{frag}}$ is then directly measured by integrating the away-side LM $\Delta\varphi$ correlation function. Since this method is not necessary for PYTHIA, where there is no flow contributions, $Y^{\rm{away}}$ is measured directly from the $\Delta\varphi$ correlation functions.
+The away-side jet-like yield in data is measured from the LM-template fit method as $Y^{\rm{away, HM}}_{\mathrm{frag}} = Y^{\rm{away, LM}}_{\mathrm{frag}} \times F$, where $F$ is the parameter from Eq.~\ref{eq:narray}. The $Y^{\rm{away, LM}}_{\mathrm{frag}}$ is then directly measured by integrating the away-side LM $\Delta\varphi$ correlation function. For the PYTHIA measurements, it is possible to directly measure $Y^{\rm{away}}$ from the $\Delta\varphi$ correlation functions since PYTHIA does not include any flow contributions.
 
 Figure~\ref{fig:Ymult} presents the $Y^{\mathrm{near}}_{\rm{frag}}$ and $Y^{\mathrm{away}}_{\rm{frag}}$, for both ALICE data and PYTHIA 8 Tune 4C as a function of multiplicity percentile in pp collisions at $\sqrt{s}=13$ TeV. The transverse momentum range for trigger particles is $1<p_\mathrm{T,trig}<2$ GeV/c and for associated particles $1<p_\mathrm{T,assoc}<4$ GeV/c. ALICE data points are shown as circle and square markers, whereas PYTHIA is shown as lines. The near-side yields are shown in black and the away-side yields in blue.
-The near- to away-side ratio for ALICE and PYTHIA data is shown in the bottom panel. While PYTHIA overestimates ALICE data for both $Y^{\mathrm{near}}_{\rm{frag}}$ and $Y^{\mathrm{away}}_{\rm{frag}}$, the ratio in PYTHIA is consistent with the ALICE data in the multiplicity percentiles studied. This ratio can be explained by the pair acceptance effect caused by the limited ALICE $\eta$ acceptance~\cite{PHENIX:2006gto}, which implies that the enhanced jet yields in away-side in HM events with respect to LM events are well quantified by the LM-template method.
+The near- to away-side ratio for ALICE and PYTHIA data is shown in the bottom panel. While PYTHIA overestimates ALICE data for both $Y^{\mathrm{near}}_{\rm{frag}}$ and $Y^{\mathrm{away}}_{\rm{frag}}$, the ratio to PYTHIA is consistent with the ALICE data in the multiplicity percentiles studied. This ratio can be explained by the pair acceptance effect caused by the limited ALICE $\eta$ acceptance~\cite{PHENIX:2006gto}, which implies that the enhanced jet yields in away-side in HM events with respect to LM events are well quantified by the LM-template method.
 
-\begin{figure}[h!]
-		\includegraphics[width=0.5 \textwidth]{figures/CorrForAN_C_SUB_0_0_0_11.jpg}
-  		\includegraphics[width=0.5 \textwidth]{figures/corr_sub_fit_1_0_2_pPb}
-\caption{The subtracted one as (0--0.1)\%-$F$(60--100\%) is shown on the right. The subtracted one as (0--5)\%-$F$(60--100\%) is shown on the right. Note that the near-side jet peaks exceed the chosen range of the $z$-axis. The intervals of $\pttrig$ and $\ptassoc$ are 1~$<\it{p}_{\rm{T}}<$~2~GeV/$c$ in all cases.}
-\label{fig:doubleridge}
-\end{figure}
+%\begin{figure}[h!]
+%		\includegraphics[width=0.5 \textwidth]{figures/Fig1_ppSub.pdf}
+%  		\includegraphics[width=0.5 \textwidth]{figures/Fig1_pPbSub.pdf}
+%\caption{The subtracted one as (0--0.1)\%-$F$(60--100\%) is shown on the right. The subtracted one as (0--5)\%-$F$(60--100\%) is shown on the right. Note that the near-side jet peaks exceed the chosen range of the $z$-axis. The intervals of $\pttrig$ and $\ptassoc$ are 1~$<\it{p}_{\rm{T}}<$~2~GeV/$c$ in all cases.}
+%\label{fig:doubleridge_sub}
+%\end{figure}
 
-The subtracted one as (0--5)\%-$F$(60--100\%) on the right. Similarly, the ones in p--Pb collisions at $\sqrt{s_{\mathrm{NN}}}=5.02$ TeV are shown in Fig.~\ref{fig:doubleridgepPb}. The $F$ values can be found in Tables~\ref{tab:Fpp} and \ref{tab:Fpb}, which come from the LM-template fit in a given multiplicity percentile as described in Sec.~\ref{sec:ana}. 
+%The subtracted one as (0--5)\%-$F$(60--100\%) on the right. Similarly, the ones in p--Pb collisions at $\sqrt{s_{\mathrm{NN}}}=5.02$ TeV are shown in Fig.~\ref{fig:doubleridge_sub}. The $F$ values can be found in Tables~\ref{tab:Fpp} and \ref{tab:Fpb}, which come from the LM-template fit in a given multiplicity percentile as described in Sec.~\ref{sec:ana}. 
+%show an asymmetry in delta eta, e.g. in pp collisions the signal
+%rises going from negative to positive delta eta values
 
-
-\subsection{Event-scale dependence}
-As a continuation of the extraction of the flow coefficients with the LM-template fit method, different event scale selections are investigated. By selecting events that includes a hard jet or a high-$\pt$ leading particle within the mid-rapidity region, it is possible to study the impact parameter dependence of flow coefficients in pp collisions~\cite{Sjostrand:1986ep,Frankfurt:2010ea}. This event scale is set by requiring a minimum $\pt$ of the leading track ($\ptlead$) or the reconstructed jet ($\ptjet$) at midrapidity. The leading particle track requires to be within $|\eta|<0.9$ and $0<\phi<2\pi$, and the jets are reconstructed with the anti-$k_{\rm{T}}$ algorithm~\cite{Cacciari:2008gp,Cacciari:2011ma}, with $R=0.4$ for only charged particles. In this analysis the $\pt$ scheme is used as the recombination scheme. As the leading particle tracks, the jets are selected in the full azimuthal angle ($0<\phi<2\pi$) but in an $\eta$-range of $|\eta_\mathrm{jet}|<0.4$. The $\pt$ of jets $\ptjet$ is corrected for the underlying event density that is measured using the $k_{\rm{T}}$ algorithm with $R=$~0.2~\cite{Acharya:2018eat}.
+The final step is to extract $v_{n}$, based on the observed factorization of $v_{n,n}$ to single harmonics~\cite{ATLAS:2015hzw,ATLAS:2016yzd}, using the following equation\quad,
+\begin{eqnarray}
+v_{n}(p_{\rm{T,trig}}) = v_{n,n}(p_{\rm{T,trig}}, p_{\rm{T,assoc}}) / \sqrt{ v_{n,n}(p_{\rm{T,assoc}},p_{\rm{T,assoc}})}
+\end{eqnarray}
+, where $v_{n,n}(p_{\rm{T,assoc}}$ and $p_{\rm{T,assoc}})$ are measured in 1~$<p_{\rm{T,trig}}<$~4~GeV/$c$ interval as the $p_{\rm{T,assoc}}$ range is fixed with 1~$<p_{\rm{T,assoc}}<$~4~GeV/$c$.
+As a continuation of the extraction of the flow coefficients with the LM-template fit method, different event scale selections are investigated. By selecting events that includes a hard jet or a high-$\pt$ leading particle within the mid-rapidity region, it is possible to study the impact parameter dependence of flow coefficients in pp collisions~\cite{Sjostrand:1986ep,Frankfurt:2010ea}. This event scale is set by requiring a minimum $\pt$ of the leading track ($\ptlead$) or the reconstructed jet ($\ptjet$) at midrapidity. The leading particle track requires to be within $|\eta|<0.9$ and $0<\phi<2\pi$, and the jets are reconstructed with the anti-$k_{\rm{T}}$ algorithm~\cite{Cacciari:2008gp,Cacciari:2011ma}, with $R=0.4$ for only charged particles. In this analysis the $\pt$ scheme is used as the recombination scheme. In the same way as for the leading particle tracks, the jets are selected in the full azimuthal angle ($0<\phi<2\pi$) but in an $\eta$-range of $|\eta_\mathrm{jet}|<0.4$. The $\pt$ of jets $\ptjet$ is corrected for the underlying event density that is measured using the $k_{\rm{T}}$ algorithm with $R=$~0.2~\cite{Acharya:2018eat}.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -165,23 +165,23 @@ Total (in quadrature)& $\pm$2.5--6.1 & $\pm$5.0--5.5 & $\pm$1.8--7.1 & $\pm$0.8-
 }
 \end{table}
 
-The systematic uncertainties of $Y^{\rm{near}}$, $Y^{\rm{away,LM}}$, and $F$ are estimated by varying the analysis selection criteria and corrections in pp collisions. The systematic uncertainties of $v_{2}$ and $v_{3}$ are estimated in pp and p--Pb collisions. All systematic uncertainties are summarized in Table~\ref{tab:syst}.
+The systematic uncertainties of $Y^{\rm{near}}$, $Y^{\rm{away,LM}}$, and $F$ are estimated by varying the analysis selection criteria and corrections in pp collisions, while the systematic uncertainties of $v_{2}$ and $v_{3}$ are estimated in pp and p--Pb collisions. All systematic uncertainties are summarized in Table~\ref{tab:syst}.
 
 The uncertainty associated to the selected range of the primary vertex is estimated by varying the accepted range from $|z_\mathrm{vtx}|<$~8~cm to $|z_\mathrm{vtx}|<$~6~cm. The variation of the range allows to test acceptance effects on the measurement. The estimated uncertainties of $Y^{\rm{near}}$ and $Y^{\rm{away,LM}}$ are 0.2--0.5\% and 0.1\%, respectively. The uncertainties associated with the primary vertex selection are estimated to be 1.0--2.5\%, 0.2--1.8\%, and 1.4--3.9\% for $F$, $v_{2}$, and $v_{3}$, respectively. 
 
-Another source of systematic uncertainty is related to pileup rejection. Pileup events are rejected with the changed rejection criteria and the number of track contributors required for the reconstruction of pileup event vertices, where the number is changed from 3 to 5. The uncertainties of $Y^{\rm{near}}$ and $Y^{\rm{away,LM}}$ are estimated to be 0.1--0.5\% and 0.2\%, respectively. The estimated uncertainties are negligible for $F$. The estimated uncertainties of $v_{2}$ and $v_{3}$ are 0.6\% and 1.4\%, respectively.
+Another source of systematic uncertainty is related to pileup rejection. Pileup events are rejected with the different rejection criteria such that the number of track contributors required for the reconstruction of pileup event vertices, where the number is changed from the default value of 3 to 5. The uncertainties of $Y^{\rm{near}}$ and $Y^{\rm{away,LM}}$ are estimated to be 0.1--0.5\% and 0.2\%, respectively. The estimated uncertainties are negligible for $F$. The estimated uncertainties of $v_{2}$ and $v_{3}$ are 0.6\% and 1.4\%, respectively.
 
-The systematic uncertainty from the track selection criterion is estimated by employing another track selection criteria, denoted global tracks, which are optimized for particle identification. Each global track is required to have at least one SPD hit. Due to inefficient parts of the SPD, the azimuthal distribution of global tracks is not uniform. The estimated uncertainty of observables for $v_{2}$ is 0.2--3.0\% and 5.0--6.9\% for $v_{3}$. 
+The systematic uncertainty from the track selection criterion is estimated by employing another track selection criteria, denoted global tracks. Each global track is required to have at least one SPD hit. Due to inefficient parts of the SPD, the azimuthal distribution of global tracks is not uniform. The estimated uncertainty of observables for $v_{2}$ is 0.2--3.0\% and 5.0--6.9\% for $v_{3}$. 
 
 An additional systematic uncertainty from the event-mixing is estimated by varying the interval of the primary vertex range, where events are mixed. The default value of 2~cm is changed to 1~cm. The resulting uncertainty of jet fragmentation yield ($Y^{\rm{near}}$ and $Y^{\rm{away,LM}}$) is 0.2--0.7\%. The uncertainties of $F$, $v_{2}$, and $v_{3}$ are estimated to be 0.3--4.6\%.
 
-The systematic uncertainty from the LM definition is estimated by changing the range of the multiplicity percentile as the LM is not definitive. The default range for the LM is set to 60--100\%, and changed to 70--100\%. The uncertainty of $Y^{\rm{away,LM}}$ is estimated to be 0.5--3.5\%. Note that the measurement of $Y^{\rm{near}}$ is not relevant to the LM definition, and the uncertainty is not estimated. The uncertainties of $F$, $v_{2}$, and $v_{3}$ are estimated to be 0.7--9.2\%.
+The systematic uncertainty from the LM definition is estimated by changing the range of the LM multiplicity percentile. There is no universal definition for the LM, and the default range for the LM in the present paper is set to 60--100\%, and changed to 70--100\%. The uncertainty of $Y^{\rm{away,LM}}$ is estimated to be 0.5--3.5\%. Note that the measurement of $Y^{\rm{near}}$ is not relevant to the LM definition, and the uncertainty is not estimated. The uncertainties of $F$, $v_{2}$, and $v_{3}$ are estimated to be 0.7--9.2\%.
 
-The systematic uncertainty from matching the track reconstructed by ITS and TPC is estimated by comparing the matching efficiency evaluated using reconstructed tracks and generated particles. The estimated uncertainties of $Y^{\rm{near}}$ and $Y^{\rm{away,LM}}$ are 2.0--3.0\%.
+The systematic uncertainty from matching the track reconstructed by the TPC and corresponding signal in the ITS is estimated by evaluating the fraction of the mismatch between them. The estimated uncertainties of $Y^{\rm{near}}$ and $Y^{\rm{away,LM}}$ are 2.0--3.0\%.
 
-The systematic uncertainty from the efficiency correction for unidentified charged particles is estimated by comparing correlation functions of true particles with correlation functions of reconstructed tracks with the efficiency correction in the simulation. The estimated uncertainty of observables is 0.1--5.0\%.
+The systematic uncertainty from the efficiency correction for unidentified charged particles is estimated by evaluating the deviation between correlation functions that is constructed using true particles and correlation functions that is constructed using reconstructed tracks and corrected for the tracking efficiency. The estimated uncertainty is 0.1--5.0\%.
 
-Due to the limited $\eta$-acceptance of the TPC, non-flow contributions mainly originating from jet fragmentations affect the flow measurement. As the shape of jet fragmentations is getting broader with the decreasing $\pt$, the systematic uncertainty from $\eta$-acceptance is significantly dependent on the $p_{\rm{T}}$. To estimate the related uncertainty, the minimum $\Delta\eta$ gap is changed from 1.6 to 1.7 for constructing long-range $\Delta\varphi$ correlations.  The estimated uncertainties of $F$, $v_{2}$, and $v_{3}$ are 0.1--5.0\%.
+Due to the limited $\eta$-acceptance of the TPC, non-flow contributions mainly originating from jet fragmentations affect the flow measurement. As the shape of short range correlations mostly attributed to jet particles is getting broader with the decreasing $\pt$, the systematic uncertainty from $\eta$-acceptance is significantly dependent on the $p_{\rm{T}}$. To estimate the related uncertainty, the minimum $\Delta\eta$ gap is changed from 1.6 to 1.7 for constructing long-range $\Delta\varphi$ correlations.  The estimated uncertainties of $F$, $v_{2}$, and $v_{3}$ are 0.1--5.0\%.
 
 
 
