@@ -75,25 +75,29 @@ This method assumes that $Y_{\rm{LM}}$ does not contain a peak in the near side 
 	\label{fig:flowext}
 \end{figure}
 
-Figure~\ref{fig:flowext} shows the template fit results for 0--0.1\% multiplicity percentile pp collisions at $\sqrt{s}$ = 13 TeV. The low-multiplicity yield,  $Y_{\rm{LM}}(\Delta\varphi)$, is shown in red squares, and the extracted $v_{2}$ and $v_{3}$ as orange and green respectively. The results on the scale factor $F$ in different multiplicity percentiles and systems are summarized in Tab.~\ref{tab:FpppPb}. 
+Figure~\ref{fig:flowext} shows the template fit results for 0--0.1\% multiplicity percentile pp collisions at $\sqrt{s}$ = 13 TeV. The low-multiplicity yield,  $Y_{\rm{LM}}(\Delta\varphi)$, is shown in red squares, and the extracted $v_{2,2}$ and $v_{3,3}$ as orange and green respectively. The results on the scale factor $F$ in different multiplicity percentiles and systems are summarized in Tab.~\ref{tab:FpppPb}. 
 Those are larger at high multiplicity in pp collisions, while they are closer to unity at low multiplicity in p--Pb collisions. This suggests that the jet fragmentation yield on the away-side increases with multiplicity, which is more pronounced in pp collisions.
  In previous ALICE results~\cite{ALICE:2012eyl,ALICE:2013snk}, it was assumed that the jet contribution is unchanged as a function of multiplicity (i.e. $F$ was assumed to be 1), which may lead to an underestimation of non-flow contamination in the final measurements of anisotropic flow. 
  The fit to the signal, Eq.~\ref{eq:narray}, is shown as a blue band, and the signal-to-fit ratio is shown in the bottom panel. 
 %let's add chiq value of the fit
 \begin{table}[h!]
 \caption{The scale factor $F$ for various multiplicity percentiles in pp (top) and p--Pb (bottom) collisions.}
-\begin{tabular}{|c|c|c|c|c|c}
-\hline
-V0M (pp)& 0--0.1\% & 1--5\% & 5--20\% & 20--60\% \\
-\hline
-$F$ & 1.504$\pm$0.017 & 1.414$\pm$0.030 & 1.360$\pm$0.019 & 1.208$\pm$0.015 \\
-\hline
-\end{tabular}
+%\begin{tabular}{|c|c|c|c|c|c}
+%\hline
+%V0M (pp)& 0--0.1\% & 1--5\% & 5--20\% & 20--60\% \\
+%\hline
+%$F$ & 1.504$\pm$0.017 & 1.414$\pm$0.030 & 1.360$\pm$0.019 & 1.208$\pm$0.015 \\
+%\hline
+%\end{tabular}
 \centering
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{|c|c|c|c|c|c|c|}
 \hline
-V0A (p--pPb)& 0--5\% & 5--10\% & 10--20\% & 0--20\% & 20--40\% & 40--60\% \\
+	V0M (pp)& 0--0.1\% & 1--5\% & 5--20\% & 20--60\% & &\\
+\hline
+	$F$ & 1.504$\pm$0.017 & 1.414$\pm$0.030 & 1.360$\pm$0.019 & 1.208$\pm$0.015 & & \\
+\hline
+V0A (p--Pb)& 0--5\% & 5--10\% & 10--20\% & 0--20\% & 20--40\% & 40--60\% \\
 \hline
 $F$& 1.135$\pm$0.026 & 1.140$\pm$0.026 & 1.152$\pm$0.021 & 1.145$\pm$0.017 &1.092$\pm$0.015 & 1.083$\pm$0.015 \\
 \hline
@@ -103,9 +107,9 @@ $F$& 1.135$\pm$0.026 & 1.140$\pm$0.026 & 1.152$\pm$0.021 & 1.145$\pm$0.017 &1.09
 \end{table}
 
 In the following, the near and away-side jet fragmentation yields are calculated to verify the template fit method by comparing the jet fragmentation yields to the PYTHIA model.
-The near-side jet-like yields are extracted from the near-side $\Delta\eta$ correlations, defined in $|\Delta\varphi|<$~1.3 as the following
+The near-side jet-like yields are extracted from the near-side $\Delta\eta$ correlations, defined in $|\Delta\varphi|<$~1.3 as
 \begin{eqnarray}
-Y^{near}_{\rm{frag}} = \int_{|\Delta \eta|<1.3} \left( \frac{1}{\it{N}_{\rm{trig}}} \frac{ \rm{d}\it{}N_{\rm{pair}} }{ \rm{d}\Delta\eta } \right) \rm{d} \Delta\eta \quad.
+Y^\mathrm{near}_{\rm{frag}} = \int_{|\Delta \eta|<1.3} \left( \frac{1}{\it{N}_{\rm{trig}}} \frac{ \rm{d}\it{}N_{\rm{pair}} }{ \rm{d}\Delta\eta } \right) \rm{d} \Delta\eta.
 \label{eq:Ynear}
 \end{eqnarray}
 %The range of $\Delta\varphi$ is chosen to be 1.3 in order for the projection range to fully cover the near-side peak in $\Delta\varphi$. 
@@ -142,7 +146,7 @@ The flow coefficients, $v_{n}$, of the trigger particles, can be extracted from 
 v_{n}(p_{\rm{T,trig}}) = v_{n,n}(p_{\rm{T,trig}}, p_{\rm{T,assoc}}) / \sqrt{ v_{n,n}(p_{\rm{T,assoc}},p_{\rm{T,assoc}})},
 \end{eqnarray}
 where $v_{n,n}(p_{\rm{T,assoc}}, p_{\rm{T,assoc}})$ are measured in 1~$<p_{\rm{T,trig}}<$~4~GeV/$c$ interval as the $p_{\rm{T,assoc}}$ range is fixed with 1~$<p_{\rm{T,assoc}}<$~4~GeV/$c$. In the following sections, unless explicitly stated otherwise, $v_n$ will refer to $v_n(p_{\rm{T,trig}})$.
-Different event scale selections are investigated by selecting events that include a hard jet or a high-$\pt$ leading particle within the mid-rapidity region. It is possible to study the impact parameter dependence of flow coefficients in pp collisions~\cite{Sjostrand:1986ep,Frankfurt:2010ea}. This event scale is set by requiring a minimum $\pt$ of the leading track ($\ptlead$) or the reconstructed jet ($\ptjet$) at midrapidity. The leading particle track requires to be within $|\eta|<0.9$ and $0<\phi<2\pi$, and the jets are reconstructed with the anti-$k_{\rm{T}}$ algorithm~\cite{Cacciari:2008gp,Cacciari:2011ma}, with $R=0.4$ for only charged particles. This analysis uses the $\pt$ scheme as the recombination scheme. In the same way, as for the leading particle tracks, the jets are selected in the full azimuthal angle ($0<\phi<2\pi$) but in an $\eta$-range of $|\eta_\mathrm{jet}|<0.4$. The $\pt$ of jets $\ptjet$ is corrected for the underlying event density that is measured using the $k_{\rm{T}}$ algorithm with $R=$~0.2~\cite{Acharya:2018eat}.
+Different event scale selections are investigated by selecting events that include a hard jet or a high-$\pt$ leading particle within the mid-rapidity region. It is possible to study the impact parameter dependence of flow coefficients in pp collisions~\cite{Sjostrand:1986ep,Frankfurt:2010ea}. This event scale is set by requiring a minimum $\pt$ of the leading track ($\ptlead$) or the reconstructed jet ($\ptjet$) at midrapidity. The leading particle track requires to be within $|\eta|<0.9$ and $0<\varphi<2\pi$, and the jets are reconstructed with the anti-$k_{\rm{T}}$ algorithm~\cite{Cacciari:2008gp,Cacciari:2011ma}, with $R=0.4$ for only charged particles. This analysis uses the $\pt$ scheme as the recombination scheme. In the same way, as for the leading particle tracks, the jets are selected in the full azimuthal angle ($0<\varphi<2\pi$) but in an $\eta$-range of $|\eta_\mathrm{jet}|<0.4$. The $\pt$ of jets $\ptjet$ is corrected for the underlying event density that is measured using the $k_{\rm{T}}$ algorithm with $R=$~0.2~\cite{Acharya:2018eat}.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -163,7 +167,7 @@ Primary vertex       & $\pm$0.2--0.5 & $\pm$0.1      & $\pm$1.0--2.5 & $\pm$0.2-
 Pileup rejection     & $\pm$0.1--0.5 & $\pm$0.2      & $\pm$0.4--1.5 & negl.         & $\pm$0.6 & negl. & $\pm$1.4 \\ 
 Tracking		     & $\pm$1.0--3.0 & $\pm$2.0      & $\pm$0.6--2.4 & $\pm$0.2--3.0 & negl. & $\pm$5.0--6.9 & negl. \\ 
 Event mixing	     & $\pm$0.2--0.7 & $\pm$0.2--0.5 & $\pm$0.0--3.3 & $\pm$0.3--4.6 & $\pm$0.8 & $\pm$2.8--3.1 & $\pm$0.8 \\ 
-Low mult. definition & N.A.          & $\pm$0.5--3.5 & $\pm$0.7--6.0 & negl.         & $\pm$1.9 & negl. & $\pm$9.2\\ 
+Low-mult. definition & N.A.          & $\pm$0.5--3.5 & $\pm$0.7--6.0 & negl.         & $\pm$1.9 & negl. & $\pm$9.2\\ 
 ITS-TPC matching 	 & $\pm$2.0--3.0 & $\pm$2.0--3.0 & N.A.          & N.A.          & N.A. & N.A. & N.A\\ 
 Efficiency correction& $\pm$1.0--4.4 & $\pm$1.0--4.4 & N.A.          & N.A.          & N.A. & N.A. & N.A\\ 
 $\eta$ gap range   	 & N.A.          & N.A.          & $\pm$0.1--3.2 & $\pm$1.0--5.0 & $\pm$0.4 & negl. & negl. \\ 
