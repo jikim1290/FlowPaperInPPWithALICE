@@ -161,6 +161,58 @@
   \href{http://arxiv.org/abs/1707.06108}{{\ttfamily arXiv:1707.06108
   [nucl-ex]}}.
 
+\bibitem{Gyulassy:1990ye}
+M.~Gyulassy and M.~Plumer, ``{Jet Quenching in Dense Matter}'',
+  \href{http://dx.doi.org/10.1016/0370-2693(90)91409-5}{{\em Phys. Lett. B}
+  {\bfseries 243} (1990) }.
+
+\bibitem{Wang:1991xy}
+X.-N. Wang and M.~Gyulassy, ``{Gluon shadowing and jet quenching in A + A
+  collisions at s**(1/2) = 200-GeV}'',
+  \href{http://dx.doi.org/10.1103/PhysRevLett.68.1480}{{\em Phys. Rev. Lett.}
+  {\bfseries 68} (1992) }.
+
+\bibitem{Adam:2014qja}
+{\bfseries ALICE} Collaboration, J.~Adam {\em et~al.}, ``{Centrality dependence
+  of particle production in p-Pb collisions at $\sqrt{s_{\rm NN} }$= 5.02
+  TeV}'', \href{http://dx.doi.org/10.1103/PhysRevC.91.064905}{{\em Phys. Rev.
+  C} {\bfseries 91} no.~6, (2015) },
+  \href{http://arxiv.org/abs/1412.6828}{{\ttfamily arXiv:1412.6828 [nucl-ex]}}.
+
+\bibitem{Khachatryan:2016odn}
+{\bfseries CMS} Collaboration, V.~Khachatryan {\em et~al.}, ``{Charged-particle
+  nuclear modification factors in PbPb and pPb collisions at $
+  \sqrt{s_{\mathrm{N}\;\mathrm{N}}}=5.02 $ TeV}'',
+  \href{http://dx.doi.org/10.1007/JHEP04(2017)039}{{\em JHEP} {\bfseries 04}
+  (2017) }, \href{http://arxiv.org/abs/1611.01664}{{\ttfamily arXiv:1611.01664
+  [nucl-ex]}}.
+
+\bibitem{Adam:2016jfp}
+{\bfseries ALICE} Collaboration, J.~Adam {\em et~al.}, ``{Centrality dependence
+  of charged jet production in p--Pb collisions at $\sqrt{s_\mathrm{NN}}$ =
+  5.02 TeV}'', \href{http://dx.doi.org/10.1140/epjc/s10052-016-4107-8}{{\em
+  Eur. Phys. J. C} {\bfseries 76} no.~5, (2016) },
+  \href{http://arxiv.org/abs/1603.03402}{{\ttfamily arXiv:1603.03402
+  [nucl-ex]}}.
+
+\bibitem{Adam:2016dau}
+{\bfseries ALICE} Collaboration, J.~Adam {\em et~al.}, ``{Multiplicity
+  dependence of charged pion, kaon, and (anti)proton production at large
+  transverse momentum in p-Pb collisions at $\mathbf{\sqrt{{\textit s}_{\rm
+  NN}}}$ = 5.02 TeV}'',
+  \href{http://dx.doi.org/10.1016/j.physletb.2016.07.050}{{\em Phys. Lett. B}
+  {\bfseries 760} (2016) }, \href{http://arxiv.org/abs/1601.03658}{{\ttfamily
+  arXiv:1601.03658 [nucl-ex]}}.
+
+\bibitem{Acharya:2017okq}
+{\bfseries ALICE} Collaboration, S.~Acharya {\em et~al.}, ``{Constraints on jet
+  quenching in p-Pb collisions at $\mathbf{\sqrt{s_{NN}}}$ = 5.02 TeV measured
+  by the event-activity dependence of semi-inclusive hadron-jet
+  distributions}'',
+  \href{http://dx.doi.org/10.1016/j.physletb.2018.05.059}{{\em Phys. Lett. B}
+  {\bfseries 783} (2018) }, \href{http://arxiv.org/abs/1712.05603}{{\ttfamily
+  arXiv:1712.05603 [nucl-ex]}}.
+
 \bibitem{Schenke:2012wb}
 B.~Schenke, P.~Tribedy, and R.~Venugopalan, ``{Fluctuating Glasma initial
   conditions and flow in heavy ion collisions}'',
@@ -526,66 +578,6 @@ J.~L. Nagle and W.~A. Zajc, ``{Small System Collectivity in Relativistic
   \href{http://arxiv.org/abs/1801.03477}{{\ttfamily arXiv:1801.03477
   [nucl-ex]}}.
 
-\bibitem{Gyulassy:1990ye}
-M.~Gyulassy and M.~Plumer, ``{Jet Quenching in Dense Matter}'',
-  \href{http://dx.doi.org/10.1016/0370-2693(90)91409-5}{{\em Phys. Lett. B}
-  {\bfseries 243} (1990) }.
-
-\bibitem{Wang:1991xy}
-X.-N. Wang and M.~Gyulassy, ``{Gluon shadowing and jet quenching in A + A
-  collisions at s**(1/2) = 200-GeV}'',
-  \href{http://dx.doi.org/10.1103/PhysRevLett.68.1480}{{\em Phys. Rev. Lett.}
-  {\bfseries 68} (1992) }.
-
-\bibitem{Adam:2014qja}
-{\bfseries ALICE} Collaboration, J.~Adam {\em et~al.}, ``{Centrality dependence
-  of particle production in p-Pb collisions at $\sqrt{s_{\rm NN} }$= 5.02
-  TeV}'', \href{http://dx.doi.org/10.1103/PhysRevC.91.064905}{{\em Phys. Rev.
-  C} {\bfseries 91} no.~6, (2015) },
-  \href{http://arxiv.org/abs/1412.6828}{{\ttfamily arXiv:1412.6828 [nucl-ex]}}.
-
-\bibitem{Khachatryan:2016odn}
-{\bfseries CMS} Collaboration, V.~Khachatryan {\em et~al.}, ``{Charged-particle
-  nuclear modification factors in PbPb and pPb collisions at $
-  \sqrt{s_{\mathrm{N}\;\mathrm{N}}}=5.02 $ TeV}'',
-  \href{http://dx.doi.org/10.1007/JHEP04(2017)039}{{\em JHEP} {\bfseries 04}
-  (2017) }, \href{http://arxiv.org/abs/1611.01664}{{\ttfamily arXiv:1611.01664
-  [nucl-ex]}}.
-
-\bibitem{Adam:2016jfp}
-{\bfseries ALICE} Collaboration, J.~Adam {\em et~al.}, ``{Centrality dependence
-  of charged jet production in p--Pb collisions at $\sqrt{s_\mathrm{NN}}$ =
-  5.02 TeV}'', \href{http://dx.doi.org/10.1140/epjc/s10052-016-4107-8}{{\em
-  Eur. Phys. J. C} {\bfseries 76} no.~5, (2016) },
-  \href{http://arxiv.org/abs/1603.03402}{{\ttfamily arXiv:1603.03402
-  [nucl-ex]}}.
-
-\bibitem{Adam:2016dau}
-{\bfseries ALICE} Collaboration, J.~Adam {\em et~al.}, ``{Multiplicity
-  dependence of charged pion, kaon, and (anti)proton production at large
-  transverse momentum in p-Pb collisions at $\mathbf{\sqrt{{\textit s}_{\rm
-  NN}}}$ = 5.02 TeV}'',
-  \href{http://dx.doi.org/10.1016/j.physletb.2016.07.050}{{\em Phys. Lett. B}
-  {\bfseries 760} (2016) }, \href{http://arxiv.org/abs/1601.03658}{{\ttfamily
-  arXiv:1601.03658 [nucl-ex]}}.
-
-\bibitem{Acharya:2017okq}
-{\bfseries ALICE} Collaboration, S.~Acharya {\em et~al.}, ``{Constraints on jet
-  quenching in p-Pb collisions at $\mathbf{\sqrt{s_{NN}}}$ = 5.02 TeV measured
-  by the event-activity dependence of semi-inclusive hadron-jet
-  distributions}'',
-  \href{http://dx.doi.org/10.1016/j.physletb.2018.05.059}{{\em Phys. Lett. B}
-  {\bfseries 783} (2018) }, \href{http://arxiv.org/abs/1712.05603}{{\ttfamily
-  arXiv:1712.05603 [nucl-ex]}}.
-
-\bibitem{Adam:2016tsv}
-{\bfseries ALICE} Collaboration, J.~Adam {\em et~al.}, ``{Anomalous evolution
-  of the near-side jet peak shape in Pb-Pb collisions at $\sqrt{s_{\rm NN}}$ =
-  2.76 TeV}'', \href{http://dx.doi.org/10.1103/PhysRevLett.119.102301}{{\em
-  Phys. Rev. Lett.} {\bfseries 119} no.~10, (2017) },
-  \href{http://arxiv.org/abs/1609.06643}{{\ttfamily arXiv:1609.06643
-  [nucl-ex]}}.
-
 \bibitem{Bilandzic:2010jr}
 A.~Bilandzic, R.~Snellings, and S.~Voloshin, ``{Flow analysis with cumulants:
   Direct calculations}'',
@@ -738,6 +730,14 @@ G.~Kopylov, ``Like particle correlations as a tool to study the multiple
   Physics Letters B} {\bfseries 50} no.~4, (1974) }.
   \url{http://www.sciencedirect.com/science/article/pii/0370269374902639}.
 
+\bibitem{Adam:2016tsv}
+{\bfseries ALICE} Collaboration, J.~Adam {\em et~al.}, ``{Anomalous evolution
+  of the near-side jet peak shape in Pb-Pb collisions at $\sqrt{s_{\rm NN}}$ =
+  2.76 TeV}'', \href{http://dx.doi.org/10.1103/PhysRevLett.119.102301}{{\em
+  Phys. Rev. Lett.} {\bfseries 119} no.~10, (2017) },
+  \href{http://arxiv.org/abs/1609.06643}{{\ttfamily arXiv:1609.06643
+  [nucl-ex]}}.
+
 \bibitem{LAKOMOV2017329}
 I.~Lakomov, ``Multiplicity dependence of jet-like two-particle correlations in
   pp collisions at s=7 and 13 tev with alice'',
@@ -754,17 +754,6 @@ I.~Lakomov, ``Multiplicity dependence of jet-like two-particle correlations in
   \href{http://dx.doi.org/10.1016/j.physletb.2013.08.024}{{\em Phys. Lett. B}
   {\bfseries 726} (2013) }, \href{http://arxiv.org/abs/1307.3237}{{\ttfamily
   arXiv:1307.3237 [nucl-ex]}}.
-
-\bibitem{Ajitanand:2005jj}
-N.~N. Ajitanand, J.~M. Alexander, P.~Chung, W.~G. Holzmann, M.~Issah, R.~A.
-  Lacey, A.~Shevel, A.~Taranenko, and P.~Danielewicz, ``{Decomposition of
-  harmonic and jet contributions to particle-pair correlations at
-  ultra-relativistic energies}'',
-  \href{http://dx.doi.org/10.1103/PhysRevC.72.011902}{{\em Phys. Rev.}
-  {\bfseries C72} (2005) },
-\href{http://arxiv.org/abs/nucl-ex/0501025}{{\ttfamily arXiv:nucl-ex/0501025
-  [nucl-ex]}}.
-%%CITATION = NUCL-EX/0501025;%%.
 
 \bibitem{PHENIX:2018hho}
 {\bfseries PHENIX} Collaboration, A.~Adare {\em et~al.}, ``{Pseudorapidity
@@ -783,6 +772,17 @@ N.~N. Ajitanand, J.~M. Alexander, P.~Chung, W.~G. Holzmann, M.~Issah, R.~A.
   \href{http://dx.doi.org/10.1016/j.physletb.2016.07.017}{{\em Phys. Lett. B}
   {\bfseries 762} (2016) }, \href{http://arxiv.org/abs/1605.02035}{{\ttfamily
   arXiv:1605.02035 [nucl-ex]}}.
+
+\bibitem{Ajitanand:2005jj}
+N.~N. Ajitanand, J.~M. Alexander, P.~Chung, W.~G. Holzmann, M.~Issah, R.~A.
+  Lacey, A.~Shevel, A.~Taranenko, and P.~Danielewicz, ``{Decomposition of
+  harmonic and jet contributions to particle-pair correlations at
+  ultra-relativistic energies}'',
+  \href{http://dx.doi.org/10.1103/PhysRevC.72.011902}{{\em Phys. Rev.}
+  {\bfseries C72} (2005) },
+\href{http://arxiv.org/abs/nucl-ex/0501025}{{\ttfamily arXiv:nucl-ex/0501025
+  [nucl-ex]}}.
+%%CITATION = NUCL-EX/0501025;%%.
 
 \bibitem{PHENIX:2006gto}
 {\bfseries PHENIX} Collaboration, S.~S. Adler {\em et~al.}, ``{Jet properties

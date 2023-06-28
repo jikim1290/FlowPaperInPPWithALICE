@@ -18,7 +18,7 @@ The charged particle selection criteria are optimized to ensure a uniform effici
 \subsection{Two-particle angular correlations}
 Two-particle angular correlations are measured as functions of the relative azimuthal angle ($\Delta\varphi$) and the relative pseudorapidity ($\Delta\eta$) between a trigger and associated particles
 \begin{eqnarray}
-\frac{1}{N_{\rm{trig}}} \frac{ \rm{d}\it{}^{2} N_{\rm{pair}} }{ \rm{d} \Delta\eta \rm{d}\Delta\varphi} = B(0, 0)\frac{S(\Delta\eta, \Delta\varphi)}{B(\Delta\eta, \Delta\varphi)}  \Big\lvert_{\pttrig,\,\ptassoc}\quad , 
+\frac{1}{N_{\rm{trig}}} \frac{ \rm{d}\it{}^{2} N_{\rm{pair}} }{ \rm{d} \Delta\eta \rm{d}\Delta\varphi} = B(0, 0)\frac{S(\Delta\eta, \Delta\varphi)}{B(\Delta\eta, \Delta\varphi)}  \Big\lvert_{\pttrig,\,\ptassoc},
 \label{eq:corrfunction}
 \end{eqnarray}
 where the transverse momentum range for associated particles ($p_\mathrm{T,assoc}$) is $1<p_\mathrm{T,assoc}<4$~GeV/$c$ for different transverse momentum ranges of trigger particles ($p_\mathrm{T,trig}$).
@@ -34,11 +34,11 @@ The pairs in mixed events are required to have primary vertices within the same 
 		\includegraphics[width=0.5 \textwidth]{figures/Fig1_ppLow.pdf} 
   		\includegraphics[width=0.5 \textwidth]{figures/Fig1_pPbHigh.pdf}
 		\includegraphics[width=0.5 \textwidth]{figures/Fig1_pPbLow.pdf}
-\caption{The two-dimensional correlation functions as functions of $\Delta\eta$ and $\Delta\varphi$ are shown for high-multiplicity (0--0.1\% or 0--5\%, on the left) and low-multiplicity (60--100\%, on the right) events in $\sqrt{s}=13$ TeV pp collisions (top) and $\sqrt{s_{\mathrm{NN}}}=5.02$ TeV p--Pb collisions (bottom). The intervals of $\pttrig$ and $\ptassoc$ are 1~$<\it{p}_{\rm{T}}<$~2~GeV/$c$ in all cases.}
+\caption{The two-dimensional correlation functions as functions of $\Delta\eta$ and $\Delta\varphi$ are shown for high-multiplicity (0--0.1\% or 0--5\%, on the left) and low-multiplicity (60--100\%, on the right) events in $\sqrt{s}=13$ TeV pp collisions (top) and $\sqrt{s_{\mathrm{NN}}}=5.02$ TeV p--Pb collisions (bottom). The intervals of $\pttrig$ and $\ptassoc$ are 1~$<\it{p}_{\rm{T,trig}}<$~2~GeV/$c$ and 1~$<\it{p}_{\rm{T,assoc}}<$~4~GeV/$c$, respectively, in all cases}
 \label{fig:doubleridge}
 \end{figure}
 
-The two-dimensional correlation functions in pp collisions at $\sqrt{s}=13$ TeV are shown at the top panels in Fig.~\ref{fig:doubleridge} for the high-multiplicity (0--0.1\% for pp and 0--5\% for p--Pb, left) and low-multiplicity (60--100\% both for pp and p--Pb, right). The bottom panels show those in $\sqrt{s_{\mathrm{NN}}}=5.02$ TeV p--Pb collisions. 
+The two-dimensional correlation functions in pp collisions at $\sqrt{s}=13$ TeV are shown in the top panels in Fig.~\ref{fig:doubleridge} and p--Pb collisios at $\sqrt{s}=5.02$ TeV in the bottom panels. The left column shows the high-multiplicity (0--0.1\% for pp and 0--5\% for p--Pb) and low-multiplicity in the right column (60--100\% both for pp and p--Pb). The bottom panels show those in $\sqrt{s_{\mathrm{NN}}}=5.02$ TeV p--Pb collisions. 
 %The multiplicity percentile of p--Pb collisions is wider as particle multiplicity, ranging from 0--5\%, compared to that of pp collisions.
 %The $z$-axis for the correlation yield is properly scaled in order to zoom in the larger $\Delta\eta$ region.
 The $z$-axis is scaled in order to resolve the structures in large $\Delta\eta$ regions.
@@ -47,9 +47,9 @@ As a result, the jet peaks are sheared off in both figures. The flow modulation 
 
 
 
-The per-trigger yield is extracted in multiplicity percentiles 0--0.1, 1--5, 5--20, 20--60, and 60--100\% in pp collisions (0--5, 5--10, 10--20, 20--40, 40--60, and 60--100\% in p--Pb collisions) in $\pt$ intervals at large $\Delta\eta$, at $1.6<|\Delta\eta|<1.8$ to remove the non-flow contributions from near-side jet fragments. The per-trigger yield as a function of $\Delta\varphi$ is expressed as
+The per-trigger yield is extracted in multiplicity percentiles 0--0.1, 1--5, 5--20, 20--60, and 60--100\% in pp collisions (0--5, 5--10, 10--20, 20--40, 40--60, and 60--100\% in p--Pb collisions) as a function of $p_{\mathrm{T,trig}}/p_{\mathrm{T,assoc}}$ intervals at large $\Delta\eta$ ($1.6<|\Delta\eta|<1.8$) to remove the non-flow contributions from near-side jet fragments. The per-trigger yield as a function of $\Delta\varphi$ is expressed as
 \begin{eqnarray}
-Y(\Delta\varphi) = \frac{1}{N_{\rm{trig}}} \frac{ \rm{d}\it{}N_{\rm{pair}} }{ \rm{d}\Delta\varphi } = \int_{1.6<|\Delta \eta|<1.8} \left( \frac{1}{\it{N}_{\rm{trig}}} \frac{ \rm{d}\it{}^{2} N_{\rm{pair}} }{ \rm{d}\Delta\eta \rm{d}\Delta\varphi} \right) \dfrac{1}{\delta_{\Delta\eta}} \rm{d}\Delta \eta \quad ,
+Y(\Delta\varphi) = \frac{1}{N_{\rm{trig}}} \frac{ \rm{d}\it{}N_{\rm{pair}} }{ \rm{d}\Delta\varphi } = \int_{1.6<|\Delta \eta|<1.8} \left( \frac{1}{\it{N}_{\rm{trig}}} \frac{ \rm{d}\it{}^{2} N_{\rm{pair}} }{ \rm{d}\Delta\eta \rm{d}\Delta\varphi} \right) \dfrac{1}{\delta_{\Delta\eta}} \rm{d}\Delta \eta,
 \label{eq:pertrigger}
 \end{eqnarray}
 where the factor $\delta_{\Delta\eta}=$~0.4 is used as a normalization to obtain the per trigger yield per unit of pseudorapidity.
@@ -61,12 +61,12 @@ where the factor $\delta_{\Delta\eta}=$~0.4 is used as a normalization to obtain
 As discussed in Refs.\cite{ATLAS:2015hzw,ATLAS:2016yzd}, the correlation function in a given multiplicity percentile is fitted with 
 \begin{eqnarray}
 \label{eq:narray}
-Y_{\rm{HM}}(\Delta\varphi) = G~(1 + 2v_{2,2}\cos(2\Delta\varphi) + 2v_{3,3}\cos(3\Delta\varphi)) + F~Y_{\rm{LM}}(\Delta\varphi) \quad,
+Y_{\rm{HM}}(\Delta\varphi) = G~(1 + 2v_{2,2}\cos(2\Delta\varphi) + 2v_{3,3}\cos(3\Delta\varphi)) + F~Y_{\rm{LM}}(\Delta\varphi),
 \end{eqnarray}
-where $Y_{\rm{LM}}(\Delta\varphi)$ is the low-multiplicity template and $Y_{\rm{HM}}(\Delta\varphi)$ is the higher multiplicity template relative to $Y_{\rm{LM}}(\Delta\varphi)$. G is the normalization factor for the Fourier component up to the third harmonic $v_{n,n}$. The scale factor $F$ corresponds to the relative away-side jet-like contribution with respect to the low-multiplicity template corresponding to the 60--100\% percentile~\cite{ALICE:2013tla,ALICE:2014mas}. 
+where $Y_{\rm{LM}}(\Delta\varphi)$ is the low-multiplicity measurement and $Y_{\rm{HM}}(\Delta\varphi)$ is the higher multiplicity template relative to $Y_{\rm{LM}}(\Delta\varphi)$. G is the normalization factor for the Fourier component up to the third harmonic $v_{n,n}$. The scale factor $F$ corresponds to the relative away-side jet-like contribution with respect to the low-multiplicity template corresponding to the 60--100\% percentile~\cite{ALICE:2013tla,ALICE:2014mas}. 
 The fit determines the scale factor $F$, pedestal $G$, and $v_{n,n}$ and is performed in various high-multiplicity classes as well as in different $p_\mathrm{T,trig}$ and $p_\mathrm{T,assoc}$ intervals. 
 %This method does not rely on the zero yield at minimum (ZYAM) hypothesis~\cite{Ajitanand:2005jj} to subtract an assumed flat combinatorial component from the low-multiplicity template as done previously in Refs.~\cite{ATLAS:2012cix,ATLAS:2014qaj}. 
-This method assumes that $Y_{\rm{LM}}$ does not contain a peak in the near side originating from jet fragmentation, and that the jet shape remains unchanged in high-multiplicity events compared to low-multiplicity events. The first assumption is well-verified using the selected low-multiplicity template. The second assumption, regarding the modification of jet shapes, was tested with projections of the near-side jet peaks on $\Delta\eta$, which do not show a significant dependence on their shape on multiplicity~\cite{LAKOMOV2017329}. Additionally, the ATLAS Collaboration's study of high-multiplicity pp and p-Pb collisions in Ref.~\cite{ATLAS:2018ngv} provides further support for this assumption, as there is no evidence of jet quenching in these collisions~\cite{Adam:2014qja,Khachatryan:2016odn,Adam:2016jfp,Adam:2016dau,Acharya:2017okq}.
+This method assumes that $Y_{\rm{LM}}$ does not contain a peak in the near side originating from jet fragmentation, and that the jet shape remains unchanged in high-multiplicity events compared to low-multiplicity events. The first assumption is ensured using the selected low-multiplicity template. The second assumption, regarding the modification of jet shapes, was tested with projections of the near-side jet peaks on $\Delta\eta$, which do not show a significant dependence on their shape on multiplicity~\cite{LAKOMOV2017329}. However, the effect of the possible modification of the away-side jet yield on the results of the template fit are investigated by modifying the away-side shape by the observed modification between low- and high-multiplicity events. The effect on $v_2$ is found to be less than 1$\%$ within the uncertainty in pp and p--Pb collisions in the kinematic ranges of this analysis. As for $v_3$, the effect is about 3\% and 8$\%$ maximum in pp and p--Pb collisions, respectively (see Sec.~\ref{sec:uncertainties} for more discussion).
 
 \begin{figure}[h!]
 	\centering
@@ -75,8 +75,9 @@ This method assumes that $Y_{\rm{LM}}$ does not contain a peak in the near side 
 	\label{fig:flowext}
 \end{figure}
 
-Figure~\ref{fig:flowext} shows the template fit results for 0--0.1\% multiplicity percentile pp collisions at $\sqrt{s}$ = 13 TeV. The low-multiplicity yield,  $Y_{\rm{LM}}(\Delta\varphi)$, is shown in red squares, and the extracted $v_{2,2}$ and $v_{3,3}$ as orange and green respectively. The results on the scale factor $F$ in different multiplicity percentiles and systems are summarized in Tab.~\ref{tab:FpppPb}. 
-Those are larger at high multiplicity in pp collisions, while they are closer to unity at low multiplicity in p--Pb collisions. This suggests that the jet fragmentation yield on the away-side increases with multiplicity, which is more pronounced in pp collisions.
+Figure~\ref{fig:flowext} shows the template fit results for 0--0.1\% multiplicity percentile pp collisions at $\sqrt{s}$ = 13 TeV. The low-multiplicity yield,  $Y_{\rm{LM}}(\Delta\varphi)$, is shown in red squares, and the extracted $v_{2,2}$ and $v_{3,3}$ as orange and green respectively. The results on the scale factor $F$ in different multiplicity percentiles and systems are summarized in Tab.~\ref{tab:FpppPb}. In pp collisions, the $F$ is seen to slightly increase toward higher multiplicity collisions, with the value in the highest multiplicity bin being around 25\% larger than in the 20--60\% bin. Similar trend can be seen for the p--Pb collisions, although the multiplicity dependence is smaller. Between the corresponding centrality classes of pp and p--Pb collisions, $F$ from p--Pb collisions is found to be smaller, and closer to unity.
+%Those are larger at high multiplicity in pp collisions, while they are closer to unity at low multiplicity in p--Pb collisions.
+This suggests that the jet fragmentation yield on the away-side increases with multiplicity, which is more pronounced in pp collisions. The difference between the two systems is likely explained by the true geometry driven centrality in p--Pb collisions, as opposed to the jet dominated bias in pp collisions.
  In previous ALICE results~\cite{ALICE:2012eyl,ALICE:2013snk}, it was assumed that the jet contribution is unchanged as a function of multiplicity (i.e. $F$ was assumed to be 1), which may lead to an underestimation of non-flow contamination in the final measurements of anisotropic flow. 
  The fit to the signal, Eq.~\ref{eq:narray}, is shown as a blue band, and the signal-to-fit ratio is shown in the bottom panel. 
 %let's add chiq value of the fit
@@ -114,6 +115,9 @@ Y^\mathrm{near}_{\rm{frag}} = \int_{|\Delta \eta|<1.3} \left( \frac{1}{\it{N}_{\
 \end{eqnarray}
 %The range of $\Delta\varphi$ is chosen to be 1.3 in order for the projection range to fully cover the near-side peak in $\Delta\varphi$. 
 %The correlations in the same jet mainly contribute to $(\Delta\eta, \Delta\varphi) \sim (0,0)$ due to the similar outgoing direction of particles inside the jet along the jet axis. 
+%As can be seen in Eq.~\ref{eq:Ynear}, the yield of the jet fragmentation is calculated by integrating the $\Delta\eta$ correlation over $|\Delta\eta|<1.3$ after applying the ZYAM procedure~\cite{Ajitanand:2005jj} because the flow coefficients have a weak dependence on $\eta$~\cite{ATLAS:2011ah,PHENIX:2018hho,ALICE:2016tlx}. The ZYAM procedure is applied by finding the minimum value of $\Delta\eta$ correlations within $|\Delta\eta|<1.3$, which results in pointing the minimum position to be $|\Delta\varphi|=1.3$.
+As flow has a weak $\eta$ dependence~\cite{ATLAS:2011ah,PHENIX:2018hho,ALICE:2016tlx}, the jet fragmentation yield can be calculated after the ZYAM background subtraction~\cite{Ajitanand:2005jj} by integrating the $\Delta\eta$ correlation over $|\Delta\eta|<1.3$, as written in Eq.~\ref{eq:Ynear}. The ZYAM procedure finds the minimum value of $\Delta\eta$ correlations within this range, which due to the shape of the correlation function is at $|\Delta\varphi|=1.3$.
+
 As can be seen in Eq.~\ref{eq:Ynear}, the yield of the jet fragmentation is calculated by integrating the $\Delta\eta$ correlation over $|\Delta\eta|<1.3$ after applying the ZYAM procedure~\cite{Ajitanand:2005jj} because the flow coefficients have a weak dependence on $\eta$~\cite{ATLAS:2011ah,PHENIX:2018hho,ALICE:2016tlx}. The ZYAM procedure is applied by finding the minimum value of $\Delta\eta$ correlations within $|\Delta\eta|<1.3$, which results in pointing the minimum position to be $|\Delta\varphi|=1.3$.
 
 The away-side jet-like yield in data is calculated from the low-multiplicity template fit method as $Y^{\rm{away, HM}}_{\mathrm{frag}} = Y^{\rm{away, LM}}_{\mathrm{frag}} \times F$, where $F$ is the parameter from Eq.~\ref{eq:narray}. The $Y^{\rm{away, LM}}_{\mathrm{frag}}$ is directly obtained by integrating the away-side low-multiplicity $\Delta\varphi$ correlation function in the low-multiplicity sample over $\pi/2 < \Delta\varphi < 3\pi/2$.
@@ -127,7 +131,7 @@ In PYTHIA, it is possible to directly measure  $Y^{\rm{away}}$ from the $\Delta\
 \end{figure}
 
 Figure~\ref{fig:Ymult} presents the $Y^{\mathrm{near}}_{\rm{frag}}$ and $Y^{\mathrm{away}}_{\rm{frag}}$, for both ALICE data and PYTHIA 8 Tune 4C as a function of multiplicity percentile in pp collisions at $\sqrt{s}=13$ TeV. The transverse momentum range for trigger particles is $1<p_\mathrm{T,trig}<2$ GeV/c and for associated particles $1<p_\mathrm{T,assoc}<4$ GeV/c. ALICE data points are shown as circle and square markers, whereas PYTHIA is shown as lines. The near-side yields are shown in black, and the away-side yields in blue.
-The near- to away-side ratio for ALICE and PYTHIA data is shown in the bottom panel. While PYTHIA overestimates ALICE data for both $Y^{\mathrm{near}}_{\rm{frag}}$ and $Y^{\mathrm{away}}_{\rm{frag}}$, the ratio to PYTHIA is consistent with the ALICE data in the multiplicity percentiles studied. This ratio can be explained by the pair acceptance effect caused by the limited ALICE $\eta$ acceptance~\cite{PHENIX:2006gto}, which implies that the enhanced jet fragmentation yields in away-side in high-multiplicity events with respect to low-multiplicity events~\cite{ALICE:2013tla,ALICE:2014mas} are taken into account by the low-multiplicity template method. In summary, the difference between the near-side and away-side jet fragmentation yields in PYTHIA is solely caused by the jet acceptance effects of the two-particle correlation functions. This ratio in data where the away-side jet fragmentation yields are measured with the low-multiplicity template agrees well with PYTHIA as well as the calculations in Ref.~\cite{PHENIX:2006gto}, which provides only the jet acceptance effect.
+The near- to away-side ratio for ALICE and PYTHIA data is shown in the bottom panel. While PYTHIA overestimates ALICE data for both $Y^{\mathrm{near}}_{\rm{frag}}$ and $Y^{\mathrm{away}}_{\rm{frag}}$, the ratio to PYTHIA is consistent with the ALICE data in the multiplicity percentiles studied. This ratio can be explained by the pair acceptance effect caused by the limited ALICE $\eta$ acceptance~\cite{PHENIX:2006gto}, which implies that the enhanced jet fragmentation yields in away-side in high-multiplicity events with respect to low-multiplicity events~\cite{ALICE:2013tla,ALICE:2014mas} are taken into account by the low-multiplicity template method. In summary, the difference between the near-side and away-side jet fragmentation yields in PYTHIA is solely caused by the jet acceptance effects of the two-particle correlation functions. This ratio in data where the away-side jet fragmentation yields are measured with the low-multiplicity template agrees well with PYTHIA as well as the calculations in Ref.~\cite{PHENIX:2006gto}.
 %It is worthwhile to noting that, even though this method measures the jet yields on the away side from the fit, these yields were not reported in previous measurements~\cite{}.
 
 %\begin{figure}[h!]
@@ -146,7 +150,9 @@ The flow coefficients, $v_{n}$, of the trigger particles, can be extracted from 
 v_{n}(p_{\rm{T,trig}}) = v_{n,n}(p_{\rm{T,trig}}, p_{\rm{T,assoc}}) / \sqrt{ v_{n,n}(p_{\rm{T,assoc}},p_{\rm{T,assoc}})},
 \end{eqnarray}
 where $v_{n,n}(p_{\rm{T,assoc}}, p_{\rm{T,assoc}})$ are measured in 1~$<p_{\rm{T,trig}}<$~4~GeV/$c$ interval as the $p_{\rm{T,assoc}}$ range is fixed with 1~$<p_{\rm{T,assoc}}<$~4~GeV/$c$. In the following sections, unless explicitly stated otherwise, $v_n$ will refer to $v_n(p_{\rm{T,trig}})$.
-Different event scale selections are investigated by selecting events that include a hard jet or a high-$\pt$ leading particle within the mid-rapidity region. It is possible to study the impact parameter dependence of flow coefficients in pp collisions~\cite{Sjostrand:1986ep,Frankfurt:2010ea}. This event scale is set by requiring a minimum $\pt$ of the leading track ($\ptlead$) or the reconstructed jet ($\ptjet$) at midrapidity. The leading particle track requires to be within $|\eta|<0.9$ and $0<\varphi<2\pi$, and the jets are reconstructed with the anti-$k_{\rm{T}}$ algorithm~\cite{Cacciari:2008gp,Cacciari:2011ma}, with $R=0.4$ for only charged particles. This analysis uses the $\pt$ scheme as the recombination scheme. In the same way, as for the leading particle tracks, the jets are selected in the full azimuthal angle ($0<\varphi<2\pi$) but in an $\eta$-range of $|\eta_\mathrm{jet}|<0.4$. The $\pt$ of jets $\ptjet$ is corrected for the underlying event density that is measured using the $k_{\rm{T}}$ algorithm with $R=$~0.2~\cite{Acharya:2018eat}.
+Different event scale selections are investigated by selecting events that include a hard jet or a high-$\pt$ leading particle within the mid-rapidity region.
+%It is possible to study the impact parameter dependence of flow coefficients in pp collisions~\cite{Sjostrand:1986ep,Frankfurt:2010ea}.
+This event scale is set by requiring a minimum $\pt$ of the leading track ($\ptlead$) or the reconstructed jet ($\ptjet$) at midrapidity. The leading particle track requires to be within $|\eta|<0.9$ and $0<\varphi<2\pi$, and the jets are reconstructed with the anti-$k_{\rm{T}}$ algorithm~\cite{Cacciari:2008gp,Cacciari:2011ma}, with $R=0.4$ for only charged particles. This analysis uses the $\pt$ scheme as the recombination scheme. In the same way, as for the leading particle tracks, the jets are selected in the full azimuthal angle ($0<\varphi<2\pi$) but in an $\eta$-range of $|\eta_\mathrm{jet}|<0.4$. The $\pt$ of jets $\ptjet$ is corrected for the underlying event density that is measured using the $k_{\rm{T}}$ algorithm with $R=$~0.2~\cite{Acharya:2018eat}.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -171,15 +177,18 @@ Low-mult. definition & N.A.          & $\pm$0.5--3.5 & $\pm$0.7--6.0 & negl.    
 ITS-TPC matching 	 & $\pm$2.0--3.0 & $\pm$2.0--3.0 & N.A.          & N.A.          & N.A. & N.A. & N.A\\ 
 Efficiency correction& $\pm$1.0--4.4 & $\pm$1.0--4.4 & N.A.          & N.A.          & N.A. & N.A. & N.A\\ 
 $\eta$ gap range   	 & N.A.          & N.A.          & $\pm$0.1--3.2 & $\pm$1.0--5.0 & $\pm$0.4 & negl. & negl. \\ 
-
+jet shape change   	 & N.A.          & N.A.          & N.A &  $\pm$1.0& $\pm$1.0 & $\pm$3.0 & $\pm$8.0 \\ 
 \hline 
-Total (in quadrature)& $\pm$2.5--6.1 & $\pm$5.0--5.5 & $\pm$1.8--7.1 & $\pm$0.8--5.7 & $\pm$2.3 & $\pm$6.1--7.5 & $\pm$10.1 \\ 
+%Total (in quadrature)& $\pm$2.5--6.1 & $\pm$5.0--5.5 & $\pm$1.8--7.1 & $\pm$0.8--5.7 & $\pm$2.3 & $\pm$6.1--7.5 & $\pm$10.1 \\ 
+Total (in quadrature)& $\pm$2.5--6.1 & $\pm$5.0--5.5 & $\pm$1.8--7.1 & $\pm$1.3--5.8 & $\pm$2.5 & $\pm$6.8--8.0 & $\pm$12.8 \\ 
 \hline 
 \end{tabular}
 }
 \end{table}
 
-The systematic uncertainties of $Y^{\rm{near}}$, $Y^{\rm{away,LM}}$, and $F$ are estimated by varying the analysis selection criteria and corrections in pp collisions, while the systematic uncertainties of $v_{2}$ and $v_{3}$ are estimated in pp and p--Pb collisions. All systematic uncertainties are summarized in Table~\ref{tab:syst}.
+The systematic uncertainties of $Y^{\rm{near}}$, $Y^{\rm{away,LM}}$, and $F$ are estimated by varying the analysis selection criteria and corrections in pp collisions, while the systematic uncertainties of $v_{2}$ and $v_{3}$ are estimated in pp and p--Pb collisions.
+The significance of each variation is determined using the Barlow test~\cite{Barlow:2002yb}. Variations greater than one $\sigma$ are considered significant according to this test and added to the quadratic sum for the total systematic uncertainties.
+All systematic uncertainties are summarized in Table~\ref{tab:syst}. 
 
 The uncertainty associated to the selected range of the primary vertex is estimated by varying the accepted range from $|z_\mathrm{vtx}|<$~8~cm to $|z_\mathrm{vtx}|<$~6~cm. The variation of the range allows testing detector acceptance effects on the measurement. The estimated uncertainties of $Y^{\rm{near}}$ and $Y^{\rm{away,LM}}$ are 0.2--0.5\% and 0.1\%, respectively. The uncertainties associated with the primary vertex selection are estimated to be 1.0--2.5\%, 0.2--1.8\%, and 1.4--3.9\% for $F$, $v_{2}$, and $v_{3}$, respectively. 
 
@@ -198,6 +207,7 @@ The systematic uncertainty from the efficiency correction for unidentified charg
 
 Due to the limited $\eta$ acceptance of the TPC, non-flow contributions mainly originating from jet fragmentations affect the flow measurement. As the shape of short-range correlations mostly attributed to jets is getting broader with the decreasing $\pt$, the systematic uncertainty from $\eta$-acceptance significantly depends on the $p_{\rm{T}}$. To estimate the related uncertainty, the minimum $\Delta\eta$ gap is changed from 1.6 to 1.7 for constructing long-range $\Delta\varphi$ correlations.  The estimated uncertainties of $F$, $v_{2}$, and $v_{3}$ are 0.1--5.0\%.
 
+Finally, it is worth considering the possible impact of the multiplicity dependence of the jet shape modifications discussed in Section~\ref{sec:ana}. This is studied by examining the shape modification of the jet peak distribution in the near-side $\eta$. The observed change in width is used to estimate a possible effect on the distribution in $\phi$. The effect on $v_2$ is found to be less than 1$\%$ within the uncertainty in pp and p--Pb collisions for the kinematic ranges analyzed. For $v_3$, the effect is found to be a maximum of about 8$\%$ in p--Pb collisions. These values are included in the total systematic uncertainty. However, it is important to note that other analyses with different kinematic ranges should also perform a similar check on the systematics of this effect. It is possible that this effect may not always be the same as in our analysis.
 
 
 
