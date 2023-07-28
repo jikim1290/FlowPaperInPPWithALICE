@@ -4,45 +4,46 @@ The top-level auxiliary file: paper.aux
 The style file: utphys.bst
 Database file #1: paper.bib
 Warning--empty author in ALICE-PUBLIC-2016-002
-You've used 117 entries,
+Warning--empty author in ALICE-PUBLIC-2017-005
+You've used 118 entries,
             2395 wiz_defined-function locations,
-            1499 strings with 29036 characters,
-and the built_in function-call counts, 24834 in all, are:
-= -- 2024
-> -- 1089
+            1503 strings with 29122 characters,
+and the built_in function-call counts, 24713 in all, are:
+= -- 2008
+> -- 1090
 < -- 0
-+ -- 406
++ -- 407
 - -- 289
-* -- 3801
-:= -- 3306
+* -- 3802
+:= -- 3298
 add.period$ -- 139
-call.type$ -- 117
-change.case$ -- 120
+call.type$ -- 118
+change.case$ -- 119
 chr.to.int$ -- 0
-cite$ -- 118
-duplicate$ -- 1190
-empty$ -- 2777
+cite$ -- 120
+duplicate$ -- 1181
+empty$ -- 2762
 format.name$ -- 289
-if$ -- 5952
+if$ -- 5919
 int.to.chr$ -- 0
-int.to.str$ -- 117
-missing$ -- 458
-newline$ -- 386
+int.to.str$ -- 118
+missing$ -- 464
+newline$ -- 387
 num.names$ -- 116
-pop$ -- 435
+pop$ -- 434
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 203
+skip$ -- 189
 stack$ -- 0
-substring$ -- 32
-swap$ -- 231
+substring$ -- 0
+swap$ -- 224
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 1
-while$ -- 119
-width$ -- 120
-write$ -- 998
-(There was 1 warning)
+warning$ -- 2
+while$ -- 116
+width$ -- 121
+write$ -- 1000
+(There were 2 warnings)

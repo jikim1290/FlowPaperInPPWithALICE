@@ -41,7 +41,7 @@
 \bibitem{Abelev:2012di}
 {\bfseries ALICE} Collaboration, B.~Abelev {\em et~al.}, ``{Anisotropic flow of
   charged hadrons, pions and (anti-)protons measured at high transverse
-  momentum in Pb-Pb collisions at $\sqrt{s_{NN}}$=2.76 TeV}'',
+  momentum in Pb-Pb collisions at $\sqrt{s_{\rm NN}}$=2.76 TeV}'',
   \href{http://dx.doi.org/10.1016/j.physletb.2012.12.066}{{\em Phys. Lett.}
   {\bfseries B719} (2013) },
 \href{http://arxiv.org/abs/1205.5761}{{\ttfamily arXiv:1205.5761 [nucl-ex]}}.
@@ -58,11 +58,16 @@
 \bibitem{ATLAS:2011ah}
 {\bfseries ATLAS} Collaboration, G.~Aad {\em et~al.}, ``{Measurement of the
   pseudorapidity and transverse momentum dependence of the elliptic flow of
-  charged particles in lead-lead collisions at $\sqrt{s_{NN}}=2.76$ TeV with
-  the ATLAS detector}'',
+  charged particles in lead-lead collisions at $\sqrt{s_{\rm NN}}=2.76$ TeV
+  with the ATLAS detector}'',
   \href{http://dx.doi.org/10.1016/j.physletb.2011.12.056}{{\em Phys. Lett. B}
   {\bfseries 707} (2012) }, \href{http://arxiv.org/abs/1108.6018}{{\ttfamily
   arXiv:1108.6018 [hep-ex]}}.
+
+\bibitem{Ollitrault:1992bk}
+J.-Y. Ollitrault, ``{Anisotropy as a signature of transverse collective
+  flow}'', \href{http://dx.doi.org/10.1103/PhysRevD.46.229}{{\em Phys. Rev. D}
+  {\bfseries 46} (1992) }.
 
 \bibitem{ATLAS:2015hzw}
 {\bfseries ATLAS} Collaboration, G.~Aad {\em et~al.}, ``{Observation of
@@ -110,8 +115,8 @@
 
 \bibitem{ALICE:2012eyl}
 {\bfseries ALICE} Collaboration, B.~Abelev {\em et~al.}, ``{Long-range angular
-  correlations on the near and away side in $p$-Pb collisions at
-  $\sqrt{s_{NN}}=5.02$ TeV}'',
+  correlations on the near and away side in $p$-Pb collisions at $\sqrt{s_{\rm
+  NN}}=5.02$ TeV}'',
   \href{http://dx.doi.org/10.1016/j.physletb.2013.01.012}{{\em Phys. Lett. B}
   {\bfseries 719} (2013) }, \href{http://arxiv.org/abs/1212.2001}{{\ttfamily
   arXiv:1212.2001 [nucl-ex]}}.
@@ -119,9 +124,9 @@
 \bibitem{ATLAS:2014qaj}
 {\bfseries ATLAS} Collaboration, G.~Aad {\em et~al.}, ``{Measurement of
   long-range pseudorapidity correlations and azimuthal harmonics in
-  $\sqrt{s_{NN}}=5.02$ TeV proton-lead collisions with the ATLAS detector}'',
-  \href{http://dx.doi.org/10.1103/PhysRevC.90.044906}{{\em Phys. Rev. C}
-  {\bfseries 90} no.~4, (2014) },
+  $\sqrt{s_{\rm NN}}=5.02$ TeV proton-lead collisions with the ATLAS
+  detector}'', \href{http://dx.doi.org/10.1103/PhysRevC.90.044906}{{\em Phys.
+  Rev. C} {\bfseries 90} no.~4, (2014) },
   \href{http://arxiv.org/abs/1409.1792}{{\ttfamily arXiv:1409.1792 [hep-ex]}}.
 
 \bibitem{ATLAS:2016yzd}
@@ -137,7 +142,7 @@
 \bibitem{Khachatryan:2016ibd}
 {\bfseries CMS} Collaboration, V.~Khachatryan {\em et~al.}, ``{Pseudorapidity
   dependence of long-range two-particle correlations in $p$Pb collisions at
-  $\sqrt {s_{NN}}=$ 5.02 TeV}'',
+  $\sqrt {s_{\rm NN}}=$ 5.02 TeV}'',
   \href{http://dx.doi.org/10.1103/PhysRevC.96.014915}{{\em Phys. Rev. C}
   {\bfseries 96} no.~1, (2017) },
   \href{http://arxiv.org/abs/1604.05347}{{\ttfamily arXiv:1604.05347
@@ -168,7 +173,7 @@ M.~Gyulassy and M.~Plumer, ``{Jet Quenching in Dense Matter}'',
 
 \bibitem{Wang:1991xy}
 X.-N. Wang and M.~Gyulassy, ``{Gluon shadowing and jet quenching in A + A
-  collisions at s**(1/2) = 200-GeV}'',
+  collisions at $\sqrt{s_{\rm NN}}=200$ GeV}'',
   \href{http://dx.doi.org/10.1103/PhysRevLett.68.1480}{{\em Phys. Rev. Lett.}
   {\bfseries 68} (1992) }.
 
@@ -206,8 +211,8 @@ X.-N. Wang and M.~Gyulassy, ``{Gluon shadowing and jet quenching in A + A
 
 \bibitem{Acharya:2017okq}
 {\bfseries ALICE} Collaboration, S.~Acharya {\em et~al.}, ``{Constraints on jet
-  quenching in p-Pb collisions at $\mathbf{\sqrt{s_{NN}}}$ = 5.02 TeV measured
-  by the event-activity dependence of semi-inclusive hadron-jet
+  quenching in p-Pb collisions at $\mathbf{\sqrt{s_{\rm NN}}}$ = 5.02 TeV
+  measured by the event-activity dependence of semi-inclusive hadron-jet
   distributions}'',
   \href{http://dx.doi.org/10.1016/j.physletb.2018.05.059}{{\em Phys. Lett. B}
   {\bfseries 783} (2018) }, \href{http://arxiv.org/abs/1712.05603}{{\ttfamily
@@ -352,7 +357,7 @@ J.~Weil {\em et~al.}, ``{Particle production and equilibrium properties within
 \bibitem{ALICE:2021klf}
 {\bfseries ALICE} Collaboration, S.~Acharya {\em et~al.}, ``{Multiharmonic
   Correlations of Different Flow Amplitudes in Pb-Pb Collisions at
-  $\sqrt{s_{_{NN}}}=2.76$\,\,TeV}'',
+  $\sqrt{s_{_{\rm NN}}}=2.76$\,\,TeV}'',
   \href{http://dx.doi.org/10.1103/PhysRevLett.127.092302}{{\em Phys. Rev.
   Lett.} {\bfseries 127} no.~9, (2021) },
   \href{http://arxiv.org/abs/2101.02579}{{\ttfamily arXiv:2101.02579
@@ -360,23 +365,23 @@ J.~Weil {\em et~al.}, ``{Particle production and equilibrium properties within
 
 \bibitem{ALICE:2021adw}
 {\bfseries ALICE} Collaboration, S.~Acharya {\em et~al.}, ``{Measurements of
-  mixed harmonic cumulants in Pb\textendash{}Pb collisions at $\sqrt {s_{NN}}$
-  = 5.02 TeV}'', \href{http://dx.doi.org/10.1016/j.physletb.2021.136354}{{\em
-  Phys. Lett. B} {\bfseries 818} (2021) },
-  \href{http://arxiv.org/abs/2102.12180}{{\ttfamily arXiv:2102.12180
-  [nucl-ex]}}.
+  mixed harmonic cumulants in Pb\textendash{}Pb collisions at $\sqrt {s_{\rm
+  NN}}$ = 5.02 TeV}'',
+  \href{http://dx.doi.org/10.1016/j.physletb.2021.136354}{{\em Phys. Lett. B}
+  {\bfseries 818} (2021) }, \href{http://arxiv.org/abs/2102.12180}{{\ttfamily
+  arXiv:2102.12180 [nucl-ex]}}.
 
 \bibitem{ALICE:2013mez}
 {\bfseries ALICE} Collaboration, B.~Abelev {\em et~al.}, ``{Centrality
-  dependence of $\pi$, K, p production in Pb-Pb collisions at $\sqrt{s_{NN}}$ =
-  2.76 TeV}'', \href{http://dx.doi.org/10.1103/PhysRevC.88.044910}{{\em Phys.
-  Rev. C} {\bfseries 88} (2013) },
+  dependence of $\pi$, K, p production in Pb-Pb collisions at $\sqrt{s_{\rm
+  NN}}$ = 2.76 TeV}'', \href{http://dx.doi.org/10.1103/PhysRevC.88.044910}{{\em
+  Phys. Rev. C} {\bfseries 88} (2013) },
   \href{http://arxiv.org/abs/1303.0737}{{\ttfamily arXiv:1303.0737 [hep-ex]}}.
 
 \bibitem{ALICE:2011ab}
 {\bfseries ALICE} Collaboration, K.~Aamodt {\em et~al.}, ``{Higher harmonic
   anisotropic flow measurements of charged particles in Pb-Pb collisions at
-  $\sqrt{s_{NN}}$=2.76 TeV}'',
+  $\sqrt{s_{\rm NN}}$=2.76 TeV}'',
   \href{http://dx.doi.org/10.1103/PhysRevLett.107.032301}{{\em Phys. Rev.
   Lett.} {\bfseries 107} (2011) },
   \href{http://arxiv.org/abs/1105.3865}{{\ttfamily arXiv:1105.3865 [nucl-ex]}}.
@@ -490,7 +495,7 @@ Z.-W. Lin, C.~M. Ko, B.-A. Li, B.~Zhang, and S.~Pal, ``{A Multi-phase transport
 J.~D. Orjuela~Koop, A.~Adare, D.~McGlinchey, and J.~L. Nagle, ``{Azimuthal
   anisotropy relative to the participant plane from a multiphase transport
   model in central p + Au , d + Au , and $^{3}$He + Au collisions at
-  $\sqrt{s_{NN}}=200$ GeV}'',
+  $\sqrt{s_{\rm NN}}=200$ GeV}'',
   \href{http://dx.doi.org/10.1103/PhysRevC.92.054903}{{\em Phys. Rev. C}
   {\bfseries 92} no.~5, (2015) },
   \href{http://arxiv.org/abs/1501.06880}{{\ttfamily arXiv:1501.06880
@@ -611,7 +616,7 @@ A.~Bilandzic, R.~Snellings, and S.~Voloshin, ``{Flow analysis with cumulants:
 \bibitem{ALICE:2014mas}
 {\bfseries ALICE} Collaboration, B.~B. Abelev {\em et~al.}, ``{Multiplicity
   dependence of jet-like two-particle correlation structures in
-  p\textendash{}Pb collisions at $\sqrt{s_{NN}}$=5.02 TeV}'',
+  p\textendash{}Pb collisions at $\sqrt{s_{\rm NN}}$=5.02 TeV}'',
   \href{http://dx.doi.org/10.1016/j.physletb.2014.11.028}{{\em Phys. Lett. B}
   {\bfseries 741} (2015) }, \href{http://arxiv.org/abs/1406.5463}{{\ttfamily
   arXiv:1406.5463 [nucl-ex]}}.
@@ -694,12 +699,17 @@ J.~Alme {\em et~al.}, ``{The ALICE TPC, a large 3-dimensional tracking device
 \bibitem{ALICE-PUBLIC-2016-002}
 {\bfseries ALICE} Collaboration, ``{ALICE luminosity determination for pp
   collisions at $\sqrt{s}=13$ TeV}'',.
+  \url{https://cds.cern.ch/record/2160174}.
 
 \bibitem{Santoro2009:ALICESPD}
 R.~Santoro {\em et~al.}, ``{The ALICE Silicon Pixel Detector: Readiness for the
   first proton beam}'',
   \href{http://dx.doi.org/10.1088/1748-0221/4/03/P03023}{{\em JINST} {\bfseries
   4} (2009) }.
+
+\bibitem{ALICE-PUBLIC-2017-005}
+{\bfseries ALICE} Collaboration, ``{The ALICE definition of primary
+  particles}'',. \url{https://cds.cern.ch/record/2270008}.
 
 \bibitem{ALICE:2018vuu}
 {\bfseries ALICE} Collaboration, S.~Acharya {\em et~al.}, ``{Transverse
@@ -723,12 +733,11 @@ R.~Brun, F.~Bruyant, F.~Carminati, S.~Giani, M.~Maire, A.~McPherson,
   {\bfseries 788} (2019) }, \href{http://arxiv.org/abs/1805.04399}{{\ttfamily
   arXiv:1805.04399 [nucl-ex]}}.
 
-\bibitem{KOPYLOV1974472:evtmixing}
-G.~Kopylov, ``Like particle correlations as a tool to study the multiple
-  production mechanism'',
-  \href{http://dx.doi.org/https://doi.org/10.1016/0370-2693(74)90263-9}{{\em
-  Physics Letters B} {\bfseries 50} no.~4, (1974) }.
-  \url{http://www.sciencedirect.com/science/article/pii/0370269374902639}.
+\bibitem{Kopylov:1974th}
+G.~I. Kopylov, ``{Like particle correlations as a tool to study the multiple
+  production mechanism}'',
+  \href{http://dx.doi.org/10.1016/0370-2693(74)90263-9}{{\em Phys. Lett. B}
+  {\bfseries 50} (1974) }.
 
 \bibitem{Adam:2016tsv}
 {\bfseries ALICE} Collaboration, J.~Adam {\em et~al.}, ``{Anomalous evolution
@@ -758,8 +767,8 @@ I.~Lakomov, ``Multiplicity dependence of jet-like two-particle correlations in
 \bibitem{PHENIX:2018hho}
 {\bfseries PHENIX} Collaboration, A.~Adare {\em et~al.}, ``{Pseudorapidity
   Dependence of Particle Production and Elliptic Flow in Asymmetric Nuclear
-  Collisions of $p+$Al, $p+$Au, $d+$Au, and $^{3}$He$+$Au at
-  $\sqrt{s_{_{NN}}}=200$ GeV}'',
+  Collisions of $p+$Al, $p+$Au, $d+$Au, and $^{3}$He$+$Au at $\sqrt{s_{_{\rm
+  NN}}}=200$ GeV}'',
   \href{http://dx.doi.org/10.1103/PhysRevLett.121.222301}{{\em Phys. Rev.
   Lett.} {\bfseries 121} no.~22, (2018) },
   \href{http://arxiv.org/abs/1807.11928}{{\ttfamily arXiv:1807.11928
@@ -811,13 +820,6 @@ M.~Cacciari, G.~P. Salam, and G.~Soyez, ``{FastJet User Manual}'',
   \href{http://arxiv.org/abs/1809.03232}{{\ttfamily arXiv:1809.03232
   [nucl-ex]}}.
 
-\bibitem{Barlow:2002yb}
-R.~Barlow, ``{Systematic errors: Facts and fictions}'', in {\em {Conference on
-  Advanced Statistical Techniques in Particle Physics}}, pp.~134--144.
-\newblock 7, 2002.
-\newblock \href{http://arxiv.org/abs/hep-ex/0207026}{{\ttfamily
-  arXiv:hep-ex/0207026}}.
-
 \bibitem{ALICE:2021ptz}
 {\bfseries ALICE} Collaboration, S.~Acharya {\em et~al.}, ``{Production of
   K$^{*}(892)^{0}$ and $\phi(1020)$ in pp and Pb-Pb collisions at $\sqrt{s_{\rm
@@ -829,11 +831,10 @@ R.~Barlow, ``{Systematic errors: Facts and fictions}'', in {\em {Conference on
 
 \bibitem{ALICE:2018yph}
 {\bfseries ALICE} Collaboration, S.~Acharya {\em et~al.}, ``{Anisotropic flow
-  of identified particles in Pb-Pb collisions at $
-  {\sqrt{s}}_{\mathrm{NN}}=5.02 $ TeV}'',
-  \href{http://dx.doi.org/10.1007/JHEP09(2018)006}{{\em JHEP} {\bfseries 09}
-  (2018) }, \href{http://arxiv.org/abs/1805.04390}{{\ttfamily arXiv:1805.04390
-  [nucl-ex]}}.
+  of identified particles in Pb-Pb collisions at $\sqrt{s_{\rm NN}}$=5.02
+  TeV}'', \href{http://dx.doi.org/10.1007/JHEP09(2018)006}{{\em JHEP}
+  {\bfseries 09} (2018) }, \href{http://arxiv.org/abs/1805.04390}{{\ttfamily
+  arXiv:1805.04390 [nucl-ex]}}.
 
 \bibitem{PhysRevD.65.092002}
 {CDF Collaboration}, ``Measurement of the jet fragmentation function and
@@ -842,14 +843,14 @@ R.~Barlow, ``{Systematic errors: Facts and fictions}'', in {\em {Conference on
   {\bfseries 65} no.~9, (2002) }.
 
 \bibitem{Aad:2011fc}
-{ATLAS Collaboration}, ``Measurement of the inclusive jet cross-section in
-  proton-proton collisions at $\sqrt{s}$=7 tev using 4.5 fb-1 of data with the
-  atlas detector'', \href{http://dx.doi.org/10.1007/JHEP09(2011)035}{{\em
+{ATLAS Collaboration}, ``{Measurement of the inclusive jet cross-section in
+  proton-proton collisions at $\sqrt{s}$=7 TeV using 4.5 fb-1 of data with the
+  ATLAS detector}'', \href{http://dx.doi.org/10.1007/JHEP09(2011)035}{{\em
   Journal of High Energy Physics} {\bfseries 2011} no.~7, (2011) }.
 
 \bibitem{Khachatryan:2014waa}
-{CMS Collaboration}, ``Measurement of the inclusive jet cross section in pp
-  collisions at $\sqrt{s}$=2.76 tev'',
+{CMS Collaboration}, ``{Measurement of the inclusive jet cross section in pp
+  collisions at $\sqrt{s}$=2.76 TeV}'',
   \href{http://dx.doi.org/10.1007/JHEP11(2014)204}{{\em Journal of High Energy
   Physics} {\bfseries 2014} no.~11, (2014) }.
 

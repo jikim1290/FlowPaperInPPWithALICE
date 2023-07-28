@@ -1,4 +1,4 @@
-% UT Physics bibliographic style, ver. 2.7. Based on:
+% UT Physics bibliographic style, ver. 2.8. Based on:
 %
 %X     IEEE Transactions bibliography style (29-Jan-88 version)
 %X       numeric labels, order-of-reference, IEEE abbreviations,
@@ -21,7 +21,7 @@
 %                    Jonathan Flynn' suggestion. SPIRES now supports this field.
 %                 7) Improved output of Proceedings entries
 %
-%    Modified by Jacques Distler, 2/11
+%    Modified by Jacques Distler, 12/18
 %           History: ver 1.0  9/96
 %                    ver 1.1 10/96 - added "collaboration" field
 %                    ver 1.2  7/97 - added a "\providecommand{\href}[2]{#2}"
@@ -55,6 +55,8 @@
 %                                    in previous version. (Reported by Ling Weak)
 %                   ver 2.7   8/11 - Fix "et~al." in format.crossref.editor, too.
 %                                    (Reported by Blake Stacey)
+%                   ver 2.8  12/18 - Fix format.title and format.title.p for when the
+%                                    title contains trailing punctuation.
 %
 % HyperTeX Wizardry:
 %
@@ -367,9 +369,23 @@ FUNCTION {format.names}
     { namesleft #0 > }
     { s nameptr "{f.~}{vv~}{ll}{, jj}" format.name$ 't :=
       nameptr #1 >
-	{ namesleft #1 >
-	    { ", " * t * }
-	    { numnames #2 >
+	{
+          nameptr #1
+          #1 + =
+          numnames #10
+          > and
+            { "others" 't :=
+              #1 'namesleft := }
+            'skip$
+          if$
+          namesleft #1 >
+            { ", " * t * }
+            {
+              s nameptr "{ll}" format.name$ duplicate$ "others" =
+                { 't := }
+                { pop$ }
+              if$
+              numnames #2 >
 		{ "," * }
 		'skip$
 	      if$
@@ -481,14 +497,20 @@ FUNCTION {format.editors}
 FUNCTION {format.title}
 { title empty$
     { "" }
-    { "``" title "t" change.case$ * "''," * }
+    {title title text.length$ #1 substring$ duplicate$ duplicate$ "?" =
+     swap$ "!" = or
+     swap$ "." = or
+      { "``" title "t" change.case$ * "''," * }
+      { "``" title "t" change.case$ * "''," * }
+    if$
+   }
   if$
 }
 
 FUNCTION {format.title.p}
 { title empty$
     { "" }
-    { "``" title "t" change.case$ * ".''" * }
+    { "``" title "t" change.case$ * add.period$ "''" * }
   if$
 }
 
@@ -838,8 +860,8 @@ FUNCTION {format.journal}
     { "" }
     {journal emphasize " " *
      format.volume *
-     format.number *
      format.date.paren *
+     format.pages.nopp *
       }
     if$
 }
