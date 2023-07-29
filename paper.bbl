@@ -5,7 +5,7 @@
   theoretical challenges in the search for the quark gluon plasma: The STAR
   Collaboration's critical assessment of the evidence from RHIC collisions}'',
   \href{http://dx.doi.org/10.1016/j.nuclphysa.2005.03.085}{{\em Nucl. Phys.}
-  {\bfseries A757} (2005) },
+  {\bfseries A757} (2005) 102--183},
 \href{http://arxiv.org/abs/nucl-ex/0501009}{{\ttfamily arXiv:nucl-ex/0501009
   [nucl-ex]}}.
 %%CITATION = NUCL-EX/0501009;%%.
@@ -15,7 +15,7 @@
   partonic matter in relativistic nucleus-nucleus collisions at RHIC:
   Experimental evaluation by the PHENIX collaboration}'',
   \href{http://dx.doi.org/10.1016/j.nuclphysa.2005.03.086}{{\em Nucl. Phys.}
-  {\bfseries A757} (2005) },
+  {\bfseries A757} (2005) 184--283},
 \href{http://arxiv.org/abs/nucl-ex/0410003}{{\ttfamily arXiv:nucl-ex/0410003
   [nucl-ex]}}.
 %%CITATION = NUCL-EX/0410003;%%.
@@ -24,7 +24,7 @@
 {\bfseries BRAHMS} Collaboration, I.~Arsene {\em et~al.}, ``{Quark gluon plasma
   and color glass condensate at RHIC? The Perspective from the BRAHMS
   experiment}'', \href{http://dx.doi.org/10.1016/j.nuclphysa.2005.02.130}{{\em
-  Nucl. Phys.} {\bfseries A757} (2005) },
+  Nucl. Phys.} {\bfseries A757} (2005) 1--27},
 \href{http://arxiv.org/abs/nucl-ex/0410020}{{\ttfamily arXiv:nucl-ex/0410020
   [nucl-ex]}}.
 %%CITATION = NUCL-EX/0410020;%%.
@@ -33,7 +33,7 @@
 {\bfseries PHOBOS} Collaboration, B.~B. Back {\em et~al.}, ``{The PHOBOS
   perspective on discoveries at RHIC}'',
   \href{http://dx.doi.org/10.1016/j.nuclphysa.2005.03.084}{{\em Nucl. Phys.}
-  {\bfseries A757} (2005) },
+  {\bfseries A757} (2005) 28--101},
 \href{http://arxiv.org/abs/nucl-ex/0410022}{{\ttfamily arXiv:nucl-ex/0410022
   [nucl-ex]}}.
 %%CITATION = NUCL-EX/0410022;%%.
@@ -41,17 +41,17 @@
 \bibitem{Abelev:2012di}
 {\bfseries ALICE} Collaboration, B.~Abelev {\em et~al.}, ``{Anisotropic flow of
   charged hadrons, pions and (anti-)protons measured at high transverse
-  momentum in Pb-Pb collisions at $\sqrt{s_{\rm NN}}$=2.76 TeV}'',
+  momentum in Pb--Pb collisions at $\sqrt{s_{\rm NN}}=2.76$ TeV}'',
   \href{http://dx.doi.org/10.1016/j.physletb.2012.12.066}{{\em Phys. Lett.}
-  {\bfseries B719} (2013) },
+  {\bfseries B719} (2013) 18--28},
 \href{http://arxiv.org/abs/1205.5761}{{\ttfamily arXiv:1205.5761 [nucl-ex]}}.
 %%CITATION = ARXIV:1205.5761;%%.
 
 \bibitem{Abelev:2014pua}
 {\bfseries ALICE} Collaboration, B.~Abelev {\em et~al.}, ``{Elliptic flow of
-  identified hadrons in Pb-Pb collisions at $ \sqrt{s_{\mathrm{NN}}}=2.76 $
+  identified hadrons in Pb--Pb collisions at $ \sqrt{s_{\rm{NN}}}=2.76 $
   TeV}'', \href{http://dx.doi.org/10.1007/JHEP06(2015)190}{{\em JHEP}
-  {\bfseries 06} (2015) },
+  {\bfseries 06} (2015) 190},
 \href{http://arxiv.org/abs/1405.4632}{{\ttfamily arXiv:1405.4632 [nucl-ex]}}.
 %%CITATION = ARXIV:1405.4632;%%.
 
@@ -61,20 +61,25 @@
   charged particles in lead-lead collisions at $\sqrt{s_{\rm NN}}=2.76$ TeV
   with the ATLAS detector}'',
   \href{http://dx.doi.org/10.1016/j.physletb.2011.12.056}{{\em Phys. Lett. B}
-  {\bfseries 707} (2012) }, \href{http://arxiv.org/abs/1108.6018}{{\ttfamily
-  arXiv:1108.6018 [hep-ex]}}.
+  {\bfseries 707} (2012) 330--348},
+  \href{http://arxiv.org/abs/1108.6018}{{\ttfamily arXiv:1108.6018 [hep-ex]}}.
+
+\bibitem{ALICE:2022wpn}
+{\bfseries ALICE} Collaboration, ``{The ALICE experiment -- A journey through
+  QCD}'', \href{http://arxiv.org/abs/2211.04384}{{\ttfamily arXiv:2211.04384
+  [nucl-ex]}}.
 
 \bibitem{Ollitrault:1992bk}
 J.-Y. Ollitrault, ``{Anisotropy as a signature of transverse collective
   flow}'', \href{http://dx.doi.org/10.1103/PhysRevD.46.229}{{\em Phys. Rev. D}
-  {\bfseries 46} (1992) }.
+  {\bfseries 46} (1992) 229--245}.
 
 \bibitem{ATLAS:2015hzw}
 {\bfseries ATLAS} Collaboration, G.~Aad {\em et~al.}, ``{Observation of
   Long-Range Elliptic Azimuthal Anisotropies in $\sqrt{s}=$13 and 2.76 TeV $pp$
   Collisions with the ATLAS Detector}'',
   \href{http://dx.doi.org/10.1103/PhysRevLett.116.172301}{{\em Phys. Rev.
-  Lett.} {\bfseries 116} no.~17, (2016) },
+  Lett.} {\bfseries 116} (2016) 172301},
   \href{http://arxiv.org/abs/1509.04776}{{\ttfamily arXiv:1509.04776
   [hep-ex]}}.
 
@@ -83,7 +88,7 @@ J.-Y. Ollitrault, ``{Anisotropy as a signature of transverse collective
   long-range near-side two-particle angular correlations in pp collisions at
   $\sqrt s =$13 TeV}'',
   \href{http://dx.doi.org/10.1103/PhysRevLett.116.172302}{{\em Phys. Rev.
-  Lett.} {\bfseries 116} no.~17, (2016) },
+  Lett.} {\bfseries 116} (2016) 172302},
   \href{http://arxiv.org/abs/1510.03068}{{\ttfamily arXiv:1510.03068
   [nucl-ex]}}.
 
@@ -91,15 +96,16 @@ J.-Y. Ollitrault, ``{Anisotropy as a signature of transverse collective
 {\bfseries CMS} Collaboration, V.~Khachatryan {\em et~al.}, ``{Evidence for
   collectivity in pp collisions at the LHC}'',
   \href{http://dx.doi.org/10.1016/j.physletb.2016.12.009}{{\em Phys. Lett. B}
-  {\bfseries 765} (2017) }, \href{http://arxiv.org/abs/1606.06198}{{\ttfamily
-  arXiv:1606.06198 [nucl-ex]}}.
+  {\bfseries 765} (2017) 193--220},
+  \href{http://arxiv.org/abs/1606.06198}{{\ttfamily arXiv:1606.06198
+  [nucl-ex]}}.
 
 \bibitem{Acharya:2019vdf}
 {\bfseries ALICE} Collaboration, S.~Acharya {\em et~al.}, ``{Investigations of
-  Anisotropic Flow Using Multiparticle Azimuthal Correlations in pp, p-Pb,
-  Xe-Xe, and Pb-Pb Collisions at the LHC}'',
+  Anisotropic Flow Using Multiparticle Azimuthal Correlations in pp, p--Pb,
+  Xe-Xe, and Pb--Pb Collisions at the LHC}'',
   \href{http://dx.doi.org/10.1103/PhysRevLett.123.142301}{{\em Phys. Rev.
-  Lett.} {\bfseries 123} no.~14, (2019) },
+  Lett.} {\bfseries 123} (2019) 142301},
   \href{http://arxiv.org/abs/1903.01790}{{\ttfamily arXiv:1903.01790
   [nucl-ex]}}.
 
@@ -109,7 +115,7 @@ J.-Y. Ollitrault, ``{Anisotropy as a signature of transverse collective
   method in $pp$ and $p + Pb$ collisions with the ATLAS detector at the CERN
   Large Hadron Collider}'',
   \href{http://dx.doi.org/10.1103/PhysRevC.97.024904}{{\em Phys. Rev. C}
-  {\bfseries 97} no.~2, (2018) },
+  {\bfseries 97} (2018) 024904},
   \href{http://arxiv.org/abs/1708.03559}{{\ttfamily arXiv:1708.03559
   [hep-ex]}}.
 
@@ -118,24 +124,24 @@ J.-Y. Ollitrault, ``{Anisotropy as a signature of transverse collective
   correlations on the near and away side in $p$-Pb collisions at $\sqrt{s_{\rm
   NN}}=5.02$ TeV}'',
   \href{http://dx.doi.org/10.1016/j.physletb.2013.01.012}{{\em Phys. Lett. B}
-  {\bfseries 719} (2013) }, \href{http://arxiv.org/abs/1212.2001}{{\ttfamily
-  arXiv:1212.2001 [nucl-ex]}}.
+  {\bfseries 719} (2013) 29--41},
+  \href{http://arxiv.org/abs/1212.2001}{{\ttfamily arXiv:1212.2001 [nucl-ex]}}.
 
 \bibitem{ATLAS:2014qaj}
 {\bfseries ATLAS} Collaboration, G.~Aad {\em et~al.}, ``{Measurement of
   long-range pseudorapidity correlations and azimuthal harmonics in
   $\sqrt{s_{\rm NN}}=5.02$ TeV proton-lead collisions with the ATLAS
   detector}'', \href{http://dx.doi.org/10.1103/PhysRevC.90.044906}{{\em Phys.
-  Rev. C} {\bfseries 90} no.~4, (2014) },
+  Rev. C} {\bfseries 90} (2014) 044906},
   \href{http://arxiv.org/abs/1409.1792}{{\ttfamily arXiv:1409.1792 [hep-ex]}}.
 
 \bibitem{ATLAS:2016yzd}
 {\bfseries ATLAS} Collaboration, M.~Aaboud {\em et~al.}, ``{Measurements of
   long-range azimuthal anisotropies and associated Fourier coefficients for
   $pp$ collisions at $\sqrt{s}=5.02$ and $13$ TeV and $p$+Pb collisions at
-  $\sqrt{s_{\mathrm{NN}}}=5.02$ TeV with the ATLAS detector}'',
+  $\sqrt{s_{\rm NN}}=5.02$ TeV with the ATLAS detector}'',
   \href{http://dx.doi.org/10.1103/PhysRevC.96.024908}{{\em Phys. Rev. C}
-  {\bfseries 96} no.~2, (2017) },
+  {\bfseries 96} (2017) 024908},
   \href{http://arxiv.org/abs/1609.06213}{{\ttfamily arXiv:1609.06213
   [nucl-ex]}}.
 
@@ -144,7 +150,7 @@ J.-Y. Ollitrault, ``{Anisotropy as a signature of transverse collective
   dependence of long-range two-particle correlations in $p$Pb collisions at
   $\sqrt {s_{\rm NN}}=$ 5.02 TeV}'',
   \href{http://dx.doi.org/10.1103/PhysRevC.96.014915}{{\em Phys. Rev. C}
-  {\bfseries 96} no.~1, (2017) },
+  {\bfseries 96} (2017) 014915},
   \href{http://arxiv.org/abs/1604.05347}{{\ttfamily arXiv:1604.05347
   [nucl-ex]}}.
 
@@ -152,7 +158,7 @@ J.-Y. Ollitrault, ``{Anisotropy as a signature of transverse collective
 {\bfseries PHENIX} Collaboration, C.~Aidala {\em et~al.}, ``{Creation of
   quark--gluon plasma droplets with three distinct geometries}'',
   \href{http://dx.doi.org/10.1038/s41567-018-0360-0}{{\em Nature Phys.}
-  {\bfseries 15} no.~3, (2019) },
+  {\bfseries 15} (2019) 214--220},
   \href{http://arxiv.org/abs/1805.02973}{{\ttfamily arXiv:1805.02973
   [nucl-ex]}}.
 
@@ -162,67 +168,68 @@ J.-Y. Ollitrault, ``{Anisotropy as a signature of transverse collective
   and 19.6 GeV and $p+\mathrm{Au}$ Collisions at 200 GeV and Implications for
   Collective Behavior}'',
   \href{http://dx.doi.org/10.1103/PhysRevLett.120.062302}{{\em Phys. Rev.
-  Lett.} {\bfseries 120} no.~6, (2018) },
+  Lett.} {\bfseries 120} (2018) 062302},
   \href{http://arxiv.org/abs/1707.06108}{{\ttfamily arXiv:1707.06108
   [nucl-ex]}}.
 
 \bibitem{Gyulassy:1990ye}
 M.~Gyulassy and M.~Plumer, ``{Jet Quenching in Dense Matter}'',
   \href{http://dx.doi.org/10.1016/0370-2693(90)91409-5}{{\em Phys. Lett. B}
-  {\bfseries 243} (1990) }.
+  {\bfseries 243} (1990) 432--438}.
 
 \bibitem{Wang:1991xy}
 X.-N. Wang and M.~Gyulassy, ``{Gluon shadowing and jet quenching in A + A
   collisions at $\sqrt{s_{\rm NN}}=200$ GeV}'',
   \href{http://dx.doi.org/10.1103/PhysRevLett.68.1480}{{\em Phys. Rev. Lett.}
-  {\bfseries 68} (1992) }.
+  {\bfseries 68} (1992) 1480--1483}.
 
 \bibitem{Adam:2014qja}
 {\bfseries ALICE} Collaboration, J.~Adam {\em et~al.}, ``{Centrality dependence
-  of particle production in p-Pb collisions at $\sqrt{s_{\rm NN} }$= 5.02
+  of particle production in p--Pb collisions at $\sqrt{s_{\rm NN} }$= 5.02
   TeV}'', \href{http://dx.doi.org/10.1103/PhysRevC.91.064905}{{\em Phys. Rev.
-  C} {\bfseries 91} no.~6, (2015) },
+  C} {\bfseries 91} (2015) 064905},
   \href{http://arxiv.org/abs/1412.6828}{{\ttfamily arXiv:1412.6828 [nucl-ex]}}.
 
 \bibitem{Khachatryan:2016odn}
 {\bfseries CMS} Collaboration, V.~Khachatryan {\em et~al.}, ``{Charged-particle
-  nuclear modification factors in PbPb and pPb collisions at $
+  nuclear modification factors in Pb--Pb and p--Pb collisions at $
   \sqrt{s_{\mathrm{N}\;\mathrm{N}}}=5.02 $ TeV}'',
   \href{http://dx.doi.org/10.1007/JHEP04(2017)039}{{\em JHEP} {\bfseries 04}
-  (2017) }, \href{http://arxiv.org/abs/1611.01664}{{\ttfamily arXiv:1611.01664
-  [nucl-ex]}}.
+  (2017) 039}, \href{http://arxiv.org/abs/1611.01664}{{\ttfamily
+  arXiv:1611.01664 [nucl-ex]}}.
 
 \bibitem{Adam:2016jfp}
 {\bfseries ALICE} Collaboration, J.~Adam {\em et~al.}, ``{Centrality dependence
-  of charged jet production in p--Pb collisions at $\sqrt{s_\mathrm{NN}}$ =
-  5.02 TeV}'', \href{http://dx.doi.org/10.1140/epjc/s10052-016-4107-8}{{\em
-  Eur. Phys. J. C} {\bfseries 76} no.~5, (2016) },
+  of charged jet production in p--Pb collisions at $\sqrt{s_{\rm{NN}}} = 5.02$
+  TeV}'', \href{http://dx.doi.org/10.1140/epjc/s10052-016-4107-8}{{\em Eur.
+  Phys. J. C} {\bfseries 76} (2016) 271},
   \href{http://arxiv.org/abs/1603.03402}{{\ttfamily arXiv:1603.03402
   [nucl-ex]}}.
 
 \bibitem{Adam:2016dau}
 {\bfseries ALICE} Collaboration, J.~Adam {\em et~al.}, ``{Multiplicity
   dependence of charged pion, kaon, and (anti)proton production at large
-  transverse momentum in p-Pb collisions at $\mathbf{\sqrt{{\textit s}_{\rm
+  transverse momentum in p--Pb collisions at $\mathbf{\sqrt{{\textit s}_{\rm
   NN}}}$ = 5.02 TeV}'',
   \href{http://dx.doi.org/10.1016/j.physletb.2016.07.050}{{\em Phys. Lett. B}
-  {\bfseries 760} (2016) }, \href{http://arxiv.org/abs/1601.03658}{{\ttfamily
-  arXiv:1601.03658 [nucl-ex]}}.
+  {\bfseries 760} (2016) 720--735},
+  \href{http://arxiv.org/abs/1601.03658}{{\ttfamily arXiv:1601.03658
+  [nucl-ex]}}.
 
 \bibitem{Acharya:2017okq}
 {\bfseries ALICE} Collaboration, S.~Acharya {\em et~al.}, ``{Constraints on jet
-  quenching in p-Pb collisions at $\mathbf{\sqrt{s_{\rm NN}}}$ = 5.02 TeV
-  measured by the event-activity dependence of semi-inclusive hadron-jet
-  distributions}'',
+  quenching in p--Pb collisions at $\sqrt{s_{\rm NN}} = 5.02$ TeV measured by
+  the event-activity dependence of semi-inclusive hadron-jet distributions}'',
   \href{http://dx.doi.org/10.1016/j.physletb.2018.05.059}{{\em Phys. Lett. B}
-  {\bfseries 783} (2018) }, \href{http://arxiv.org/abs/1712.05603}{{\ttfamily
-  arXiv:1712.05603 [nucl-ex]}}.
+  {\bfseries 783} (2018) 95--113},
+  \href{http://arxiv.org/abs/1712.05603}{{\ttfamily arXiv:1712.05603
+  [nucl-ex]}}.
 
 \bibitem{Schenke:2012wb}
 B.~Schenke, P.~Tribedy, and R.~Venugopalan, ``{Fluctuating Glasma initial
   conditions and flow in heavy ion collisions}'',
   \href{http://dx.doi.org/10.1103/PhysRevLett.108.252301}{{\em Phys. Rev.
-  Lett.} {\bfseries 108} (2012) },
+  Lett.} {\bfseries 108} (2012) 252301},
   \href{http://arxiv.org/abs/1202.6646}{{\ttfamily arXiv:1202.6646 [nucl-th]}}.
 
 \bibitem{Schenke:2012hg}
@@ -230,8 +237,8 @@ B.~Schenke, P.~Tribedy, and R.~Venugopalan, ``{Event-by-event gluon
   multiplicity, energy density, and eccentricities in ultrarelativistic
   heavy-ion collisions}'',
   \href{http://dx.doi.org/10.1103/PhysRevC.86.034908}{{\em Phys. Rev. C}
-  {\bfseries 86} (2012) }, \href{http://arxiv.org/abs/1206.6805}{{\ttfamily
-  arXiv:1206.6805 [hep-ph]}}.
+  {\bfseries 86} (2012) 034908},
+  \href{http://arxiv.org/abs/1206.6805}{{\ttfamily arXiv:1206.6805 [hep-ph]}}.
 
 \bibitem{Kolb:2003dz}
 P.~F. Kolb and U.~W. Heinz, ``{Hydrodynamic description of ultrarelativistic
@@ -243,49 +250,49 @@ P.~F. Kolb and U.~W. Heinz, ``{Hydrodynamic description of ultrarelativistic
 H.~Song and U.~W. Heinz, ``{Causal viscous hydrodynamics in 2+1 dimensions for
   relativistic heavy-ion collisions}'',
   \href{http://dx.doi.org/10.1103/PhysRevC.77.064901}{{\em Phys. Rev. C}
-  {\bfseries 77} (2008) }, \href{http://arxiv.org/abs/0712.3715}{{\ttfamily
-  arXiv:0712.3715 [nucl-th]}}.
+  {\bfseries 77} (2008) 064901},
+  \href{http://arxiv.org/abs/0712.3715}{{\ttfamily arXiv:0712.3715 [nucl-th]}}.
 
 \bibitem{Dusling:2007gi}
 K.~Dusling and D.~Teaney, ``{Simulating elliptic flow with viscous
   hydrodynamics}'', \href{http://dx.doi.org/10.1103/PhysRevC.77.034905}{{\em
-  Phys. Rev. C} {\bfseries 77} (2008) },
+  Phys. Rev. C} {\bfseries 77} (2008) 034905},
   \href{http://arxiv.org/abs/0710.5932}{{\ttfamily arXiv:0710.5932 [nucl-th]}}.
 
 \bibitem{Holopainen:2010gz}
 H.~Holopainen, H.~Niemi, and K.~J. Eskola, ``{Event-by-event hydrodynamics and
   elliptic flow from fluctuating initial state}'',
   \href{http://dx.doi.org/10.1103/PhysRevC.83.034901}{{\em Phys. Rev. C}
-  {\bfseries 83} (2011) }, \href{http://arxiv.org/abs/1007.0368}{{\ttfamily
-  arXiv:1007.0368 [hep-ph]}}.
+  {\bfseries 83} (2011) 034901},
+  \href{http://arxiv.org/abs/1007.0368}{{\ttfamily arXiv:1007.0368 [hep-ph]}}.
 
 \bibitem{Schenke:2010rr}
 B.~Schenke, S.~Jeon, and C.~Gale, ``{Elliptic and triangular flow in
   event-by-event (3+1)D viscous hydrodynamics}'',
   \href{http://dx.doi.org/10.1103/PhysRevLett.106.042301}{{\em Phys. Rev.
-  Lett.} {\bfseries 106} (2011) },
+  Lett.} {\bfseries 106} (2011) 042301},
   \href{http://arxiv.org/abs/1009.3244}{{\ttfamily arXiv:1009.3244 [hep-ph]}}.
 
 \bibitem{Romatschke:2007mq}
 P.~Romatschke and U.~Romatschke, ``{Viscosity Information from Relativistic
   Nuclear Collisions: How Perfect is the Fluid Observed at RHIC?}'',
   \href{http://dx.doi.org/10.1103/PhysRevLett.99.172301}{{\em Phys. Rev. Lett.}
-  {\bfseries 99} (2007) }, \href{http://arxiv.org/abs/0706.1522}{{\ttfamily
-  arXiv:0706.1522 [nucl-th]}}.
+  {\bfseries 99} (2007) 172301},
+  \href{http://arxiv.org/abs/0706.1522}{{\ttfamily arXiv:0706.1522 [nucl-th]}}.
 
 \bibitem{Niemi:2015qia}
 H.~Niemi, K.~Eskola, and R.~Paatelainen, ``{Event-by-event fluctuations in a
   perturbative QCD + saturation + hydrodynamics model: Determining QCD matter
   shear viscosity in ultrarelativistic heavy-ion collisions}'',
   \href{http://dx.doi.org/10.1103/PhysRevC.93.024907}{{\em Phys. Rev. C}
-  {\bfseries 93} no.~2, (2016) },
+  {\bfseries 93} (2016) 024907},
   \href{http://arxiv.org/abs/1505.02677}{{\ttfamily arXiv:1505.02677
   [hep-ph]}}.
 
 \bibitem{Jeon:2015dfa}
 S.~Jeon and U.~Heinz, ``{Introduction to Hydrodynamics}'',
   \href{http://dx.doi.org/10.1142/S0218301315300106}{{\em Int. J. Mod. Phys. E}
-  {\bfseries 24} no.~10, (2015) },
+  {\bfseries 24} (2015) 1530010},
   \href{http://arxiv.org/abs/1503.03931}{{\ttfamily arXiv:1503.03931
   [hep-ph]}}.
 
@@ -301,7 +308,7 @@ P.~Romatschke and U.~Romatschke,
 \bibitem{Bass:1998ca}
 S.~Bass {\em et~al.}, ``{Microscopic models for ultrarelativistic heavy ion
   collisions}'', \href{http://dx.doi.org/10.1016/S0146-6410(98)00058-1}{{\em
-  Prog. Part. Nucl. Phys.} {\bfseries 41} (1998) },
+  Prog. Part. Nucl. Phys.} {\bfseries 41} (1998) 255--369},
   \href{http://arxiv.org/abs/nucl-th/9803035}{{\ttfamily
   arXiv:nucl-th/9803035}}.
 
@@ -309,57 +316,57 @@ S.~Bass {\em et~al.}, ``{Microscopic models for ultrarelativistic heavy ion
 M.~Bleicher {\em et~al.}, ``{Relativistic hadron hadron collisions in the
   ultrarelativistic quantum molecular dynamics model}'',
   \href{http://dx.doi.org/10.1088/0954-3899/25/9/308}{{\em J. Phys. G}
-  {\bfseries 25} (1999) },
+  {\bfseries 25} (1999) 1859--1896},
   \href{http://arxiv.org/abs/hep-ph/9909407}{{\ttfamily arXiv:hep-ph/9909407}}.
 
 \bibitem{Weil:2016zrk}
 J.~Weil {\em et~al.}, ``{Particle production and equilibrium properties within
   a new hadron transport approach for heavy-ion collisions}'',
   \href{http://dx.doi.org/10.1103/PhysRevC.94.054905}{{\em Phys. Rev. C}
-  {\bfseries 94} no.~5, (2016) },
+  {\bfseries 94} (2016) 054905},
   \href{http://arxiv.org/abs/1606.06642}{{\ttfamily arXiv:1606.06642
   [nucl-th]}}.
 
 \bibitem{ALICE:2016kpq}
 {\bfseries ALICE} Collaboration, J.~Adam {\em et~al.}, ``{Correlated
-  event-by-event fluctuations of flow harmonics in Pb-Pb collisions at
-  $\sqrt{s_{_{\rm NN}}}=2.76$ TeV}'',
+  event-by-event fluctuations of flow harmonics in Pb--Pb collisions at
+  $\sqrt{s_{\rm NN}}=2.76$ TeV}'',
   \href{http://dx.doi.org/10.1103/PhysRevLett.117.182301}{{\em Phys. Rev.
-  Lett.} {\bfseries 117} (2016) },
+  Lett.} {\bfseries 117} (2016) 182301},
 \href{http://arxiv.org/abs/1604.07663}{{\ttfamily arXiv:1604.07663 [nucl-ex]}}.
 %%CITATION = ARXIV:1604.07663;%%.
 
 \bibitem{Acharya:2017gsw}
 {\bfseries ALICE} Collaboration, S.~Acharya {\em et~al.}, ``{Systematic studies
-  of correlations between different order flow harmonics in Pb-Pb collisions at
-  $\sqrt{s_{\rm NN}}$ = 2.76 TeV}'',
+  of correlations between different order flow harmonics in Pb--Pb collisions
+  at $\sqrt{s_{\rm NN}} = 2.76$ TeV}'',
   \href{http://dx.doi.org/10.1103/PhysRevC.97.024906}{{\em Phys. Rev.}
-  {\bfseries C97} no.~2, (2018) },
+  {\bfseries C97} (2018) 024906},
 \href{http://arxiv.org/abs/1709.01127}{{\ttfamily arXiv:1709.01127 [nucl-ex]}}.
 %%CITATION = ARXIV:1709.01127;%%.
 
 \bibitem{Acharya:2017zfg}
 {\bfseries ALICE} Collaboration, S.~Acharya {\em et~al.}, ``{Linear and
-  non-linear flow modes in Pb-Pb collisions at $\sqrt{s_{\rm NN}} =$ 2.76
+  non-linear flow modes in Pb--Pb collisions at $\sqrt{s_{\rm NN}} =$ 2.76
   TeV}'', \href{http://dx.doi.org/10.1016/j.physletb.2017.07.060}{{\em Phys.
-  Lett. B} {\bfseries 773} (2017) },
+  Lett. B} {\bfseries 773} (2017) 68--80},
   \href{http://arxiv.org/abs/1705.04377}{{\ttfamily arXiv:1705.04377
   [nucl-ex]}}.
 
 \bibitem{Acharya:2020taj}
 {\bfseries ALICE} Collaboration, S.~Acharya {\em et~al.}, ``{Higher harmonic
-  non-linear flow modes of charged hadrons in Pb-Pb collisions at
+  non-linear flow modes of charged hadrons in Pb--Pb collisions at
   $\sqrt{s_{\rm{NN}}}$ = 5.02 TeV}'',
   \href{http://dx.doi.org/10.1007/JHEP05(2020)085}{{\em JHEP} {\bfseries 05}
-  (2020) }, \href{http://arxiv.org/abs/2002.00633}{{\ttfamily arXiv:2002.00633
-  [nucl-ex]}}.
+  (2020) 085}, \href{http://arxiv.org/abs/2002.00633}{{\ttfamily
+  arXiv:2002.00633 [nucl-ex]}}.
 
 \bibitem{ALICE:2021klf}
 {\bfseries ALICE} Collaboration, S.~Acharya {\em et~al.}, ``{Multiharmonic
-  Correlations of Different Flow Amplitudes in Pb-Pb Collisions at
+  Correlations of Different Flow Amplitudes in Pb--Pb Collisions at
   $\sqrt{s_{_{\rm NN}}}=2.76$\,\,TeV}'',
   \href{http://dx.doi.org/10.1103/PhysRevLett.127.092302}{{\em Phys. Rev.
-  Lett.} {\bfseries 127} no.~9, (2021) },
+  Lett.} {\bfseries 127} (2021) 092302},
   \href{http://arxiv.org/abs/2101.02579}{{\ttfamily arXiv:2101.02579
   [nucl-ex]}}.
 
@@ -368,22 +375,23 @@ J.~Weil {\em et~al.}, ``{Particle production and equilibrium properties within
   mixed harmonic cumulants in Pb\textendash{}Pb collisions at $\sqrt {s_{\rm
   NN}}$ = 5.02 TeV}'',
   \href{http://dx.doi.org/10.1016/j.physletb.2021.136354}{{\em Phys. Lett. B}
-  {\bfseries 818} (2021) }, \href{http://arxiv.org/abs/2102.12180}{{\ttfamily
-  arXiv:2102.12180 [nucl-ex]}}.
+  {\bfseries 818} (2021) 136354},
+  \href{http://arxiv.org/abs/2102.12180}{{\ttfamily arXiv:2102.12180
+  [nucl-ex]}}.
 
 \bibitem{ALICE:2013mez}
 {\bfseries ALICE} Collaboration, B.~Abelev {\em et~al.}, ``{Centrality
-  dependence of $\pi$, K, p production in Pb-Pb collisions at $\sqrt{s_{\rm
-  NN}}$ = 2.76 TeV}'', \href{http://dx.doi.org/10.1103/PhysRevC.88.044910}{{\em
-  Phys. Rev. C} {\bfseries 88} (2013) },
+  dependence of $\pi$, K, p production in Pb--Pb collisions at $\sqrt{s_{\rm
+  NN}} = 2.76$ TeV}'', \href{http://dx.doi.org/10.1103/PhysRevC.88.044910}{{\em
+  Phys. Rev. C} {\bfseries 88} (2013) 044910},
   \href{http://arxiv.org/abs/1303.0737}{{\ttfamily arXiv:1303.0737 [hep-ex]}}.
 
 \bibitem{ALICE:2011ab}
 {\bfseries ALICE} Collaboration, K.~Aamodt {\em et~al.}, ``{Higher harmonic
-  anisotropic flow measurements of charged particles in Pb-Pb collisions at
-  $\sqrt{s_{\rm NN}}$=2.76 TeV}'',
+  anisotropic flow measurements of charged particles in Pb--Pb collisions at
+  $\sqrt{s_{\rm NN}}=2.76$ TeV}'',
   \href{http://dx.doi.org/10.1103/PhysRevLett.107.032301}{{\em Phys. Rev.
-  Lett.} {\bfseries 107} (2011) },
+  Lett.} {\bfseries 107} (2011) 032301},
   \href{http://arxiv.org/abs/1105.3865}{{\ttfamily arXiv:1105.3865 [nucl-ex]}}.
 
 \bibitem{Bernhard:2016tnd}
@@ -391,7 +399,7 @@ J.~E. Bernhard, J.~S. Moreland, S.~A. Bass, J.~Liu, and U.~Heinz, ``{Applying
   Bayesian parameter estimation to relativistic heavy-ion collisions:
   simultaneous characterization of the initial state and quark-gluon plasma
   medium}'', \href{http://dx.doi.org/10.1103/PhysRevC.94.024907}{{\em Phys.
-  Rev.} {\bfseries C94} no.~2, (2016) },
+  Rev.} {\bfseries C94} (2016) 024907},
 \href{http://arxiv.org/abs/1605.03954}{{\ttfamily arXiv:1605.03954 [nucl-th]}}.
 %%CITATION = ARXIV:1605.03954;%%.
 
@@ -399,30 +407,32 @@ J.~E. Bernhard, J.~S. Moreland, S.~A. Bass, J.~Liu, and U.~Heinz, ``{Applying
 J.~E. Bernhard, J.~S. Moreland, and S.~A. Bass, ``{Bayesian estimation of the
   specific shear and bulk viscosity of quark\textendash{}gluon plasma}'',
   \href{http://dx.doi.org/10.1038/s41567-019-0611-8}{{\em Nature Phys.}
-  {\bfseries 15} no.~11, (2019) }.
+  {\bfseries 15} (2019) 1113--1117}.
 
 \bibitem{Parkkila:2021tqq}
 J.~E. Parkkila, A.~Onnerstad, and D.~J. Kim, ``{Bayesian estimation of the
   specific shear and bulk viscosity of the quark-gluon plasma with additional
   flow harmonic observables}'',
   \href{http://dx.doi.org/10.1103/PhysRevC.104.054904}{{\em Phys. Rev. C}
-  {\bfseries 104} no.~5, (2021) },
+  {\bfseries 104} (2021) 054904},
   \href{http://arxiv.org/abs/2106.05019}{{\ttfamily arXiv:2106.05019
   [hep-ph]}}.
 
 \bibitem{Parkkila:2021yha}
-J.~E. Parkkila, A.~Onnerstad, S.~F. Taghavi, C.~Mordasini, A.~Bilandzic, and
-  D.~J. Kim, ``{New constraints for QCD matter from improved Bayesian parameter
-  estimation in heavy-ion collisions at LHC}'',
+J.~E. Parkkila, A.~Onnerstad, S.~F. Taghavi, C.~Mordasini, A.~Bilandzic,
+  M.~Virta, and D.~J. Kim, ``{New constraints for QCD matter from improved
+  Bayesian parameter estimation in heavy-ion collisions at LHC}'',
+  \href{http://dx.doi.org/10.1016/j.physletb.2022.137485}{{\em Phys. Lett. B}
+  {\bfseries 835} (2022) 137485},
   \href{http://arxiv.org/abs/2111.08145}{{\ttfamily arXiv:2111.08145
   [hep-ph]}}.
 
 \bibitem{Moreland:2018gsh}
 J.~S. Moreland, J.~E. Bernhard, and S.~A. Bass, ``{Bayesian calibration of a
-  hybrid nuclear collision model using p-Pb and Pb-Pb data at energies
+  hybrid nuclear collision model using p--Pb and Pb--Pb data at energies
   available at the CERN Large Hadron Collider}'',
   \href{http://dx.doi.org/10.1103/PhysRevC.101.024911}{{\em Phys. Rev. C}
-  {\bfseries 101} no.~2, (2020) },
+  {\bfseries 101} (2020) 024911},
   \href{http://arxiv.org/abs/1808.02106}{{\ttfamily arXiv:1808.02106
   [nucl-th]}}.
 
@@ -430,7 +440,7 @@ J.~S. Moreland, J.~E. Bernhard, and S.~A. Bass, ``{Bayesian calibration of a
 K.~Dusling and R.~Venugopalan, ``{Evidence for BFKL and saturation dynamics
   from dihadron spectra at the LHC}'',
   \href{http://dx.doi.org/10.1103/PhysRevD.87.051502}{{\em Phys. Rev. D}
-  {\bfseries 87} no.~5, (2013) },
+  {\bfseries 87} (2013) 051502},
   \href{http://arxiv.org/abs/1210.3890}{{\ttfamily arXiv:1210.3890 [hep-ph]}}.
 
 \bibitem{Bzdak:2013zma}
@@ -438,14 +448,14 @@ A.~Bzdak, B.~Schenke, P.~Tribedy, and R.~Venugopalan, ``{Initial state geometry
   and the role of hydrodynamics in proton-proton, proton-nucleus and
   deuteron-nucleus collisions}'',
   \href{http://dx.doi.org/10.1103/PhysRevC.87.064906}{{\em Phys. Rev. C}
-  {\bfseries 87} no.~6, (2013) },
+  {\bfseries 87} (2013) 064906},
   \href{http://arxiv.org/abs/1304.3403}{{\ttfamily arXiv:1304.3403 [nucl-th]}}.
 
 \bibitem{Greif:2017bnr}
 M.~Greif, C.~Greiner, B.~Schenke, S.~Schlichting, and Z.~Xu, ``{Importance of
   initial and final state effects for azimuthal correlations in p+Pb
   collisions}'', \href{http://dx.doi.org/10.1103/PhysRevD.96.091504}{{\em Phys.
-  Rev. D} {\bfseries 96} no.~9, (2017) },
+  Rev. D} {\bfseries 96} (2017) 091504},
   \href{http://arxiv.org/abs/1708.02076}{{\ttfamily arXiv:1708.02076
   [hep-ph]}}.
 
@@ -453,33 +463,35 @@ M.~Greif, C.~Greiner, B.~Schenke, S.~Schlichting, and Z.~Xu, ``{Importance of
 H.~Mantysaari, B.~Schenke, C.~Shen, and P.~Tribedy, ``{Imprints of fluctuating
   proton shapes on flow in proton-lead collisions at the LHC}'',
   \href{http://dx.doi.org/10.1016/j.physletb.2017.07.038}{{\em Phys. Lett. B}
-  {\bfseries 772} (2017) }, \href{http://arxiv.org/abs/1705.03177}{{\ttfamily
-  arXiv:1705.03177 [nucl-th]}}.
+  {\bfseries 772} (2017) 681--686},
+  \href{http://arxiv.org/abs/1705.03177}{{\ttfamily arXiv:1705.03177
+  [nucl-th]}}.
 
 \bibitem{Zhao:2017rgg}
 W.~Zhao, Y.~Zhou, H.~Xu, W.~Deng, and H.~Song, ``{Hydrodynamic collectivity in
   proton\textendash{}proton collisions at 13 TeV}'',
   \href{http://dx.doi.org/10.1016/j.physletb.2018.03.022}{{\em Phys. Lett. B}
-  {\bfseries 780} (2018) }, \href{http://arxiv.org/abs/1801.00271}{{\ttfamily
-  arXiv:1801.00271 [nucl-th]}}.
+  {\bfseries 780} (2018) 495--500},
+  \href{http://arxiv.org/abs/1801.00271}{{\ttfamily arXiv:1801.00271
+  [nucl-th]}}.
 
 \bibitem{Gubser:2010ze}
 S.~S. Gubser, ``{Symmetry constraints on generalizations of Bjorken flow}'',
   \href{http://dx.doi.org/10.1103/PhysRevD.82.085027}{{\em Phys. Rev. D}
-  {\bfseries 82} (2010) }, \href{http://arxiv.org/abs/1006.0006}{{\ttfamily
-  arXiv:1006.0006 [hep-th]}}.
+  {\bfseries 82} (2010) 085027},
+  \href{http://arxiv.org/abs/1006.0006}{{\ttfamily arXiv:1006.0006 [hep-th]}}.
 
 \bibitem{Gubser:2010ui}
 S.~S. Gubser and A.~Yarom, ``{Conformal hydrodynamics in Minkowski and de
   Sitter spacetimes}'',
   \href{http://dx.doi.org/10.1016/j.nuclphysb.2011.01.012}{{\em Nucl. Phys. B}
-  {\bfseries 846} (2011) }, \href{http://arxiv.org/abs/1012.1314}{{\ttfamily
-  arXiv:1012.1314 [hep-th]}}.
+  {\bfseries 846} (2011) 469--511},
+  \href{http://arxiv.org/abs/1012.1314}{{\ttfamily arXiv:1012.1314 [hep-th]}}.
 
 \bibitem{Taghavi:2019mqz}
 S.~F. Taghavi, ``{Smallest QCD droplet and multiparticle correlations in p-p
   collisions}'', \href{http://dx.doi.org/10.1103/PhysRevC.104.054906}{{\em
-  Phys. Rev. C} {\bfseries 104} no.~5, (2021) },
+  Phys. Rev. C} {\bfseries 104} (2021) 054906},
   \href{http://arxiv.org/abs/1907.12140}{{\ttfamily arXiv:1907.12140
   [nucl-th]}}.
 
@@ -487,7 +499,7 @@ S.~F. Taghavi, ``{Smallest QCD droplet and multiparticle correlations in p-p
 Z.-W. Lin, C.~M. Ko, B.-A. Li, B.~Zhang, and S.~Pal, ``{A Multi-phase transport
   model for relativistic heavy ion collisions}'',
   \href{http://dx.doi.org/10.1103/PhysRevC.72.064901}{{\em Phys. Rev. C}
-  {\bfseries 72} (2005) },
+  {\bfseries 72} (2005) 064901},
   \href{http://arxiv.org/abs/nucl-th/0411110}{{\ttfamily
   arXiv:nucl-th/0411110}}.
 
@@ -497,7 +509,7 @@ J.~D. Orjuela~Koop, A.~Adare, D.~McGlinchey, and J.~L. Nagle, ``{Azimuthal
   model in central p + Au , d + Au , and $^{3}$He + Au collisions at
   $\sqrt{s_{\rm NN}}=200$ GeV}'',
   \href{http://dx.doi.org/10.1103/PhysRevC.92.054903}{{\em Phys. Rev. C}
-  {\bfseries 92} no.~5, (2015) },
+  {\bfseries 92} (2015) 054903},
   \href{http://arxiv.org/abs/1501.06880}{{\ttfamily arXiv:1501.06880
   [nucl-ex]}}.
 
@@ -506,7 +518,7 @@ K.~Gallmeister, H.~Niemi, C.~Greiner, and D.~H. Rischke, ``{Exploring the
   applicability of dissipative fluid dynamics to small systems by comparison to
   the Boltzmann equation}'',
   \href{http://dx.doi.org/10.1103/PhysRevC.98.024912}{{\em Phys. Rev. C}
-  {\bfseries 98} no.~2, (2018) },
+  {\bfseries 98} (2018) 024912},
   \href{http://arxiv.org/abs/1804.09512}{{\ttfamily arXiv:1804.09512
   [nucl-th]}}.
 
@@ -514,22 +526,22 @@ K.~Gallmeister, H.~Niemi, C.~Greiner, and D.~H. Rischke, ``{Exploring the
 A.~Kurkela, U.~A. Wiedemann, and B.~Wu, ``{Flow in AA and pA as an interplay of
   fluid-like and non-fluid like excitations}'',
   \href{http://dx.doi.org/10.1140/epjc/s10052-019-7428-6}{{\em Eur. Phys. J. C}
-  {\bfseries 79} no.~11, (2019) },
-  \href{http://arxiv.org/abs/1905.05139}{{\ttfamily arXiv:1905.05139
-  [hep-ph]}}.
+  {\bfseries 79} (2019) 965}, \href{http://arxiv.org/abs/1905.05139}{{\ttfamily
+  arXiv:1905.05139 [hep-ph]}}.
 
 \bibitem{Kurkela:2020wwb}
 A.~Kurkela, S.~F. Taghavi, U.~A. Wiedemann, and B.~Wu, ``{Hydrodynamization in
   systems with detailed transverse profiles}'',
   \href{http://dx.doi.org/10.1016/j.physletb.2020.135901}{{\em Phys. Lett. B}
-  {\bfseries 811} (2020) }, \href{http://arxiv.org/abs/2007.06851}{{\ttfamily
-  arXiv:2007.06851 [hep-ph]}}.
+  {\bfseries 811} (2020) 135901},
+  \href{http://arxiv.org/abs/2007.06851}{{\ttfamily arXiv:2007.06851
+  [hep-ph]}}.
 
 \bibitem{Ambrus:2021fej}
 V.~E. Ambrus, S.~Schlichting, and C.~Werthmann, ``{Development of transverse
   flow at small and large opacities in conformal kinetic theory}'',
   \href{http://dx.doi.org/10.1103/PhysRevD.105.014031}{{\em Phys. Rev. D}
-  {\bfseries 105} no.~1, (2022) },
+  {\bfseries 105} (2022) 014031},
   \href{http://arxiv.org/abs/2109.03290}{{\ttfamily arXiv:2109.03290
   [hep-ph]}}.
 
@@ -537,49 +549,53 @@ V.~E. Ambrus, S.~Schlichting, and C.~Werthmann, ``{Development of transverse
 C.~Bierlich, G.~Gustafson, and L.~L{\"o}nnblad, ``{Collectivity without plasma
   in hadronic collisions}'',
   \href{http://dx.doi.org/10.1016/j.physletb.2018.01.069}{{\em Phys. Lett. B}
-  {\bfseries 779} (2018) }, \href{http://arxiv.org/abs/1710.09725}{{\ttfamily
-  arXiv:1710.09725 [hep-ph]}}.
+  {\bfseries 779} (2018) 58--63},
+  \href{http://arxiv.org/abs/1710.09725}{{\ttfamily arXiv:1710.09725
+  [hep-ph]}}.
 
 \bibitem{Bierlich:2019ixq}
 C.~Bierlich, ``{Soft modifications to jet fragmentation in high energy
   proton--proton collisions}'',
   \href{http://dx.doi.org/10.1016/j.physletb.2019.06.018}{{\em Phys. Lett. B}
-  {\bfseries 795} (2019) }, \href{http://arxiv.org/abs/1901.07447}{{\ttfamily
-  arXiv:1901.07447 [hep-ph]}}.
+  {\bfseries 795} (2019) 194--199},
+  \href{http://arxiv.org/abs/1901.07447}{{\ttfamily arXiv:1901.07447
+  [hep-ph]}}.
 
 \bibitem{ALICE:2021nir}
 {\bfseries ALICE} Collaboration, S.~Acharya {\em et~al.}, ``{Long- and
   short-range correlations and their event-scale dependence in
   high-multiplicity pp collisions at $\boldsymbol{\sqrt{{\textit s}}}=13$
   TeV}'', \href{http://dx.doi.org/10.1007/JHEP05(2021)290}{{\em JHEP}
-  {\bfseries 05} (2021) }, \href{http://arxiv.org/abs/2101.03110}{{\ttfamily
+  {\bfseries 05} (2021) 290}, \href{http://arxiv.org/abs/2101.03110}{{\ttfamily
   arXiv:2101.03110 [nucl-ex]}}.
 
 \bibitem{Schenke:2020mbo}
 B.~Schenke, C.~Shen, and P.~Tribedy, ``{Running the gamut of high energy
   nuclear collisions}'',
   \href{http://dx.doi.org/10.1103/PhysRevC.102.044905}{{\em Phys. Rev. C}
-  {\bfseries 102} no.~4, (2020) },
+  {\bfseries 102} (2020) 044905},
   \href{http://arxiv.org/abs/2005.14682}{{\ttfamily arXiv:2005.14682
   [nucl-th]}}.
 
 \bibitem{Strickland:2018exs}
 M.~Strickland, ``{Small system studies: A theory overview}'',
   \href{http://dx.doi.org/10.1016/j.nuclphysa.2018.09.071}{{\em Nucl. Phys. A}
-  {\bfseries 982} (2019) }, \href{http://arxiv.org/abs/1807.07191}{{\ttfamily
-  arXiv:1807.07191 [nucl-th]}}.
+  {\bfseries 982} (2019) 92--98},
+  \href{http://arxiv.org/abs/1807.07191}{{\ttfamily arXiv:1807.07191
+  [nucl-th]}}.
 
 \bibitem{Loizides:2016tew}
 C.~Loizides, ``{Experimental overview on small collision systems at the LHC}'',
   \href{http://dx.doi.org/10.1016/j.nuclphysa.2016.04.022}{{\em Nucl. Phys. A}
-  {\bfseries 956} (2016) }, \href{http://arxiv.org/abs/1602.09138}{{\ttfamily
-  arXiv:1602.09138 [nucl-ex]}}.
+  {\bfseries 956} (2016) 200--207},
+  \href{http://arxiv.org/abs/1602.09138}{{\ttfamily arXiv:1602.09138
+  [nucl-ex]}}.
 
 \bibitem{Nagle:2018nvi}
 J.~L. Nagle and W.~A. Zajc, ``{Small System Collectivity in Relativistic
   Hadronic and Nuclear Collisions}'',
   \href{http://dx.doi.org/10.1146/annurev-nucl-101916-123209}{{\em Ann. Rev.
-  Nucl. Part. Sci.} {\bfseries 68} (2018) },
+  Nucl. Part. Sci.} {\bfseries 68} (2018) 211--235},
   \href{http://arxiv.org/abs/1801.03477}{{\ttfamily arXiv:1801.03477
   [nucl-ex]}}.
 
@@ -587,66 +603,75 @@ J.~L. Nagle and W.~A. Zajc, ``{Small System Collectivity in Relativistic
 A.~Bilandzic, R.~Snellings, and S.~Voloshin, ``{Flow analysis with cumulants:
   Direct calculations}'',
   \href{http://dx.doi.org/10.1103/PhysRevC.83.044913}{{\em Phys. Rev. C}
-  {\bfseries 83} (2011) }, \href{http://arxiv.org/abs/1010.0233}{{\ttfamily
-  arXiv:1010.0233 [nucl-ex]}}.
+  {\bfseries 83} (2011) 044913},
+  \href{http://arxiv.org/abs/1010.0233}{{\ttfamily arXiv:1010.0233 [nucl-ex]}}.
 
 \bibitem{ATLAS:2018ngv}
 {\bfseries ATLAS} Collaboration, M.~Aaboud {\em et~al.}, ``{Correlated
   long-range mixed-harmonic fluctuations measured in $pp$, $p$+Pb and
   low-multiplicity Pb+Pb collisions with the ATLAS detector}'',
   \href{http://dx.doi.org/10.1016/j.physletb.2018.11.065}{{\em Phys. Lett. B}
-  {\bfseries 789} (2019) }, \href{http://arxiv.org/abs/1807.02012}{{\ttfamily
-  arXiv:1807.02012 [nucl-ex]}}.
+  {\bfseries 789} (2019) 444--471},
+  \href{http://arxiv.org/abs/1807.02012}{{\ttfamily arXiv:1807.02012
+  [nucl-ex]}}.
 
 \bibitem{CMS:2013ycn}
 {\bfseries CMS} Collaboration, S.~Chatrchyan {\em et~al.}, ``{Jet and
   Underlying Event Properties as a Function of Charged-Particle Multiplicity in
   Proton\textendash{}Proton Collisions at $\sqrt{s}$ = 7 TeV}'',
   \href{http://dx.doi.org/10.1140/epjc/s10052-013-2674-5}{{\em Eur. Phys. J. C}
-  {\bfseries 73} no.~12, (2013) },
-  \href{http://arxiv.org/abs/1310.4554}{{\ttfamily arXiv:1310.4554 [hep-ex]}}.
+  {\bfseries 73} (2013) 2674}, \href{http://arxiv.org/abs/1310.4554}{{\ttfamily
+  arXiv:1310.4554 [hep-ex]}}.
 
 \bibitem{ALICE:2013tla}
 {\bfseries ALICE} Collaboration, B.~Abelev {\em et~al.}, ``{Multiplicity
   dependence of two-particle azimuthal correlations in pp collisions at the
   LHC}'', \href{http://dx.doi.org/10.1007/JHEP09(2013)049}{{\em JHEP}
-  {\bfseries 09} (2013) }, \href{http://arxiv.org/abs/1307.1249}{{\ttfamily
+  {\bfseries 09} (2013) 049}, \href{http://arxiv.org/abs/1307.1249}{{\ttfamily
   arXiv:1307.1249 [nucl-ex]}}.
 
 \bibitem{ALICE:2014mas}
 {\bfseries ALICE} Collaboration, B.~B. Abelev {\em et~al.}, ``{Multiplicity
   dependence of jet-like two-particle correlation structures in
-  p\textendash{}Pb collisions at $\sqrt{s_{\rm NN}}$=5.02 TeV}'',
+  p\textendash{}Pb collisions at $\sqrt{s_{\rm NN}}=5.02$ TeV}'',
   \href{http://dx.doi.org/10.1016/j.physletb.2014.11.028}{{\em Phys. Lett. B}
-  {\bfseries 741} (2015) }, \href{http://arxiv.org/abs/1406.5463}{{\ttfamily
-  arXiv:1406.5463 [nucl-ex]}}.
+  {\bfseries 741} (2015) 38--50},
+  \href{http://arxiv.org/abs/1406.5463}{{\ttfamily arXiv:1406.5463 [nucl-ex]}}.
+
+\bibitem{ALICE:2013snk}
+{\bfseries ALICE} Collaboration, B.~B. Abelev {\em et~al.}, ``{Long-range
+  angular correlations of $\rm \pi$, K and p in p--Pb collisions at
+  $\sqrt{s_{\rm NN}} = 5.02$ TeV}'',
+  \href{http://dx.doi.org/10.1016/j.physletb.2013.08.024}{{\em Phys. Lett. B}
+  {\bfseries 726} (2013) 164--177},
+  \href{http://arxiv.org/abs/1307.3237}{{\ttfamily arXiv:1307.3237 [nucl-ex]}}.
 
 \bibitem{Sjostrand:1986ep}
 T.~Sjostrand and M.~van Zijl, ``{Multiple Parton-parton Interactions in an
   Impact Parameter Picture}'',
   \href{http://dx.doi.org/10.1016/0370-2693(87)90722-2}{{\em Phys. Lett. B}
-  {\bfseries 188} (1987) }.
+  {\bfseries 188} (1987) 149--154}.
 
 \bibitem{Frankfurt:2003td}
 L.~Frankfurt, M.~Strikman, and C.~Weiss, ``{Dijet production as a centrality
-  trigger for $p p$ collisions at CERN LHC}'',
+  trigger for pp collisions at CERN LHC}'',
   \href{http://dx.doi.org/10.1103/PhysRevD.69.114010}{{\em Phys. Rev. D}
-  {\bfseries 69} (2004) },
+  {\bfseries 69} (2004) 114010},
   \href{http://arxiv.org/abs/hep-ph/0311231}{{\ttfamily arXiv:hep-ph/0311231}}.
 
 \bibitem{Frankfurt:2010ea}
 L.~Frankfurt, M.~Strikman, and C.~Weiss, ``{Transverse nucleon structure and
   diagnostics of hard parton-parton processes at LHC}'',
   \href{http://dx.doi.org/10.1103/PhysRevD.83.054012}{{\em Phys. Rev. D}
-  {\bfseries 83} (2011) }, \href{http://arxiv.org/abs/1009.2559}{{\ttfamily
-  arXiv:1009.2559 [hep-ph]}}.
+  {\bfseries 83} (2011) 054012},
+  \href{http://arxiv.org/abs/1009.2559}{{\ttfamily arXiv:1009.2559 [hep-ph]}}.
 
 \bibitem{Chatrchyan:2012tt}
 {\bfseries CMS} Collaboration, S.~Chatrchyan {\em et~al.}, ``{Measurement of
   the Underlying Event Activity in $pp$ Collisions at $\sqrt{s} = 0.9$ and 7
   TeV with the Novel Jet-Area/Median Approach}'',
   \href{http://dx.doi.org/10.1007/JHEP08(2012)130}{{\em JHEP} {\bfseries 08}
-  (2012) }, \href{http://arxiv.org/abs/1207.2392}{{\ttfamily arXiv:1207.2392
+  (2012) 130}, \href{http://arxiv.org/abs/1207.2392}{{\ttfamily arXiv:1207.2392
   [hep-ex]}}.
 
 \bibitem{Chatrchyan:2011id}
@@ -654,20 +679,20 @@ L.~Frankfurt, M.~Strikman, and C.~Weiss, ``{Transverse nucleon structure and
   the Underlying Event Activity at the LHC with $\sqrt{s}= 7$ TeV and
   Comparison with $\sqrt{s} = 0.9$ TeV}'',
   \href{http://dx.doi.org/10.1007/JHEP09(2011)109}{{\em JHEP} {\bfseries 09}
-  (2011) }, \href{http://arxiv.org/abs/1107.0330}{{\ttfamily arXiv:1107.0330
+  (2011) 109}, \href{http://arxiv.org/abs/1107.0330}{{\ttfamily arXiv:1107.0330
   [hep-ex]}}.
 
 \bibitem{Aamodt:2008zz}
 {\bfseries ALICE} Collaboration, K.~Aamodt {\em et~al.}, ``{The ALICE
   experiment at the CERN LHC}'',
   \href{http://dx.doi.org/10.1088/1748-0221/3/08/S08002}{{\em JINST} {\bfseries
-  3} (2008) }.
+  3} (2008) S08002}.
 
 \bibitem{Abelev:2014ffa}
 {\bfseries ALICE} Collaboration, B.~B. Abelev {\em et~al.}, ``{Performance of
   the ALICE Experiment at the CERN LHC}'',
   \href{http://dx.doi.org/10.1142/S0217751X14300440}{{\em Int. J. Mod. Phys.}
-  {\bfseries A29} (2014) },
+  {\bfseries A29} (2014) 1430044},
 \href{http://arxiv.org/abs/1402.4476}{{\ttfamily arXiv:1402.4476 [nucl-ex]}}.
 %%CITATION = ARXIV:1402.4476;%%.
 
@@ -675,37 +700,57 @@ L.~Frankfurt, M.~Strikman, and C.~Weiss, ``{Transverse nucleon structure and
 {\bfseries ALICE} Collaboration, E.~Abbas {\em et~al.}, ``{Performance of the
   ALICE VZERO system}'',
   \href{http://dx.doi.org/10.1088/1748-0221/8/10/P10016}{{\em JINST} {\bfseries
-  8} (2013) }, \href{http://arxiv.org/abs/1306.3130}{{\ttfamily arXiv:1306.3130
-  [nucl-ex]}}.
+  8} (2013) P10016}, \href{http://arxiv.org/abs/1306.3130}{{\ttfamily
+  arXiv:1306.3130 [nucl-ex]}}.
 
 \bibitem{aliceITS}
 {\bfseries ALICE} Collaboration, K.~Aamodt {\em et~al.}, ``{Alignment of the
   ALICE Inner Tracking System with cosmic-ray tracks}'',
   \href{http://dx.doi.org/10.1088/1748-0221/5/03/P03003}{{\em JINST} {\bfseries
-  5} (2010) },
+  5} (2010) P03003},
 \href{http://arxiv.org/abs/1001.0502}{{\ttfamily arXiv:1001.0502
   [physics.ins-det]}}.
 %%CITATION = ARXIV:1001.0502;%%.
+
+\bibitem{ALICE:2013nwm}
+{\bfseries ALICE} Collaboration, B.~Abelev {\em et~al.}, ``{Technical Design
+  Report for the Upgrade of the ALICE Inner Tracking System}'',
+  \href{http://dx.doi.org/10.1088/0954-3899/41/8/087002}{{\em J. Phys. G}
+  {\bfseries 41} (2014) 087002}.
 
 \bibitem{aliceTPC}
 J.~Alme {\em et~al.}, ``{The ALICE TPC, a large 3-dimensional tracking device
   with fast readout for ultra-high multiplicity events}'',
   \href{http://dx.doi.org/10.1016/j.nima.2010.04.042}{{\em Nucl. Instrum.
-  Meth.} {\bfseries A622} (2010) },
+  Meth.} {\bfseries A622} (2010) 316--367},
 \href{http://arxiv.org/abs/1001.1950}{{\ttfamily arXiv:1001.1950
   [physics.ins-det]}}.
 %%CITATION = ARXIV:1001.1950;%%.
 
-\bibitem{ALICE-PUBLIC-2016-002}
+\bibitem{ALICE:2016nst}
 {\bfseries ALICE} Collaboration, ``{ALICE luminosity determination for pp
   collisions at $\sqrt{s}=13$ TeV}'',.
-  \url{https://cds.cern.ch/record/2160174}.
 
 \bibitem{Santoro2009:ALICESPD}
 R.~Santoro {\em et~al.}, ``{The ALICE Silicon Pixel Detector: Readiness for the
   first proton beam}'',
   \href{http://dx.doi.org/10.1088/1748-0221/4/03/P03023}{{\em JINST} {\bfseries
-  4} (2009) }.
+  4} (2009) P03023}.
+
+\bibitem{ALICE:2020swj}
+{\bfseries ALICE} Collaboration, S.~Acharya {\em et~al.}, ``{Pseudorapidity
+  distributions of charged particles as a function of mid- and forward rapidity
+  multiplicities in pp collisions at $\sqrt{s}$~=~5.02, 7 and 13 TeV}'',
+  \href{http://dx.doi.org/10.1140/epjc/s10052-021-09349-5}{{\em Eur. Phys. J.
+  C} {\bfseries 81} (2021) 630},
+  \href{http://arxiv.org/abs/2009.09434}{{\ttfamily arXiv:2009.09434
+  [nucl-ex]}}.
+
+\bibitem{Ivanov:2006yra}
+M.~Ivanov, I.~Belikov, P.~Hristov, and K.~Safarik, ``{Track reconstruction in
+  high density environment}'',
+  \href{http://dx.doi.org/10.1016/j.nima.2006.05.029}{{\em Nucl. Instrum. Meth.
+  A} {\bfseries 566} (2006) 70--74}.
 
 \bibitem{ALICE-PUBLIC-2017-005}
 {\bfseries ALICE} Collaboration, ``{The ALICE definition of primary
@@ -714,55 +759,47 @@ R.~Santoro {\em et~al.}, ``{The ALICE Silicon Pixel Detector: Readiness for the
 \bibitem{ALICE:2018vuu}
 {\bfseries ALICE} Collaboration, S.~Acharya {\em et~al.}, ``{Transverse
   momentum spectra and nuclear modification factors of charged particles in pp,
-  p-Pb and Pb-Pb collisions at the LHC}'',
+  p--Pb and Pb--Pb collisions at the LHC}'',
   \href{http://dx.doi.org/10.1007/JHEP11(2018)013}{{\em JHEP} {\bfseries 11}
-  (2018) }, \href{http://arxiv.org/abs/1802.09145}{{\ttfamily arXiv:1802.09145
-  [nucl-ex]}}.
+  (2018) 013}, \href{http://arxiv.org/abs/1802.09145}{{\ttfamily
+  arXiv:1802.09145 [nucl-ex]}}.
 
 \bibitem{Brun:1994aa}
 R.~Brun, F.~Bruyant, F.~Carminati, S.~Giani, M.~Maire, A.~McPherson,
-  G.~Patrick, and L.~Urban,
-``{GEANT Detector Description and Simulation Tool}'',.
-%%CITATION = CERN-W5013;%%.
+  G.~Patrick, and L.~Urban, ``{GEANT Detector Description and Simulation
+  Tool}'',.
 
 \bibitem{ALICE:2018hza}
 {\bfseries ALICE} Collaboration, S.~Acharya {\em et~al.}, ``{Transverse
   momentum spectra and nuclear modification factors of charged particles in
-  Xe-Xe collisions at $\sqrt{s_{\rm NN}}$ = 5.44 TeV}'',
+  Xe-Xe collisions at $\sqrt{s_{\rm NN}} = 5.44$ TeV}'',
   \href{http://dx.doi.org/10.1016/j.physletb.2018.10.052}{{\em Phys. Lett. B}
-  {\bfseries 788} (2019) }, \href{http://arxiv.org/abs/1805.04399}{{\ttfamily
-  arXiv:1805.04399 [nucl-ex]}}.
+  {\bfseries 788} (2019) 166--179},
+  \href{http://arxiv.org/abs/1805.04399}{{\ttfamily arXiv:1805.04399
+  [nucl-ex]}}.
 
 \bibitem{Kopylov:1974th}
 G.~I. Kopylov, ``{Like particle correlations as a tool to study the multiple
   production mechanism}'',
   \href{http://dx.doi.org/10.1016/0370-2693(74)90263-9}{{\em Phys. Lett. B}
-  {\bfseries 50} (1974) }.
+  {\bfseries 50} (1974) 472--474}.
 
 \bibitem{Adam:2016tsv}
 {\bfseries ALICE} Collaboration, J.~Adam {\em et~al.}, ``{Anomalous evolution
-  of the near-side jet peak shape in Pb-Pb collisions at $\sqrt{s_{\rm NN}}$ =
-  2.76 TeV}'', \href{http://dx.doi.org/10.1103/PhysRevLett.119.102301}{{\em
-  Phys. Rev. Lett.} {\bfseries 119} no.~10, (2017) },
+  of the near-side jet peak shape in Pb--Pb collisions at $\sqrt{s_{\rm NN}} =
+  2.76$ TeV}'', \href{http://dx.doi.org/10.1103/PhysRevLett.119.102301}{{\em
+  Phys. Rev. Lett.} {\bfseries 119} (2017) 102301},
   \href{http://arxiv.org/abs/1609.06643}{{\ttfamily arXiv:1609.06643
   [nucl-ex]}}.
 
 \bibitem{LAKOMOV2017329}
 I.~Lakomov, ``Multiplicity dependence of jet-like two-particle correlations in
-  pp collisions at s=7 and 13 tev with alice'',
+  pp collisions at $\sqrt{s}=$7 and 13 tev with alice'',
   \href{http://dx.doi.org/https://doi.org/10.1016/j.nuclphysa.2017.05.025}{{\em
-  Nuclear Physics A} {\bfseries 967} (2017) }.
+  Nuclear Physics A} {\bfseries 967} (2017) 329--332}.
   \url{https://www.sciencedirect.com/science/article/pii/S0375947417301422}.
   The 26th International Conference on Ultra-relativistic Nucleus-Nucleus
   Collisions: Quark Matter 2017.
-
-\bibitem{ALICE:2013snk}
-{\bfseries ALICE} Collaboration, B.~B. Abelev {\em et~al.}, ``{Long-range
-  angular correlations of $\rm \pi$, K and p in p-Pb collisions at
-  $\sqrt{s_{\rm NN}}$ = 5.02 TeV}'',
-  \href{http://dx.doi.org/10.1016/j.physletb.2013.08.024}{{\em Phys. Lett. B}
-  {\bfseries 726} (2013) }, \href{http://arxiv.org/abs/1307.3237}{{\ttfamily
-  arXiv:1307.3237 [nucl-ex]}}.
 
 \bibitem{PHENIX:2018hho}
 {\bfseries PHENIX} Collaboration, A.~Adare {\em et~al.}, ``{Pseudorapidity
@@ -770,17 +807,18 @@ I.~Lakomov, ``Multiplicity dependence of jet-like two-particle correlations in
   Collisions of $p+$Al, $p+$Au, $d+$Au, and $^{3}$He$+$Au at $\sqrt{s_{_{\rm
   NN}}}=200$ GeV}'',
   \href{http://dx.doi.org/10.1103/PhysRevLett.121.222301}{{\em Phys. Rev.
-  Lett.} {\bfseries 121} no.~22, (2018) },
+  Lett.} {\bfseries 121} (2018) 222301},
   \href{http://arxiv.org/abs/1807.11928}{{\ttfamily arXiv:1807.11928
   [nucl-ex]}}.
 
 \bibitem{ALICE:2016tlx}
 {\bfseries ALICE} Collaboration, J.~Adam {\em et~al.}, ``{Pseudorapidity
-  dependence of the anisotropic flow of charged particles in Pb-Pb collisions
+  dependence of the anisotropic flow of charged particles in Pb--Pb collisions
   at $\sqrt{s_{\rm NN}}=2.76$ TeV}'',
   \href{http://dx.doi.org/10.1016/j.physletb.2016.07.017}{{\em Phys. Lett. B}
-  {\bfseries 762} (2016) }, \href{http://arxiv.org/abs/1605.02035}{{\ttfamily
-  arXiv:1605.02035 [nucl-ex]}}.
+  {\bfseries 762} (2016) 376--388},
+  \href{http://arxiv.org/abs/1605.02035}{{\ttfamily arXiv:1605.02035
+  [nucl-ex]}}.
 
 \bibitem{Ajitanand:2005jj}
 N.~N. Ajitanand, J.~M. Alexander, P.~Chung, W.~G. Holzmann, M.~Issah, R.~A.
@@ -788,100 +826,109 @@ N.~N. Ajitanand, J.~M. Alexander, P.~Chung, W.~G. Holzmann, M.~Issah, R.~A.
   harmonic and jet contributions to particle-pair correlations at
   ultra-relativistic energies}'',
   \href{http://dx.doi.org/10.1103/PhysRevC.72.011902}{{\em Phys. Rev.}
-  {\bfseries C72} (2005) },
+  {\bfseries C72} (2005) 011902},
 \href{http://arxiv.org/abs/nucl-ex/0501025}{{\ttfamily arXiv:nucl-ex/0501025
   [nucl-ex]}}.
 %%CITATION = NUCL-EX/0501025;%%.
 
+\bibitem{Skands:2014pea}
+P.~Skands, S.~Carrazza, and J.~Rojo, ``{Tuning PYTHIA 8.1: the Monash 2013
+  Tune}'', \href{http://dx.doi.org/10.1140/epjc/s10052-014-3024-y}{{\em Eur.
+  Phys. J. C} {\bfseries 74} (2014) 3024},
+  \href{http://arxiv.org/abs/1404.5630}{{\ttfamily arXiv:1404.5630 [hep-ph]}}.
+
 \bibitem{PHENIX:2006gto}
 {\bfseries PHENIX} Collaboration, S.~S. Adler {\em et~al.}, ``{Jet properties
-  from dihadron correlations in $p^+ p$ collisions at $\sqrt{s}$ = 200-GeV}'',
+  from dihadron correlations in p+p collisions at $\sqrt{s}$ = 200~GeV}'',
   \href{http://dx.doi.org/10.1103/PhysRevD.74.072002}{{\em Phys. Rev. D}
-  {\bfseries 74} (2006) },
+  {\bfseries 74} (2006) 072002},
   \href{http://arxiv.org/abs/hep-ex/0605039}{{\ttfamily arXiv:hep-ex/0605039}}.
 
 \bibitem{Cacciari:2008gp}
 M.~Cacciari, G.~P. Salam, and G.~Soyez, ``{The anti-$k_t$ jet clustering
   algorithm}'', \href{http://dx.doi.org/10.1088/1126-6708/2008/04/063}{{\em
-  JHEP} {\bfseries 04} (2008) },
+  JHEP} {\bfseries 04} (2008) 063},
   \href{http://arxiv.org/abs/0802.1189}{{\ttfamily arXiv:0802.1189 [hep-ph]}}.
 
 \bibitem{Cacciari:2011ma}
 M.~Cacciari, G.~P. Salam, and G.~Soyez, ``{FastJet User Manual}'',
   \href{http://dx.doi.org/10.1140/epjc/s10052-012-1896-2}{{\em Eur. Phys. J. C}
-  {\bfseries 72} (2012) }, \href{http://arxiv.org/abs/1111.6097}{{\ttfamily
+  {\bfseries 72} (2012) 1896}, \href{http://arxiv.org/abs/1111.6097}{{\ttfamily
   arXiv:1111.6097 [hep-ph]}}.
 
 \bibitem{Acharya:2018eat}
 {\bfseries ALICE} Collaboration, S.~Acharya {\em et~al.}, ``{Charged jet cross
   section and fragmentation in proton-proton collisions at $\sqrt{s}$ = 7
   TeV}'', \href{http://dx.doi.org/10.1103/PhysRevD.99.012016}{{\em Phys. Rev.
-  D} {\bfseries 99} no.~1, (2019) },
+  D} {\bfseries 99} (2019) 012016},
   \href{http://arxiv.org/abs/1809.03232}{{\ttfamily arXiv:1809.03232
   [nucl-ex]}}.
 
 \bibitem{ALICE:2021ptz}
 {\bfseries ALICE} Collaboration, S.~Acharya {\em et~al.}, ``{Production of
-  K$^{*}(892)^{0}$ and $\phi(1020)$ in pp and Pb-Pb collisions at $\sqrt{s_{\rm
-  NN}} = 5.02$ TeV}'',
+  K$^{*}(892)^{0}$ and $\phi(1020)$ in pp and Pb--Pb collisions at
+  $\sqrt{s_{\rm NN}} = 5.02$ TeV}'',
   \href{http://dx.doi.org/10.1103/PhysRevC.106.034907}{{\em Phys. Rev. C}
-  {\bfseries 106} no.~3, (2022) },
+  {\bfseries 106} (2022) 034907},
   \href{http://arxiv.org/abs/2106.13113}{{\ttfamily arXiv:2106.13113
   [nucl-ex]}}.
 
 \bibitem{ALICE:2018yph}
 {\bfseries ALICE} Collaboration, S.~Acharya {\em et~al.}, ``{Anisotropic flow
-  of identified particles in Pb-Pb collisions at $\sqrt{s_{\rm NN}}$=5.02
+  of identified particles in Pb--Pb collisions at $\sqrt{s_{\rm NN}}=5.02$
   TeV}'', \href{http://dx.doi.org/10.1007/JHEP09(2018)006}{{\em JHEP}
-  {\bfseries 09} (2018) }, \href{http://arxiv.org/abs/1805.04390}{{\ttfamily
+  {\bfseries 09} (2018) 006}, \href{http://arxiv.org/abs/1805.04390}{{\ttfamily
   arXiv:1805.04390 [nucl-ex]}}.
 
-\bibitem{PhysRevD.65.092002}
-{CDF Collaboration}, ``Measurement of the jet fragmentation function and
-  transverse profile in proton-antiproton collisions at $\sqrt{s}$=1.8 tev'',
-  \href{http://dx.doi.org/10.1103/PhysRevD.65.092002}{{\em Physical Review D}
-  {\bfseries 65} no.~9, (2002) }.
+\bibitem{CDF:2001onq}
+{\bfseries CDF} Collaboration, T.~Affolder {\em et~al.}, ``{Charged Jet
+  Evolution and the Underlying Event in $p\bar{p}$ Collisions at 1.8 TeV}'',
+  \href{http://dx.doi.org/10.1103/PhysRevD.65.092002}{{\em Phys. Rev. D}
+  {\bfseries 65} (2002) 092002}.
 
-\bibitem{Aad:2011fc}
-{ATLAS Collaboration}, ``{Measurement of the inclusive jet cross-section in
-  proton-proton collisions at $\sqrt{s}$=7 TeV using 4.5 fb-1 of data with the
-  ATLAS detector}'', \href{http://dx.doi.org/10.1007/JHEP09(2011)035}{{\em
-  Journal of High Energy Physics} {\bfseries 2011} no.~7, (2011) }.
+\bibitem{ATLAS:2014riz}
+{\bfseries ATLAS} Collaboration, G.~Aad {\em et~al.}, ``{Measurement of the
+  inclusive jet cross-section in proton-proton collisions at $ \sqrt{s}=7 $ TeV
+  using 4.5 $\mathrm{fb}^{-1}$ of data with the ATLAS detector}'',
+  \href{http://dx.doi.org/10.1007/JHEP02(2015)153}{{\em JHEP} {\bfseries 02}
+  (2015) 153}, \href{http://arxiv.org/abs/1410.8857}{{\ttfamily arXiv:1410.8857
+  [hep-ex]}}. [Erratum: JHEP 09, 141 (2015)].
 
-\bibitem{Khachatryan:2014waa}
-{CMS Collaboration}, ``{Measurement of the inclusive jet cross section in pp
-  collisions at $\sqrt{s}$=2.76 TeV}'',
-  \href{http://dx.doi.org/10.1007/JHEP11(2014)204}{{\em Journal of High Energy
-  Physics} {\bfseries 2014} no.~11, (2014) }.
+\bibitem{CMS:2015jdl}
+{\bfseries CMS} Collaboration, V.~Khachatryan {\em et~al.}, ``{Measurement of
+  the inclusive jet cross section in pp collisions at $\sqrt{s} = 2.76\,\text
+  {TeV}$}'', \href{http://dx.doi.org/10.1140/epjc/s10052-016-4083-z}{{\em Eur.
+  Phys. J. C} {\bfseries 76} (2016) 265},
+  \href{http://arxiv.org/abs/1512.06212}{{\ttfamily arXiv:1512.06212
+  [hep-ex]}}.
 
 \bibitem{Aaboud:2019mcw}
 {\bfseries ATLAS} Collaboration, M.~Aaboud {\em et~al.}, ``{Measurement of
   long-range two-particle azimuthal correlations in $Z$-boson tagged $pp$
   collisions at $\sqrt{s}{=}8$ and 13 TeV}'',
   \href{http://dx.doi.org/10.1140/epjc/s10052-020-7606-6}{{\em Eur. Phys. J. C}
-  {\bfseries 80} no.~1, (2020) },
-  \href{http://arxiv.org/abs/1906.08290}{{\ttfamily arXiv:1906.08290
-  [nucl-ex]}}.
+  {\bfseries 80} (2020) 64}, \href{http://arxiv.org/abs/1906.08290}{{\ttfamily
+  arXiv:1906.08290 [nucl-ex]}}.
 
 \bibitem{Moreland:2014oya}
 J.~S. Moreland, J.~E. Bernhard, and S.~A. Bass, ``{Alternative ansatz to
   wounded nucleon and binary collision scaling in high-energy nuclear
   collisions}'', \href{http://dx.doi.org/10.1103/PhysRevC.92.011901}{{\em Phys.
-  Rev. C} {\bfseries 92} no.~1, (2015) },
+  Rev. C} {\bfseries 92} (2015) 011901},
   \href{http://arxiv.org/abs/1412.4708}{{\ttfamily arXiv:1412.4708 [nucl-th]}}.
 
 \bibitem{Shen:2014vra}
 C.~Shen, Z.~Qiu, H.~Song, J.~Bernhard, S.~Bass, and U.~Heinz, ``{The
   iEBE-VISHNU code package for relativistic heavy-ion collisions}'',
   \href{http://dx.doi.org/10.1016/j.cpc.2015.08.039}{{\em Comput. Phys.
-  Commun.} {\bfseries 199} (2016) },
+  Commun.} {\bfseries 199} (2016) 61--85},
   \href{http://arxiv.org/abs/1409.8164}{{\ttfamily arXiv:1409.8164 [nucl-th]}}.
 
 \bibitem{Rose:2020lfc}
 J.~B. Rose, J.~M. Torres-Rincon, and H.~Elfner, ``{Inclusive and effective bulk
   viscosities in the hadron gas}'',
   \href{http://dx.doi.org/10.1088/1361-6471/abbc5c}{{\em J. Phys. G} {\bfseries
-  48} no.~1, (2020) }, \href{http://arxiv.org/abs/2005.03647}{{\ttfamily
+  48} (2020) 015005}, \href{http://arxiv.org/abs/2005.03647}{{\ttfamily
   arXiv:2005.03647 [hep-ph]}}.
 
 \bibitem{Weller:2017tsr}
@@ -889,19 +936,20 @@ R.~D. Weller and P.~Romatschke, ``{One fluid to rule them all: viscous
   hydrodynamic description of event-by-event central p+p, p+Pb and Pb+Pb
   collisions at $\sqrt{s}=5.02$ TeV}'',
   \href{http://dx.doi.org/10.1016/j.physletb.2017.09.077}{{\em Phys. Lett. B}
-  {\bfseries 774} (2017) }, \href{http://arxiv.org/abs/1701.07145}{{\ttfamily
-  arXiv:1701.07145 [nucl-th]}}.
+  {\bfseries 774} (2017) 351--356},
+  \href{http://arxiv.org/abs/1701.07145}{{\ttfamily arXiv:1701.07145
+  [nucl-th]}}.
 
 \bibitem{Pierog:2013ria}
 T.~Pierog, I.~Karpenko, J.~Katzy, E.~Yatsenko, and K.~Werner, ``{EPOS LHC: Test
   of collective hadronization with data measured at the CERN Large Hadron
   Collider}'', \href{http://dx.doi.org/10.1103/PhysRevC.92.034906}{{\em Phys.
-  Rev. C} {\bfseries 92} no.~3, (2015) },
+  Rev. C} {\bfseries 92} (2015) 034906},
   \href{http://arxiv.org/abs/1306.0121}{{\ttfamily arXiv:1306.0121 [hep-ph]}}.
 
 \bibitem{Ji:2023eqn}
 S.~Ji, M.~Virta, T.~Kallio, S.~H. Lim, and D.~J. Kim, ``{Toward an unbiased
-  flow measurements in LHC $pp$ collisions}'',
+  flow measurements in LHC pp collisions}'',
   \href{http://arxiv.org/abs/2303.05806}{{\ttfamily arXiv:2303.05806
   [hep-ph]}}.
 

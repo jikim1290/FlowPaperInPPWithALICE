@@ -3,47 +3,48 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: paper.aux
 The style file: utphys.bst
 Database file #1: paper.bib
-Warning--empty author in ALICE-PUBLIC-2016-002
+Warning--empty author in ALICE:2022wpn
+Warning--empty author in ALICE:2016nst
 Warning--empty author in ALICE-PUBLIC-2017-005
-You've used 118 entries,
-            2395 wiz_defined-function locations,
-            1503 strings with 29122 characters,
-and the built_in function-call counts, 24713 in all, are:
-= -- 2008
-> -- 1090
+You've used 123 entries,
+            2468 wiz_defined-function locations,
+            1548 strings with 30039 characters,
+and the built_in function-call counts, 44346 in all, are:
+= -- 4826
+> -- 1331
 < -- 0
-+ -- 407
-- -- 289
-* -- 3802
-:= -- 3298
-add.period$ -- 139
-call.type$ -- 118
-change.case$ -- 119
++ -- 611
+- -- 304
+* -- 4195
+:= -- 4621
+add.period$ -- 143
+call.type$ -- 123
+change.case$ -- 124
 chr.to.int$ -- 0
-cite$ -- 120
-duplicate$ -- 1181
-empty$ -- 2762
-format.name$ -- 289
-if$ -- 5919
+cite$ -- 126
+duplicate$ -- 2702
+empty$ -- 3844
+format.name$ -- 416
+if$ -- 11452
 int.to.chr$ -- 0
-int.to.str$ -- 118
-missing$ -- 464
-newline$ -- 387
-num.names$ -- 116
-pop$ -- 434
+int.to.str$ -- 123
+missing$ -- 484
+newline$ -- 400
+num.names$ -- 120
+pop$ -- 762
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 189
+skip$ -- 2337
 stack$ -- 0
-substring$ -- 0
-swap$ -- 224
-text.length$ -- 0
+substring$ -- 2101
+swap$ -- 1594
+text.length$ -- 122
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 2
-while$ -- 116
-width$ -- 121
-write$ -- 1000
-(There were 2 warnings)
+warning$ -- 3
+while$ -- 311
+width$ -- 126
+write$ -- 1044
+(There were 3 warnings)
