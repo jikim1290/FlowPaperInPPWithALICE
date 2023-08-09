@@ -112,13 +112,15 @@ $F$& 1.135$\pm$0.026 & 1.140$\pm$0.026 & 1.152$\pm$0.021 & 1.145$\pm$0.017 &1.09
 \label{tab:FpppPb}
 \end{table}
 
-In the following, the near and away-side jet fragmentation yields are calculated to verify the template fit method by comparing the jet fragmentation yields to the PYTHIA model. Equivalently to Eq.~\eqref{eq:pertrigger}, the near-side $\Delta\eta$ correlations are obtained with
+In the following, the near and away-side jet fragmentation yields are calculated to verify the template fit method by comparing the jet fragmentation yields to the PYTHIA model. The away-side jet fragmentation yields in the PYTHIA model are obtained using the standard $\Delta\varphi$ analysis, while the away-side jet fragmentation yields are extracted using the template fit method due to the flow modulations in the data. The comparison between the data and the PYTHIA model provides a validation of the template fit method. 
+
+Equivalently to Eq.~\eqref{eq:pertrigger}, the near-side $\Delta\eta$ correlations are obtained with
 \begin{equation}
 Y(\Delta\eta)=\frac{1}{N_{\rm{trig}}} \frac{ \rm{d}\it{}N_{\rm{pair}} }{ \rm{d}\Delta\eta }=\int_{|\Delta\varphi|<1.3}\left[ \frac{1}{\it{N}_{\rm{trig}}} \frac{ \rm{d}\it{}^{2} N_{\rm{pair}} }{ \rm{d}\Delta\eta d\Delta\varphi} \right]\dfrac{1}{\delta_{\Delta\varphi}} {\rm{d}}\Delta \varphi - D_\mathrm{ZYAM},
 \label{eq:deltaetacorr}
 \end{equation}
 where $\delta_{\Delta\varphi}=2.6$. Additionally, $D_\mathrm{ZYAM}$ defines the baseline of the ZYAM background subtraction~\cite{Ajitanand:2005jj}, obtained by minimizing the first term on the right-hand side within $|\Delta\eta|<1.6$. Due to the shape of the correlation function the minimum is found at $|\Delta\eta|=1.3$.
-The near-side jet-like yields were extracted from $Y(\Delta\eta)$, defined in $|\Delta\eta|<$~1.3 as
+The near-side jet-like yields were extracted by integrating the $Y(\Delta\eta)$, which can be expressed as
 \begin{eqnarray}
 Y^\mathrm{near}_{\rm{frag}} = \int_{|\Delta \eta|<1.3} \left( \frac{1}{\it{N}_{\rm{trig}}} \frac{ \rm{d}\it{}N_{\rm{pair}} }{ \rm{d}\Delta\eta } \right) \rm{d} \Delta\eta.
 \label{eq:Ynear}
