@@ -631,7 +631,7 @@ A.~Bilandzic, R.~Snellings, and S.~Voloshin, ``{Flow analysis with cumulants:
   arXiv:1307.1249 [nucl-ex]}}.
 
 \bibitem{ALICE:2014mas}
-{\bfseries ALICE} Collaboration, B.~B. Abelev {\em et~al.}, ``{Multiplicity
+{\bfseries ALICE} Collaboration, B.~Abelev {\em et~al.}, ``{Multiplicity
   dependence of jet-like two-particle correlation structures in
   p\textendash{}Pb collisions at $\sqrt{s_{\rm NN}}=5.02$ TeV}'',
   \href{http://dx.doi.org/10.1016/j.physletb.2014.11.028}{{\em Phys. Lett. B}
@@ -639,11 +639,10 @@ A.~Bilandzic, R.~Snellings, and S.~Voloshin, ``{Flow analysis with cumulants:
   \href{http://arxiv.org/abs/1406.5463}{{\ttfamily arXiv:1406.5463 [nucl-ex]}}.
 
 \bibitem{ALICE:2013snk}
-{\bfseries ALICE} Collaboration, B.~B. Abelev {\em et~al.}, ``{Long-range
-  angular correlations of $\rm \pi$, K and p in p--Pb collisions at
-  $\sqrt{s_{\rm NN}} = 5.02$ TeV}'',
-  \href{http://dx.doi.org/10.1016/j.physletb.2013.08.024}{{\em Phys. Lett. B}
-  {\bfseries 726} (2013) 164--177},
+{\bfseries ALICE} Collaboration, B.~Abelev {\em et~al.}, ``{Long-range angular
+  correlations of $\rm \pi$, K and p in p--Pb collisions at $\sqrt{s_{\rm NN}}
+  = 5.02$ TeV}'', \href{http://dx.doi.org/10.1016/j.physletb.2013.08.024}{{\em
+  Phys. Lett. B} {\bfseries 726} (2013) 164--177},
   \href{http://arxiv.org/abs/1307.3237}{{\ttfamily arXiv:1307.3237 [nucl-ex]}}.
 
 \bibitem{Sjostrand:1986ep}
@@ -682,6 +681,13 @@ L.~Frankfurt, M.~Strikman, and C.~Weiss, ``{Transverse nucleon structure and
   (2011) 109}, \href{http://arxiv.org/abs/1107.0330}{{\ttfamily arXiv:1107.0330
   [hep-ex]}}.
 
+\bibitem{ALICE:2022fnb}
+{\bfseries ALICE} Collaboration, S.~Acharya {\em et~al.}, ``{Underlying-event
+  properties in pp and p\textendash{}Pb collisions at $ \sqrt{s_{\textrm{NN}}}
+  $ = 5.02 TeV}'', \href{http://dx.doi.org/10.1007/JHEP06(2023)023}{{\em JHEP}
+  {\bfseries 06} (2023) 023}, \href{http://arxiv.org/abs/2204.10389}{{\ttfamily
+  arXiv:2204.10389 [nucl-ex]}}.
+
 \bibitem{Aamodt:2008zz}
 {\bfseries ALICE} Collaboration, K.~Aamodt {\em et~al.}, ``{The ALICE
   experiment at the CERN LHC}'',
@@ -689,8 +695,8 @@ L.~Frankfurt, M.~Strikman, and C.~Weiss, ``{Transverse nucleon structure and
   3} (2008) S08002}.
 
 \bibitem{Abelev:2014ffa}
-{\bfseries ALICE} Collaboration, B.~B. Abelev {\em et~al.}, ``{Performance of
-  the ALICE Experiment at the CERN LHC}'',
+{\bfseries ALICE} Collaboration, B.~Abelev {\em et~al.}, ``{Performance of the
+  ALICE Experiment at the CERN LHC}'',
   \href{http://dx.doi.org/10.1142/S0217751X14300440}{{\em Int. J. Mod. Phys.}
   {\bfseries A29} (2014) 1430044},
 \href{http://arxiv.org/abs/1402.4476}{{\ttfamily arXiv:1402.4476 [nucl-ex]}}.
@@ -727,15 +733,15 @@ J.~Alme {\em et~al.}, ``{The ALICE TPC, a large 3-dimensional tracking device
   [physics.ins-det]}}.
 %%CITATION = ARXIV:1001.1950;%%.
 
-\bibitem{ALICE:2016nst}
-{\bfseries ALICE} Collaboration, ``{ALICE luminosity determination for pp
-  collisions at $\sqrt{s}=13$ TeV}'',.
-
 \bibitem{Santoro2009:ALICESPD}
 R.~Santoro {\em et~al.}, ``{The ALICE Silicon Pixel Detector: Readiness for the
   first proton beam}'',
   \href{http://dx.doi.org/10.1088/1748-0221/4/03/P03023}{{\em JINST} {\bfseries
   4} (2009) P03023}.
+
+\bibitem{ALICE:2016nst}
+{\bfseries ALICE} Collaboration, ``{ALICE luminosity determination for pp
+  collisions at $\sqrt{s}=13$ TeV}'',.
 
 \bibitem{ALICE:2020swj}
 {\bfseries ALICE} Collaboration, S.~Acharya {\em et~al.}, ``{Pseudorapidity
@@ -744,6 +750,16 @@ R.~Santoro {\em et~al.}, ``{The ALICE Silicon Pixel Detector: Readiness for the
   \href{http://dx.doi.org/10.1140/epjc/s10052-021-09349-5}{{\em Eur. Phys. J.
   C} {\bfseries 81} (2021) 630},
   \href{http://arxiv.org/abs/2009.09434}{{\ttfamily arXiv:2009.09434
+  [nucl-ex]}}.
+
+\bibitem{ALICE:2017svf}
+{\bfseries ALICE} Collaboration, S.~Acharya {\em et~al.}, ``{Constraints on jet
+  quenching in p-Pb collisions at $\mathbf{\sqrt{s_{NN}}}$ = 5.02 TeV measured
+  by the event-activity dependence of semi-inclusive hadron-jet
+  distributions}'',
+  \href{http://dx.doi.org/10.1016/j.physletb.2018.05.059}{{\em Phys. Lett. B}
+  {\bfseries 783} (2018) 95--113},
+  \href{http://arxiv.org/abs/1712.05603}{{\ttfamily arXiv:1712.05603
   [nucl-ex]}}.
 
 \bibitem{Ivanov:2006yra}
@@ -792,14 +808,16 @@ G.~I. Kopylov, ``{Like particle correlations as a tool to study the multiple
   \href{http://arxiv.org/abs/1609.06643}{{\ttfamily arXiv:1609.06643
   [nucl-ex]}}.
 
-\bibitem{LAKOMOV2017329}
-I.~Lakomov, ``Multiplicity dependence of jet-like two-particle correlations in
-  pp collisions at $\sqrt{s}=$7 and 13 tev with alice'',
-  \href{http://dx.doi.org/https://doi.org/10.1016/j.nuclphysa.2017.05.025}{{\em
-  Nuclear Physics A} {\bfseries 967} (2017) 329--332}.
-  \url{https://www.sciencedirect.com/science/article/pii/S0375947417301422}.
-  The 26th International Conference on Ultra-relativistic Nucleus-Nucleus
-  Collisions: Quark Matter 2017.
+\bibitem{Ajitanand:2005jj}
+N.~N. Ajitanand, J.~M. Alexander, P.~Chung, W.~G. Holzmann, M.~Issah, R.~A.
+  Lacey, A.~Shevel, A.~Taranenko, and P.~Danielewicz, ``{Decomposition of
+  harmonic and jet contributions to particle-pair correlations at
+  ultra-relativistic energies}'',
+  \href{http://dx.doi.org/10.1103/PhysRevC.72.011902}{{\em Phys. Rev.}
+  {\bfseries C72} (2005) 011902},
+\href{http://arxiv.org/abs/nucl-ex/0501025}{{\ttfamily arXiv:nucl-ex/0501025
+  [nucl-ex]}}.
+%%CITATION = NUCL-EX/0501025;%%.
 
 \bibitem{PHENIX:2018hho}
 {\bfseries PHENIX} Collaboration, A.~Adare {\em et~al.}, ``{Pseudorapidity
@@ -819,17 +837,6 @@ I.~Lakomov, ``Multiplicity dependence of jet-like two-particle correlations in
   {\bfseries 762} (2016) 376--388},
   \href{http://arxiv.org/abs/1605.02035}{{\ttfamily arXiv:1605.02035
   [nucl-ex]}}.
-
-\bibitem{Ajitanand:2005jj}
-N.~N. Ajitanand, J.~M. Alexander, P.~Chung, W.~G. Holzmann, M.~Issah, R.~A.
-  Lacey, A.~Shevel, A.~Taranenko, and P.~Danielewicz, ``{Decomposition of
-  harmonic and jet contributions to particle-pair correlations at
-  ultra-relativistic energies}'',
-  \href{http://dx.doi.org/10.1103/PhysRevC.72.011902}{{\em Phys. Rev.}
-  {\bfseries C72} (2005) 011902},
-\href{http://arxiv.org/abs/nucl-ex/0501025}{{\ttfamily arXiv:nucl-ex/0501025
-  [nucl-ex]}}.
-%%CITATION = NUCL-EX/0501025;%%.
 
 \bibitem{Skands:2014pea}
 P.~Skands, S.~Carrazza, and J.~Rojo, ``{Tuning PYTHIA 8.1: the Monash 2013

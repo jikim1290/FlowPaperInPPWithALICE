@@ -615,7 +615,7 @@ FUNCTION {format.bvolume}
 	{ string.of * series emphasize * }
       if$
       "volume and number" number either.or.check
-    }
+   }
   if$
 }
 

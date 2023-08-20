@@ -6,45 +6,45 @@ Database file #1: paper.bib
 Warning--empty author in ALICE:2022wpn
 Warning--empty author in ALICE:2016nst
 Warning--empty author in ALICE-PUBLIC-2017-005
-You've used 123 entries,
+You've used 124 entries,
             2468 wiz_defined-function locations,
-            1548 strings with 30039 characters,
-and the built_in function-call counts, 44346 in all, are:
-= -- 4826
-> -- 1331
+            1546 strings with 29975 characters,
+and the built_in function-call counts, 44656 in all, are:
+= -- 4851
+> -- 1345
 < -- 0
-+ -- 611
-- -- 304
-* -- 4195
-:= -- 4621
-add.period$ -- 143
-call.type$ -- 123
-change.case$ -- 124
++ -- 617
+- -- 307
+* -- 4241
+:= -- 4655
+add.period$ -- 142
+call.type$ -- 124
+change.case$ -- 125
 chr.to.int$ -- 0
-cite$ -- 126
-duplicate$ -- 2702
-empty$ -- 3844
-format.name$ -- 416
-if$ -- 11452
+cite$ -- 127
+duplicate$ -- 2720
+empty$ -- 3873
+format.name$ -- 421
+if$ -- 11524
 int.to.chr$ -- 0
-int.to.str$ -- 123
-missing$ -- 484
-newline$ -- 400
-num.names$ -- 120
-pop$ -- 762
+int.to.str$ -- 124
+missing$ -- 488
+newline$ -- 403
+num.names$ -- 121
+pop$ -- 768
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2337
+skip$ -- 2350
 stack$ -- 0
-substring$ -- 2101
-swap$ -- 1594
-text.length$ -- 122
+substring$ -- 2107
+swap$ -- 1602
+text.length$ -- 123
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 3
-while$ -- 311
-width$ -- 126
-write$ -- 1044
+while$ -- 314
+width$ -- 127
+write$ -- 1053
 (There were 3 warnings)
